@@ -1,10 +1,12 @@
-// src_pages/pages11_15.js - Pages 12 through 18 of To-Be Document v0.3
-// Stages 6 to 9 and Supporting Processes 14.1 to 14.6 with dedicated visual flowcharts and Accept/Reject branches.
+// src_pages/pages11_15.js - Stages 6 through 9 and Supporting Processes 14.1 to 14.6
+// Stages 6-9 are structured across 3 dedicated A4 pages each (Pages 30 to 41)
+// Supporting Processes 14.1 through 14.6 occupy Pages 42 to 44
 
 export function getPages11to15() {
     return `
-        <!-- ================= PAGE 12: STAGE 6 (BLOCK CURING & MATURATION) ================= -->
-        <section class="a4-page" id="page-12">
+
+        <!-- ================= PAGE 30: STAGE 6 PART 1 (DEMOULDING & CURING) ================= -->
+        <section class="a4-page" id="page-30">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -32,60 +34,79 @@ export function getPages11to15() {
                         <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> بلوك ترازو ناضج بقوة تحمل &ge; 35 MPa جاهز للنشر</div>
                         <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشرف ساحة المعالجة وفني فحص الخرسانة</div>
                     </div>
+
+                <!-- Process Flowchart Part 1 (Gate input to decision) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage06_Demoulding_and_Curing_part1.png" class="flowchart-img" style="max-height: 155mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 6 – فك القوالب والمعالجة والإنضاج (الجزء 1 من 2)">
+                    <div class="flowchart-caption">الشكل 6: المخطط الانسيابي للمرحلة 6 – فك القوالب والمعالجة والإنضاج (الجزء 1 من 2)</div>
                 </div>
+            </main>
 
-                <!-- Process Flowchart with Accept/Reject -->
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 6</span>
-                            <span>مخطط تدفق المعالجة وبوابة الإفراج للنشر (Stage 6 Curing Flow)</span>
-                        </div>
-                        <span class="badge badge-proposed">[Gate 6: Strength & Age Maturation]</span>
-                    </div>
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 6: Curing & Maturation</span>
+                <span>الصفحة 30 من 53</span>
+            </footer>
+        </section>
 
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">
-                            1. فك جوانب القالب بحذر بعد 24 ساعة ⬅ إجراء فحص بصري للزوايا والأسطح ⬅ نقل البلوك لموقع مرقم بالساحة
-                        </div>
-                        <div class="pflow-arrow">▼</div>
-                        <div class="pflow-step">
-                            2. تطبيق برنامج المعالجة الرطبة (الرش المائي الدوري المنتظم مرتين يومياً لمدة لا تقل عن 14 يوماً)
-                        </div>
-                        <div class="pflow-arrow">▼</div>
-                        <div class="pflow-decision">
-                            بوابة القرار: هل أتم البلوك 14 يوماً وحقق اختبار الصلادة المعملي قوة تحمل &ge; 35 MPa؟
-                        </div>
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title">
-                                    <span>✔ مسار القبول والإفراج للنشر (Accept & Slab)</span>
-                                </div>
-                                <div class="pflow-branch-accept-desc">
-                                    <ul>
-                                        <li>توقيع مهندس الجودة على تصريح الإفراج للنشر (Slab Release Note).</li>
-                                        <li>تحديث حالة البلوك في سجل المصنع من "تحت المعالجة" إلى "جاهز للنشر".</li>
-                                        <li>تثبيت ملصق الإفراج الأخضر على البلوك وتوجيهه لخط المناشير BM1–BM4.</li>
-                                        <li>ربط البلوك بأمر التشغيل المجدول في خطة النشر الأسبوعية.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title">
-                                    <span>✖ مسار تمديد المعالجة أو الحجز (Extend or Hold)</span>
-                                </div>
-                                <div class="pflow-branch-reject-desc">
-                                    <ul>
-                                        <li>إذا كانت الصلادة أقل من 35 MPa: تمديد المعالجة الرطبة 7 أيام إضافية.</li>
-                                        <li>حظر نقل البلوك لخط المناشير نهائياً لمنع تكسر الألواح أثناء النشر.</li>
-                                        <li>إذا استمر الضعف بعد 28 يوماً: تخفيض تصنيف البلوك لاستخدامات غير إنشائية.</li>
-                                        <li>في حال وجود شروخ هيكلية غائرة: تحويل البلوك لمحطة التكسير ككسر معاد تدويره.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+        <!-- ================= PAGE 31: STAGE 6 PART 2 (DEMOULDING & CURING CONT.) ================= -->
+        <section class="a4-page" id="page-31">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 6: Curing & Maturation (تابع)</strong>
+                    <span>Section 10 — Controlled Curing</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>10. المرحلة 6: الفك والمعالجة (Demoulding & Curing) (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
+                </h2>
+
+                <!-- Process Flowchart Part 2 (Decision to outcomes) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage06_Demoulding_and_Curing_part2.png" class="flowchart-img" style="max-height: 185mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 6 – فك القوالب والمعالجة والإنضاج (الجزء 2 من 2)">
+                    <div class="flowchart-caption">الشكل 6: المخطط الانسيابي للمرحلة 6 – فك القوالب والمعالجة والإنضاج (الجزء 2 من 2)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 6: Curing & Maturation</span>
+                <span>الصفحة 31 من 53</span>
+            </footer>
+        </section>
+
+        <!-- ================= PAGE 32: STAGE 6 SOP & KPIS (DEMOULDING & CURING) ================= -->
+        <section class="a4-page" id="page-32">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 6: Curing & Maturation (SOP & KPIs)</strong>
+                    <span>Section 10 — Controlled Curing</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>10. المرحلة 6: الفك والمعالجة (Demoulding & Curing)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
+                </h2>
 
                 <!-- SOP Details -->
                 <div class="sop-card" style="margin-bottom:0.85rem;">
@@ -173,12 +194,12 @@ export function getPages11to15() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Stage 6: Curing & Maturation</span>
-                <span>الصفحة 12 من 27</span>
+                <span>الصفحة 32 من 53</span>
             </footer>
         </section>
-
-        <!-- ================= PAGE 13: STAGE 7 (GANG SAW SLABBING BM1-BM4) ================= -->
-        <section class="a4-page" id="page-13">
+    
+        <!-- ================= PAGE 33: STAGE 7 PART 1 (GANG SAW SLABBING) ================= -->
+        <section class="a4-page" id="page-33">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -206,60 +227,79 @@ export function getPages11to15() {
                         <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> 38–42 لوح ترازو خام مكودة بـ Slab IDs ومقاسة السمك</div>
                         <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشرف وملاحظ محطة مناشير النشر BM1–BM4</div>
                     </div>
+
+                <!-- Process Flowchart Part 1 (Gate input to decision) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage07_Gang_Saw_Slabbing_part1.png" class="flowchart-img" style="max-height: 155mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام المناشير (الجزء 1 من 2)">
+                    <div class="flowchart-caption">الشكل 7: المخطط الانسيابي للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام المناشير (الجزء 1 من 2)</div>
                 </div>
+            </main>
 
-                <!-- Process Flowchart with Accept/Reject -->
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 7</span>
-                            <span>مخطط تدفق نشر البلوكات وبوابة فحص الألواح (Stage 7 Slabbing Flow)</span>
-                        </div>
-                        <span class="badge badge-proposed">[Gate 7: Slab Thickness & Integrity]</span>
-                    </div>
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 7: Gang Saw Slabbing</span>
+                <span>الصفحة 33 من 53</span>
+            </footer>
+        </section>
 
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">
-                            1. تثبيت البلوك بإحكام على عربة المنشار ⬅ معايرة استواء الشفرات الماسية وتدفق مياه التبريد
-                        </div>
-                        <div class="pflow-arrow">▼</div>
-                        <div class="pflow-step">
-                            2. تشغيل النشر المتعدد بسرعة هبوط مقننة ⬅ سحب الألواح بعد اكتمال النشر وغسيلها من الروبة
-                        </div>
-                        <div class="pflow-arrow">▼</div>
-                        <div class="pflow-decision">
-                            بوابة القرار: هل سمك الألواح مطابق للمواصفة (&plusmn;0.5 mm) ونسبة الهالك أقل من 3.5%؟
-                        </div>
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title">
-                                    <span>✔ مسار ترقيم وتمرير الألواح (Number & Polish)</span>
-                                </div>
-                                <div class="pflow-branch-accept-desc">
-                                    <ul>
-                                        <li>طباعة ولصق باركود اللوح الفردي Slab ID المرتبط بالبلوك الأصلي.</li>
-                                        <li>تسجيل عدد الألواح التامة المنتجة ومساحتها الإجمالية (م²).</li>
-                                        <li>رص الألواح على حوامل A-Frames ونقلها لخط الجلي والمعالجة السطحية.</li>
-                                        <li>إغلاق أمر تشغيل المنشار واحتساب ساعات تشغيل الشفرات واستهلاك المياه.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title">
-                                    <span>✖ مسار كسر الألواح والترميم (NCR & Re-crush)</span>
-                                </div>
-                                <div class="pflow-branch-reject-desc">
-                                    <ul>
-                                        <li>إذا تجاوزت نسبة الكسر 3.5%: فتح تقرير عدم مطابقة NCR عاجل.</li>
-                                        <li>فحص شد الشفرات وسرعة الهبوط ودرجة حرارة مياه التبريد.</li>
-                                        <li>الألواح ذات الشروخ السطحية: تحويل لمسار الترميم براتنج الإيبوكسي.</li>
-                                        <li>الألواح المكسورة تماماً: نقل لحاوية الهالك لإعادة تدويرها ككسر للمرحلة 2.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+        <!-- ================= PAGE 34: STAGE 7 PART 2 (GANG SAW SLABBING CONT.) ================= -->
+        <section class="a4-page" id="page-34">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 7: Gang Saw Slabbing (تابع)</strong>
+                    <span>Section 11 — BM1 to BM4 Lines</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>11. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4) (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
+                </h2>
+
+                <!-- Process Flowchart Part 2 (Decision to outcomes) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage07_Gang_Saw_Slabbing_part2.png" class="flowchart-img" style="max-height: 185mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام المناشير (الجزء 2 من 2)">
+                    <div class="flowchart-caption">الشكل 7: المخطط الانسيابي للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام المناشير (الجزء 2 من 2)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 7: Gang Saw Slabbing</span>
+                <span>الصفحة 34 من 53</span>
+            </footer>
+        </section>
+
+        <!-- ================= PAGE 35: STAGE 7 SOP & KPIS (GANG SAW SLABBING) ================= -->
+        <section class="a4-page" id="page-35">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 7: Gang Saw Slabbing (SOP & KPIs)</strong>
+                    <span>Section 11 — BM1 to BM4 Lines</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>11. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
+                </h2>
 
                 <!-- SOP Details -->
                 <div class="sop-card" style="margin-bottom:0.85rem;">
@@ -347,12 +387,12 @@ export function getPages11to15() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Stage 7: Gang Saw Slabbing</span>
-                <span>الصفحة 13 من 27</span>
+                <span>الصفحة 35 من 53</span>
             </footer>
         </section>
-
-        <!-- ================= PAGE 14: STAGE 8 (SURFACE GRINDING & POLISHING) ================= -->
-        <section class="a4-page" id="page-14">
+    
+        <!-- ================= PAGE 36: STAGE 8 PART 1 (GRINDING & POLISHING) ================= -->
+        <section class="a4-page" id="page-36">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -380,60 +420,79 @@ export function getPages11to15() {
                         <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> لوح ترازو مصقول عالي اللمعان (GU &ge; 85) ومغلق المسام</div>
                         <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشرف خط الجلي والتلميع الآلي</div>
                     </div>
+
+                <!-- Process Flowchart Part 1 (Gate input to decision) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage08_Grinding_and_Polishing_part1.png" class="flowchart-img" style="max-height: 155mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 8 – الجلي والتلميع والمعالجة السطحية (الجزء 1 من 2)">
+                    <div class="flowchart-caption">الشكل 8: المخطط الانسيابي للمرحلة 8 – الجلي والتلميع والمعالجة السطحية (الجزء 1 من 2)</div>
                 </div>
+            </main>
 
-                <!-- Process Flowchart with Accept/Reject -->
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 8</span>
-                            <span>مخطط تدفق الجلي والتلميع وبوابة فحص اللمعان (Stage 8 Polishing Flow)</span>
-                        </div>
-                        <span class="badge badge-proposed">[Gate 8: Surface Gloss & Porosity]</span>
-                    </div>
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 8: Grinding & Polishing</span>
+                <span>الصفحة 36 من 53</span>
+            </footer>
+        </section>
 
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">
-                            1. تسوية السطح الخشن برؤوس الماس الخشنة ⬅ غسيل وتجفيف حراري للألواح
-                        </div>
-                        <div class="pflow-arrow">▼</div>
-                        <div class="pflow-step">
-                            2. تطبيق طبقة راتنج الإيبوكسي الشفاف لسد المسام الدقيقة ⬅ الصقل النهائي برؤوس التلميع المتدرجة
-                        </div>
-                        <div class="pflow-arrow">▼</div>
-                        <div class="pflow-decision">
-                            بوابة القرار: هل درجة اللمعان (Gloss &ge; 85 GU) والسطح خالي تماماً من المسام والخدوش؟
-                        </div>
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title">
-                                    <span>✔ مسار إفراج النخب الأول (Grade A Release)</span>
-                                </div>
-                                <div class="pflow-branch-accept-desc">
-                                    <ul>
-                                        <li>ختم اللوح بختم الجودة الأخضر وتصنيفه رسميا "نخب أول Grade A".</li>
-                                        <li>تسجيل قراءة اللمعان في بطاقة اللوح وفي سجل المصنع للتشغيل.</li>
-                                        <li>نقل اللوح إما لمستودع الألواح التامة أو لمحطة القص المخصص CNC.</li>
-                                        <li>تحديث رصيد الألواح التامة المصقولة الجاهزة للبيع الفوري.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title">
-                                    <span>✖ مسار إعادة التلميع أو التخفيض (Re-polish/Grade B)</span>
-                                </div>
-                                <div class="pflow-branch-reject-desc">
-                                    <ul>
-                                        <li>إذا كان اللمعان أقل من 85 GU: إعادة اللوح فورا لدورة تلميع تكميلية واحدة.</li>
-                                        <li>في حال بقاء مسام مفتوحة: إعادة معالجة موضعية براتنج الإيبوكسي وتجفيفه.</li>
-                                        <li>إذا استمر العيب بعد الإعادة: تخفيض تصنيف اللوح إلى "درجة ثانية Grade B".</li>
-                                        <li>فحص تآكل أحجار التلميع وضغط الرؤوس الهيدروليكية ومعدل تدفق المياه.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+        <!-- ================= PAGE 37: STAGE 8 PART 2 (GRINDING & POLISHING CONT.) ================= -->
+        <section class="a4-page" id="page-37">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 8: Grinding & Polishing (تابع)</strong>
+                    <span>Section 12 — Surface Treatment</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>12. المرحلة 8: الجلي والتلميع (Grinding & Polishing) (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
+                </h2>
+
+                <!-- Process Flowchart Part 2 (Decision to outcomes) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage08_Grinding_and_Polishing_part2.png" class="flowchart-img" style="max-height: 185mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 8 – الجلي والتلميع والمعالجة السطحية (الجزء 2 من 2)">
+                    <div class="flowchart-caption">الشكل 8: المخطط الانسيابي للمرحلة 8 – الجلي والتلميع والمعالجة السطحية (الجزء 2 من 2)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 8: Grinding & Polishing</span>
+                <span>الصفحة 37 من 53</span>
+            </footer>
+        </section>
+
+        <!-- ================= PAGE 38: STAGE 8 SOP & KPIS (GRINDING & POLISHING) ================= -->
+        <section class="a4-page" id="page-38">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 8: Grinding & Polishing (SOP & KPIs)</strong>
+                    <span>Section 12 — Surface Treatment</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>12. المرحلة 8: الجلي والتلميع (Grinding & Polishing)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
+                </h2>
 
                 <!-- SOP Details -->
                 <div class="sop-card" style="margin-bottom:0.85rem;">
@@ -521,12 +580,12 @@ export function getPages11to15() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Stage 8: Grinding & Polishing</span>
-                <span>الصفحة 14 من 27</span>
+                <span>الصفحة 38 من 53</span>
             </footer>
         </section>
-
-        <!-- ================= PAGE 15: STAGE 9 (CUSTOM CUTTING & PACKAGING) ================= -->
-        <section class="a4-page" id="page-15">
+    
+        <!-- ================= PAGE 39: STAGE 9 PART 1 (CUSTOM CUTTING & PACKAGING) ================= -->
+        <section class="a4-page" id="page-39">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -536,7 +595,7 @@ export function getPages11to15() {
                     </div>
                 </div>
                 <div class="doc-meta-header">
-                    <strong>Stage 9: Custom Cutting & Packaging</strong>
+                    <strong>Stage 9: Finishing & Dispatch</strong>
                     <span>Section 13 — Finishing & Dispatch</span>
                 </div>
             </header>
@@ -554,60 +613,79 @@ export function getPages11to15() {
                         <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> طرود منتج تام مفحوصة ومغلفة بملصق باركود الطرد الشامل</div>
                         <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشرف قسم القص CNC ومسؤول التغليف والشحن</div>
                     </div>
+
+                <!-- Process Flowchart Part 1 (Gate input to decision) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage09_Custom_Cutting_and_Packaging_part1.png" class="flowchart-img" style="max-height: 155mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 9 – القطع والتفصيل والتغليف النهائي (الجزء 1 من 2)">
+                    <div class="flowchart-caption">الشكل 9: المخطط الانسيابي للمرحلة 9 – القطع والتفصيل والتغليف النهائي (الجزء 1 من 2)</div>
                 </div>
+            </main>
 
-                <!-- Process Flowchart with Accept/Reject -->
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 9</span>
-                            <span>مخطط تدفق القص والتغليف وبوابة الفحص النهائي (Stage 9 Finishing Flow)</span>
-                        </div>
-                        <span class="badge badge-proposed">[Gate 9: Final Article Inspection]</span>
-                    </div>
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 9: Finishing & Dispatch</span>
+                <span>الصفحة 39 من 53</span>
+            </footer>
+        </section>
 
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">
-                            1. مراجعة أمر البيع والمخطط التنفيذي ⬅ قص الألواح بمنشار الجسر CNC وشطف الحواف وشطف الزوايا
-                        </div>
-                        <div class="pflow-arrow">▼</div>
-                        <div class="pflow-step">
-                            2. فحص القطعة الأولى (First Article Inspection) ⬅ استكمال التشغيل والتنظيف النهائي للقطع
-                        </div>
-                        <div class="pflow-arrow">▼</div>
-                        <div class="pflow-decision">
-                            بوابة القرار: هل الأبعاد والزوايا القائمة وخلو الحواف من العيوب مطابقة تماماً للمخطط التنفيذي؟
-                        </div>
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title">
-                                    <span>✔ مسار التغليف والتحويل للمنتج التام (Pack & Store)</span>
-                                </div>
-                                <div class="pflow-branch-accept-desc">
-                                    <ul>
-                                        <li>رص القطع على منصات خشبية مع فواصل واقية بين الأسطح وتغليفها بالبلاستيك الحراري.</li>
-                                        <li>طباعة ملصق الطرد الشامل (كود المشروع، كود اللوح، عدد القطع، الوزن الإجمالي).</li>
-                                        <li>نقل الطرود إلى مستودع المنتج التام FG وتسجيلها كجاهزة للتسليم للعميل.</li>
-                                        <li>إصدار إذن إضافة مخزنية وإشعار إدارة المبيعات بجاهزية الشحن.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title">
-                                    <span>✖ مسار إعادة التشذيب أو الهدر (Re-trim or Scrap)</span>
-                                </div>
-                                <div class="pflow-branch-reject-desc">
-                                    <ul>
-                                        <li>إذا وجد انحراف بالأبعاد > &plusmn;1 مم: دراسة إمكانية إعادة التشذيب لمقاس أصغر نمطي.</li>
-                                        <li>إذا كان التلف في شطف الحواف كبيراً: استبعاد القطعة وفتح تقرير هدر تفصيل.</li>
-                                        <li>تحويل القطع الهالكة إلى حاوية إعادة التدوير للتكسير واسترداد كسر الرخام.</li>
-                                        <li>صرف لوح جديد فورا لاستكمال كمية أمر العميل دون تعطيل موعد التسليم.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+        <!-- ================= PAGE 40: STAGE 9 PART 2 (CUSTOM CUTTING & PACKAGING CONT.) ================= -->
+        <section class="a4-page" id="page-40">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 9: Finishing & Dispatch (تابع)</strong>
+                    <span>Section 13 — Finishing & Dispatch</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>13. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging) (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
+                </h2>
+
+                <!-- Process Flowchart Part 2 (Decision to outcomes) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage09_Custom_Cutting_and_Packaging_part2.png" class="flowchart-img" style="max-height: 185mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 9 – القطع والتفصيل والتغليف النهائي (الجزء 2 من 2)">
+                    <div class="flowchart-caption">الشكل 9: المخطط الانسيابي للمرحلة 9 – القطع والتفصيل والتغليف النهائي (الجزء 2 من 2)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 9: Finishing & Dispatch</span>
+                <span>الصفحة 40 من 53</span>
+            </footer>
+        </section>
+
+        <!-- ================= PAGE 41: STAGE 9 SOP & KPIS (CUSTOM CUTTING & PACKAGING) ================= -->
+        <section class="a4-page" id="page-41">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 9: Finishing & Dispatch (SOP & KPIs)</strong>
+                    <span>Section 13 — Finishing & Dispatch</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>13. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
+                </h2>
 
                 <!-- SOP Details -->
                 <div class="sop-card" style="margin-bottom:0.85rem;">
@@ -694,13 +772,12 @@ export function getPages11to15() {
 
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
-                <span class="status-tag">Stage 9: Custom Cutting & Packaging</span>
-                <span>الصفحة 15 من 27</span>
+                <span class="status-tag">Stage 9: Finishing & Dispatch</span>
+                <span>الصفحة 41 من 53</span>
             </footer>
         </section>
-
-        <!-- ================= PAGE 16: SUPPORT PROCESSES 14.1 & 14.2 (PLANNING & WAREHOUSE) ================= -->
-        <section class="a4-page" id="page-16">
+    <!-- ================= PAGE 42: SUPPORT PROCESSES 14.1 & 14.2 (PLANNING & WAREHOUSE) ================= -->
+        <section class="a4-page" id="page-42">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -869,12 +946,12 @@ export function getPages11to15() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Supporting 14.1 & 14.2: Planning & Warehouse</span>
-                <span>الصفحة 16 من 27</span>
+                <span>الصفحة 42 من 53</span>
             </footer>
         </section>
 
-        <!-- ================= PAGE 17: SUPPORT PROCESSES 14.3 & 14.4 (QC & MAINTENANCE) ================= -->
-        <section class="a4-page" id="page-17">
+        <!-- ================= PAGE 43: SUPPORT PROCESSES 14.3 & 14.4 (QC & MAINTENANCE) ================= -->
+        <section class="a4-page" id="page-43">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -1043,12 +1120,12 @@ export function getPages11to15() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Supporting 14.3 & 14.4: QC & Maintenance</span>
-                <span>الصفحة 17 من 27</span>
+                <span>الصفحة 43 من 53</span>
             </footer>
         </section>
 
-        <!-- ================= PAGE 18: SUPPORT PROCESSES 14.5 & 14.6 (SCRAP & CALIBRATION) ================= -->
-        <section class="a4-page" id="page-18">
+        <!-- ================= PAGE 44: SUPPORT PROCESSES 14.5 & 14.6 (SCRAP & CALIBRATION) ================= -->
+        <section class="a4-page" id="page-44">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -1216,8 +1293,8 @@ export function getPages11to15() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Supporting 14.5 & 14.6: Scrap & Calibration</span>
-                <span>الصفحة 18 من 27</span>
+                <span>الصفحة 44 من 53</span>
             </footer>
         </section>
-    `;
+        `;
 }

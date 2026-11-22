@@ -556,6 +556,47 @@ export function getCSS() {
             line-height: 1.5;
         }
 
+        
+        /* ================= FLOWCHART FIGURE STYLING ================= */
+        .flowchart-figure-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0.35rem auto;
+            text-align: center;
+            width: 100%;
+        }
+
+        .flowchart-img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 6px;
+            border: 1px solid #cbd5e1;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            background: #ffffff;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .flowchart-caption {
+            font-size: 0.84rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-top: 0.4rem;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .flowchart-legend {
+            font-size: 0.74rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-top: 0.2rem;
+            text-align: center;
+        }
+
         /* ================= PRO DEDICATED PROCESS FLOWCHARTS ================= */
         .process-flowchart-box {
             background: #ffffff;

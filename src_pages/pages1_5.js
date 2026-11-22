@@ -184,28 +184,28 @@ export function getPages1to5() {
                             <tr class="toc-row" onclick="scrollToPage('page-4')"><td><strong>02</strong></td><td><a href="#page-4" class="toc-link">الهيكل التنظيمي ومصفوفة الصلاحيات RACI</a></td><td>الأدوار التشغيلية المضافة، مصفوفة الصلاحيات، وقواعد الفصل الإلزامية</td><td style="text-align:center;"><span class="toc-page-pill">04</span></td></tr>
                             <tr class="toc-row" onclick="scrollToPage('page-5')"><td><strong>03</strong></td><td><a href="#page-5" class="toc-link">خريطة التدفق ونقاط التحكم والتتبع</a></td><td>مسار العمليات التسع، مراكز العمل، بوابات التحكم، وشجرة التتبع</td><td style="text-align:center;"><span class="toc-page-pill">05</span></td></tr>
                             <tr class="toc-row" onclick="scrollToPage('page-6')"><td><strong>04</strong></td><td><a href="#page-6" class="toc-link">المعمارية العامة لبوابات الجودة (1-9)</a></td><td>مخططات المراحل التسع مع بوابات القبول والرفض ومسارات الفرز</td><td style="text-align:center;"><span class="toc-page-pill">06</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-7')"><td><strong>05</strong></td><td><a href="#page-7" class="toc-link">المرحلة 1: استلام وتخزين الخامات (RM QC)</a></td><td>SOP-RM-01، إغلاق فجوة الوزن ISS-001، فحص الكسر ومؤشرات S1</td><td style="text-align:center;"><span class="toc-page-pill">07</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-8')"><td><strong>06</strong></td><td><a href="#page-8" class="toc-link">المرحلة 2: تكسير وفرز كسر الرخام (Sizing)</a></td><td>SOP-CR-01، التصنيف الحجمي G1–G5، تشغيل الـ 2 كسارة، تنظيف الكسارات ومؤشرات S2</td><td style="text-align:center;"><span class="toc-page-pill">08</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-9')"><td><strong>07</strong></td><td><a href="#page-9" class="toc-link">المرحلة 3: الخلط الآلي ووصفات الخلطة (BOM)</a></td><td>SOP-MX-01، ميزان الميكسر الرقمي، تجانس اللون ومؤشرات S3</td><td style="text-align:center;"><span class="toc-page-pill">09</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-10')"><td><strong>08</strong></td><td><a href="#page-10" class="toc-link">المرحلة 4: الصب في القالب وتوليد Block ID</a></td><td>SOP-CS-01، دهان العازل، الدمك المتوازن، التتبع ومؤشرات S4</td><td style="text-align:center;"><span class="toc-page-pill">10</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-11')"><td><strong>09</strong></td><td><a href="#page-11" class="toc-link">المرحلة 5: سحب الهواء والكبس تحت الفاكيوم</a></td><td>SOP-VC-01، تحقيق 100 mbar، تفريغ الجيوب الهوائية ومؤشرات S5</td><td style="text-align:center;"><span class="toc-page-pill">11</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-12')"><td><strong>10</strong></td><td><a href="#page-12" class="toc-link">المرحلة 6: الفك والمعالجة (Demoulding & Curing)</a></td><td>SOP-CU-01، الرش المائي 14 يوما، اختبار الصلادة 35 MPa ومؤشرات S6</td><td style="text-align:center;"><span class="toc-page-pill">12</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-13')"><td><strong>11</strong></td><td><a href="#page-13" class="toc-link">المرحلة 7: التقطيع بالمناشير (Gang Saws)</a></td><td>SOP-GS-01، خطوط BM1–BM4، ضبط السمك، باركود Slab ID ومؤشرات S7</td><td style="text-align:center;"><span class="toc-page-pill">13</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-14')"><td><strong>12</strong></td><td><a href="#page-14" class="toc-link">المرحلة 8: الجلي والتلميع والمعالجة السطحية</a></td><td>SOP-PL-01، المعالجة بالريزن، تحقيق اللمعان 85 GU ومؤشرات S8</td><td style="text-align:center;"><span class="toc-page-pill">14</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-15')"><td><strong>13</strong></td><td><a href="#page-15" class="toc-link">المرحلة 9: القطع والتفصيل والتغليف النهائي</a></td><td>SOP-PK-01، منشار الجسر CNC، فحص الأبعاد، التغليف ومؤشرات S9</td><td style="text-align:center;"><span class="toc-page-pill">15</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-16')"><td><strong>14</strong></td><td><a href="#page-16" class="toc-link">العمليات المساندة: التخطيط وإدارة المخازن</a></td><td>SOP-PP-01، SOP-WH-01، خطة الإنتاج، التخزين المكود ومؤشرات SUP</td><td style="text-align:center;"><span class="toc-page-pill">16</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-17')"><td><strong>15</strong></td><td><a href="#page-17" class="toc-link">العمليات المساندة: الجودة، المختبر والصيانة</a></td><td>SOP-QC-01، SOP-MT-01، إدارة الـ NCR، صيانة القوالب والجاهزية</td><td style="text-align:center;"><span class="toc-page-pill">17</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-18')"><td><strong>16</strong></td><td><a href="#page-18" class="toc-link">العمليات المساندة: الهالك والتدوير ومعايرة الموازين</a></td><td>SOP-SC-01، SOP-CA-01، فرز وتدوير الكسر، دقة البسكول والموازين</td><td style="text-align:center;"><span class="toc-page-pill">18</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-19')"><td><strong>17</strong></td><td><a href="#page-19" class="toc-link">مؤشرات المصنع الموحدة ومصير السجلات الـ 25</a></td><td>منظومة F-01..15 الموحدة، ومصير السجلات والنماذج الحالية للوضع المستهدف</td><td style="text-align:center;"><span class="toc-page-pill">19</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-20')"><td><strong>18</strong></td><td><a href="#page-20" class="toc-link">إغلاق الفجوات الـ 16 ومصفوفة التتبع الشاملة</a></td><td>إغلاق ISS-001..16 و RSK-001..04 ومصفوفة التتبع T1 إلى T20</td><td style="text-align:center;"><span class="toc-page-pill">20</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-21')"><td><strong>19</strong></td><td><a href="#page-21" class="toc-link">أولويات التحسين والمخاطر التشغيلية والضوابط</a></td><td>مصفوفة الأولويات الصناعية (P1, P2, P3) وسجل المخاطر التشغيلية والضوابط</td><td style="text-align:center;"><span class="toc-page-pill">21</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-22')"><td><strong>20</strong></td><td><a href="#page-22" class="toc-link">خارطة التطبيق، الأسئلة OQ، والاعتماد الرسمي</a></td><td>مراحل التنفيذ الخمس، الأسئلة المفتوحة (28 سؤالاً بعد حسم الـ 2 كسارة)، واستمارة التوقيع والاعتماد</td><td style="text-align:center;"><span class="toc-page-pill">22</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-23')"><td><strong>21</strong></td><td><a href="#page-23" class="toc-link">الملحق أ: معمارية الـ 51 إجراء والكتالوج العام</a></td><td>معمارية الإجراءات، إجراءات SOP-GEN العامة الـ 14 وقواعد التشغيل</td><td style="text-align:center;"><span class="toc-page-pill">23</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-24')"><td><strong>22</strong></td><td><a href="#page-24" class="toc-link">الملحق أ: إجراءات التشغيل القياسية التفصيلية</a></td><td>مجموعات الإجراءات التفصيلية للمراحل التسع والعمليات المساندة (31 إجراء)</td><td style="text-align:center;"><span class="toc-page-pill">24</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-25')"><td><strong>23</strong></td><td><a href="#page-25" class="toc-link">الملحق ب: قاموس مؤشرات الأداء (105 مؤشرات)</a></td><td>المؤشرات الشاملة L1، ومؤشرات المراحل التفصيلية L3 وقواعد الاحتساب</td><td style="text-align:center;"><span class="toc-page-pill">25</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-26')"><td><strong>24</strong></td><td><a href="#page-26" class="toc-link">الملحق ب: مؤشرات الإدارات الداعمة وشجرة القياس</a></td><td>مؤشرات الإدارات الداعمة L2، تأهيل المشغلين OP، وشجرة المؤشرات المتوازنة</td><td style="text-align:center;"><span class="toc-page-pill">26</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-27')"><td><strong>25</strong></td><td><a href="#page-27" class="toc-link">الملحق ج: التقارير ولوحات المتابعة ونقاط التسجيل</a></td><td>نقاط التسجيل C01-C14، كتالوج 16 تقريرا، ولوحات التحكم الرقمية DB</td><td style="text-align:center;"><span class="toc-page-pill">27</span></td></tr>
-                        </tbody>
+                            <tr class="toc-row" onclick="scrollToPage('page-15')"><td><strong>05</strong></td><td><a href="#page-15" class="toc-link">المرحلة 1: استلام وتخزين الخامات (RM QC)</a></td><td>SOP-RM-01، إغلاق فجوة الوزن ISS-001، فحص الكسر ومؤشرات S1</td><td style="text-align:center;"><span class="toc-page-pill">15</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-18')"><td><strong>06</strong></td><td><a href="#page-18" class="toc-link">المرحلة 2: تكسير وفرز كسر الرخام (Sizing)</a></td><td>SOP-CR-01، التصنيف الحجمي G1–G5، تشغيل الـ 2 كسارة، تنظيف الكسارات ومؤشرات S2</td><td style="text-align:center;"><span class="toc-page-pill">18</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-21')"><td><strong>07</strong></td><td><a href="#page-21" class="toc-link">المرحلة 3: الخلط الآلي ووصفات الخلطة (BOM)</a></td><td>SOP-MX-01، ميزان الميكسر الرقمي، تجانس اللون ومؤشرات S3</td><td style="text-align:center;"><span class="toc-page-pill">21</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-24')"><td><strong>08</strong></td><td><a href="#page-24" class="toc-link">المرحلة 4: الصب في القالب وتوليد Block ID</a></td><td>SOP-CS-01، دهان العازل، الدمك المتوازن، التتبع ومؤشرات S4</td><td style="text-align:center;"><span class="toc-page-pill">24</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-27')"><td><strong>09</strong></td><td><a href="#page-27" class="toc-link">المرحلة 5: سحب الهواء والكبس تحت الفاكيوم</a></td><td>SOP-VC-01، تحقيق 100 mbar، تفريغ الجيوب الهوائية ومؤشرات S5</td><td style="text-align:center;"><span class="toc-page-pill">27</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-30')"><td><strong>10</strong></td><td><a href="#page-30" class="toc-link">المرحلة 6: الفك والمعالجة (Demoulding & Curing)</a></td><td>SOP-CU-01، الرش المائي 14 يوما، اختبار الصلادة 35 MPa ومؤشرات S6</td><td style="text-align:center;"><span class="toc-page-pill">30</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-33')"><td><strong>11</strong></td><td><a href="#page-33" class="toc-link">المرحلة 7: التقطيع بالمناشير (Gang Saws)</a></td><td>SOP-GS-01، خطوط BM1–BM4، ضبط السمك، باركود Slab ID ومؤشرات S7</td><td style="text-align:center;"><span class="toc-page-pill">33</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-36')"><td><strong>12</strong></td><td><a href="#page-36" class="toc-link">المرحلة 8: الجلي والتلميع والمعالجة السطحية</a></td><td>SOP-PL-01، المعالجة بالريزن، تحقيق اللمعان 85 GU ومؤشرات S8</td><td style="text-align:center;"><span class="toc-page-pill">36</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-39')"><td><strong>13</strong></td><td><a href="#page-39" class="toc-link">المرحلة 9: القطع والتفصيل والتغليف النهائي</a></td><td>SOP-PK-01، منشار الجسر CNC، فحص الأبعاد، التغليف ومؤشرات S9</td><td style="text-align:center;"><span class="toc-page-pill">39</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-42')"><td><strong>14</strong></td><td><a href="#page-42" class="toc-link">العمليات المساندة: التخطيط وإدارة المخازن</a></td><td>SOP-PP-01، SOP-WH-01، خطة الإنتاج، التخزين المكود ومؤشرات SUP</td><td style="text-align:center;"><span class="toc-page-pill">42</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-43')"><td><strong>15</strong></td><td><a href="#page-43" class="toc-link">العمليات المساندة: الجودة، المختبر والصيانة</a></td><td>SOP-QC-01، SOP-MT-01، إدارة الـ NCR، صيانة القوالب والجاهزية</td><td style="text-align:center;"><span class="toc-page-pill">43</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-44')"><td><strong>16</strong></td><td><a href="#page-44" class="toc-link">العمليات المساندة: الهالك والتدوير ومعايرة الموازين</a></td><td>SOP-SC-01، SOP-CA-01، فرز وتدوير الكسر، دقة البسكول والموازين</td><td style="text-align:center;"><span class="toc-page-pill">44</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-45')"><td><strong>17</strong></td><td><a href="#page-45" class="toc-link">مؤشرات المصنع الموحدة ومصير السجلات الـ 25</a></td><td>منظومة F-01..15 الموحدة، ومصير السجلات والنماذج الحالية للوضع المستهدف</td><td style="text-align:center;"><span class="toc-page-pill">45</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-46')"><td><strong>18</strong></td><td><a href="#page-46" class="toc-link">إغلاق الفجوات الـ 16 ومصفوفة التتبع الشاملة</a></td><td>إغلاق ISS-001..16 و RSK-001..04 ومصفوفة التتبع T1 إلى T20</td><td style="text-align:center;"><span class="toc-page-pill">46</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-47')"><td><strong>19</strong></td><td><a href="#page-47" class="toc-link">أولويات التحسين والمخاطر التشغيلية والضوابط</a></td><td>مصفوفة الأولويات الصناعية (P1, P2, P3) وسجل المخاطر التشغيلية والضوابط</td><td style="text-align:center;"><span class="toc-page-pill">47</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-48')"><td><strong>20</strong></td><td><a href="#page-48" class="toc-link">خارطة التطبيق، الأسئلة OQ، والاعتماد الرسمي</a></td><td>مراحل التنفيذ الخمس، الأسئلة المفتوحة (28 سؤالاً بعد حسم الـ 2 كسارة)، واستمارة التوقيع والاعتماد</td><td style="text-align:center;"><span class="toc-page-pill">48</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-49')"><td><strong>21</strong></td><td><a href="#page-49" class="toc-link">الملحق أ: معمارية الـ 51 إجراء والكتالوج العام</a></td><td>معمارية الإجراءات، إجراءات SOP-GEN العامة الـ 14 وقواعد التشغيل</td><td style="text-align:center;"><span class="toc-page-pill">49</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-50')"><td><strong>22</strong></td><td><a href="#page-50" class="toc-link">الملحق أ: إجراءات التشغيل القياسية التفصيلية</a></td><td>مجموعات الإجراءات التفصيلية للمراحل التسع والعمليات المساندة (31 إجراء)</td><td style="text-align:center;"><span class="toc-page-pill">50</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-51')"><td><strong>23</strong></td><td><a href="#page-51" class="toc-link">الملحق ب: قاموس مؤشرات الأداء (105 مؤشرات)</a></td><td>المؤشرات الشاملة L1، ومؤشرات المراحل التفصيلية L3 وقواعد الاحتساب</td><td style="text-align:center;"><span class="toc-page-pill">51</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-52')"><td><strong>24</strong></td><td><a href="#page-52" class="toc-link">الملحق ب: مؤشرات الإدارات الداعمة وشجرة القياس</a></td><td>مؤشرات الإدارات الداعمة L2، تأهيل المشغلين OP، وشجرة المؤشرات المتوازنة</td><td style="text-align:center;"><span class="toc-page-pill">52</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-53')"><td><strong>25</strong></td><td><a href="#page-53" class="toc-link">الملحق ج: التقارير ولوحات المتابعة ونقاط التسجيل</a></td><td>نقاط التسجيل C01-C14، كتالوج 16 تقريرا، ولوحات التحكم الرقمية DB</td><td style="text-align:center;"><span class="toc-page-pill">53</span></td></tr>
+                            </tbody>
                     </table>
                 </div>
             </main>
@@ -213,7 +213,7 @@ export function getPages1to5() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Executive Summary & TOC</span>
-                <span>الصفحة 02 من 27</span>
+                <span>الصفحة 02 من 53</span>
             </footer>
         </section>
 
@@ -374,7 +374,7 @@ export function getPages1to5() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Principles & Assumptions</span>
-                <span>الصفحة 03 من 27</span>
+                <span>الصفحة 03 من 53</span>
             </footer>
         </section>
 
@@ -497,7 +497,7 @@ export function getPages1to5() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Target Org & RACI</span>
-                <span>الصفحة 04 من 27</span>
+                <span>الصفحة 04 من 53</span>
             </footer>
         </section>
 
@@ -567,11 +567,12 @@ export function getPages1to5() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Process Map & Gates</span>
-                <span>الصفحة 05 من 27</span>
+                <span>الصفحة 05 من 53</span>
             </footer>
         </section>
 
-        <!-- ================= PAGE 6: VISUAL PROCESS FLOWCHARTS (STAGES 1 TO 9) ================= -->
+        
+        <!-- ================= PAGE 6: VISUAL PROCESS FLOWCHART STAGE 1 (RAW MATERIAL RECEIVING & INSPECTION) ================= -->
         <section class="a4-page" id="page-6">
             <header class="page-header">
                 <div class="page-header-logos">
@@ -588,6 +589,7 @@ export function getPages1to5() {
             </header>
 
             <main class="page-content">
+    
                 <h2 class="section-title">
                     <span>المخططات الانسيابية لتدفق العمليات (Flowcharts: Stages 1 to 9)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Visual Gates & Decisions</span>
@@ -595,200 +597,325 @@ export function getPages1to5() {
                 <p style="font-size:0.75rem; margin-bottom:0.35rem;">
                     تبين المخططات التالية الخطوات الأساسية، بوابات التحكم والتحقق، ومسارات القبول أو الرفض لكل مرحلة إنتاجية [Proposed]:
                 </p>
-
-                <div class="flowchart-grid">
-                    <!-- Stage 1 Flow -->
-                    <div class="flowchart-card">
-                        <div class="flowchart-card-title">
-                            <span>Stage 1. الاستلام والتخزين</span>
-                            <span class="badge badge-sop">RM</span>
-                        </div>
-                        <div class="flow-node">شاحنة / حاوية المورد</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">وزن أول (Weigh in) بالبسكول</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">سحب عينة الفحص (QC)</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">موقع "تحت الفحص" (Hold)</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-gate-diamond">نتيجة الفحص ومطابقة الوزن؟</div>
-                        <div class="flow-decision-split">
-                            <div class="flow-accept">نعم: نقل للموقع + وزن ثان</div>
-                            <div class="flow-reject">لا: عزل + إشعار المشتريات</div>
-                        </div>
-                    </div>
-
-                    <!-- Stage 2 Flow -->
-                    <div class="flowchart-card">
-                        <div class="flowchart-card-title">
-                            <span>Stage 2. التكسير والتجهيز</span>
-                            <span class="badge badge-sop">CR</span>
-                        </div>
-                        <div class="flow-node">أمر إنتاج تكسير (من الخطة)</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">فحص تغيير اللون والتنظيف</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">تكسير وفرز لمقاسات G1–G5</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">تعبئة ووزن وطباعة ملصق الدفعة</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-gate-diamond">التدرج المنخلي ضمن التسامح؟</div>
-                        <div class="flow-decision-split">
-                            <div class="flow-accept">نعم: متاح للخلط</div>
-                            <div class="flow-reject">لا: إعادة فرز أو تعديل فئة</div>
-                        </div>
-                    </div>
-
-                    <!-- Stage 3 Flow -->
-                    <div class="flowchart-card">
-                        <div class="flowchart-card-title">
-                            <span>Stage 3. الخلط الآلي</span>
-                            <span class="badge badge-sop">MX</span>
-                        </div>
-                        <div class="flow-node">قائمة الجاهزية (قالب، فاكيوم، مواد)</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">تحميل وصفة Mix Design معتمدة</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">وزن المكونات ونسبة الماء W/C</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">تفريغ الدفعة 1 في عربة القالب</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-gate-diamond">ضمن التسامح والفاصل الزمني؟</div>
-                        <div class="flow-decision-split">
-                            <div class="flow-accept">نعم: بدء الدفعة 2 فورا</div>
-                            <div class="flow-reject">لا: إيقاف + قرار جودة/تالف</div>
-                        </div>
-                    </div>
-
-                    <!-- Stage 4 Flow -->
-                    <div class="flowchart-card">
-                        <div class="flowchart-card-title">
-                            <span>Stage 4. الصب في القالب</span>
-                            <span class="badge badge-sop">CS</span>
-                        </div>
-                        <div class="flow-node">تجهيز القالب وتوثيق رقمه</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">صب الدفعة الأولى (5 طن)</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">صب الدفعة الثانية ضمن المهلة</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">توليد Block ID وبطاقة التتبع</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-gate-diamond">اكتمال الدفعتين بنجاح؟</div>
-                        <div class="flow-decision-split">
-                            <div class="flow-accept">نعم: انتقال فوري للفاكيوم</div>
-                            <div class="flow-reject">لا: دفعة واحدة = موقوف للجودة</div>
-                        </div>
-                    </div>
-
-                    <!-- Stage 5 Flow -->
-                    <div class="flowchart-card">
-                        <div class="flowchart-card-title">
-                            <span>Stage 5. سحب الهواء الفاكيوم</span>
-                            <span class="badge badge-sop">VC</span>
-                        </div>
-                        <div class="flow-node">فحص ما قبل التشغيل (عزل وفلاتر)</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">تشغيل منحنى الضغط والاهتزاز</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">توثيق قيم الأطوار على البلوك</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-gate-diamond">تحقيق هدف 100 mbar بالأطوار؟</div>
-                        <div class="flow-decision-split">
-                            <div class="flow-accept">نعم: نقل لساحة المعالجة</div>
-                            <div class="flow-reject">لا: إيقاف + صيانة + بلوك موقوف</div>
-                        </div>
-                    </div>
-
-                    <!-- Stage 6 Flow -->
-                    <div class="flowchart-card">
-                        <div class="flowchart-card-title">
-                            <span>Stage 6. الفك والمعالجة</span>
-                            <span class="badge badge-sop">CU</span>
-                        </div>
-                        <div class="flow-node">فك بعد 24 ساعة وفحص بصري</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">نقل لموقع مرقم بالساحة</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">توثيق شروط وظروف المعالجة</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-gate-diamond">بلوغ 14 يوما واختبار الضغط؟</div>
-                        <div class="flow-decision-split">
-                            <div class="flow-accept">نعم: إفراج نظامي للتقطيع</div>
-                            <div class="flow-reject">لا: تمديد 7 أيام حتى 28 يوما</div>
-                        </div>
-                    </div>
-
-                    <!-- Stage 7 Flow -->
-                    <div class="flowchart-card">
-                        <div class="flowchart-card-title">
-                            <span>Stage 7. التقطيع بالمناشير</span>
-                            <span class="badge badge-sop">GS</span>
-                        </div>
-                        <div class="flow-node">التحقق من بطاقة إفراج البلوك</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">جدولة النشر بأمر البيع والمشروع</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">ضبط المنشار وتوثيق طقم الشفرات</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">عد وقياس وترقيم الألواح الناتجة</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-gate-diamond">مطابقة السمك ونسبة الكسر؟</div>
-                        <div class="flow-decision-split">
-                            <div class="flow-accept">نعم: ألواح لموقع التلميع</div>
-                            <div class="flow-reject">لا: كسر > حد = فتح NCR</div>
-                        </div>
-                    </div>
-
-                    <!-- Stage 8 Flow -->
-                    <div class="flowchart-card">
-                        <div class="flowchart-card-title">
-                            <span>Stage 8. الجلي والتلميع</span>
-                            <span class="badge badge-sop">PL</span>
-                        </div>
-                        <div class="flow-node">فحص الأحجار وضغط الرؤوس</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">صرف الريزن والأحجار على الأمر</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">تلميع حسب التشطيب المطلوب</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">قياس اللمعان GU والسمك واللون</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-gate-diamond">قرار الدرجة (أولى / ثانية / إعادة)؟</div>
-                        <div class="flow-decision-split">
-                            <div class="flow-accept">أولى: للتغليف أو القص الخاص</div>
-                            <div class="flow-reject">ثانية أو إعادة تلميع (مرة)</div>
-                        </div>
-                    </div>
-
-                    <!-- Stage 9 Flow -->
-                    <div class="flowchart-card">
-                        <div class="flowchart-card-title">
-                            <span>Stage 9. القطع والتغليف</span>
-                            <span class="badge badge-sop">FN</span>
-                        </div>
-                        <div class="flow-node">قص خاص بأمر بيع ورسم معتمد</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">فحص القطعة الأولى (First Article)</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">فحص نهائي (أبعاد، لمعان، ولون)</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-node">تغليف وملصق طرد برقم الدفعة</div>
-                        <div class="flow-arrow-down">▼</div>
-                        <div class="flow-gate-diamond">مطابقة مواصفات الإفراج لـ FG؟</div>
-                        <div class="flow-decision-split">
-                            <div class="flow-accept">نعم: منتج تام بمستودع FG</div>
-                            <div class="flow-reject">لا: إعادة للقص أو تخفيض</div>
-                        </div>
-                    </div>
+                <h3 class="subsection-title">1. المرحلة 1: استلام وفحص وتخزين الخامات (Raw Material Receiving & Inspection)</h3>
+        
+                <div class="flowchart-figure-box" style="margin-top:0.25rem;">
+                    <img src="flowcharts_png/full_single_images/Stage01_Raw_Material_Receiving_and_Inspection_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 1 – استلام وفحص وتخزين الخامات">
+                    <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 1 – استلام وفحص وتخزين الخامات (Full Process Flow)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
-                <span class="status-tag">Visual Flowcharts 1-9</span>
-                <span>الصفحة 06 من 27</span>
+                <span class="status-tag">Section 4: Stage 1 Flowchart</span>
+                <span>الصفحة 06 من 53</span>
             </footer>
         </section>
+    
+        <!-- ================= PAGE 7: VISUAL PROCESS FLOWCHART STAGE 2 (CRUSHING & SIZING) ================= -->
+        <section class="a4-page" id="page-7">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Process Flowcharts</strong>
+                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+    
+                <h2 class="section-title">
+                    <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Crushing & Sizing</span>
+                </h2>
+                <h3 class="subsection-title">2. المرحلة 2: تكسير وفرز كسر الرخام (Crushing & Sizing)</h3>
+        
+                <div class="flowchart-figure-box" style="margin-top:0.25rem;">
+                    <img src="flowcharts_png/full_single_images/Stage02_Crushing_and_Sizing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 2 – تكسير وفرز كسر الرخام">
+                    <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 2 – تكسير وفرز كسر الرخام (Full Process Flow)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Section 4: Stage 2 Flowchart</span>
+                <span>الصفحة 07 من 53</span>
+            </footer>
+        </section>
+    
+        <!-- ================= PAGE 8: VISUAL PROCESS FLOWCHART STAGE 3 (AUTOMATIC MIXING) ================= -->
+        <section class="a4-page" id="page-8">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Process Flowcharts</strong>
+                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+    
+                <h2 class="section-title">
+                    <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Automatic Mixing</span>
+                </h2>
+                <h3 class="subsection-title">3. المرحلة 3: الخلط الآلي وتجهيز الخلطة (Automatic Mixing)</h3>
+        
+                <div class="flowchart-figure-box" style="margin-top:0.25rem;">
+                    <img src="flowcharts_png/full_single_images/Stage03_Automatic_Mixing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 3 – الخلط الآلي وتجهيز الخلطة">
+                    <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 3 – الخلط الآلي وتجهيز الخلطة (Full Process Flow)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Section 4: Stage 3 Flowchart</span>
+                <span>الصفحة 08 من 53</span>
+            </footer>
+        </section>
+    
+        <!-- ================= PAGE 9: VISUAL PROCESS FLOWCHART STAGE 4 (BLOCK CASTING) ================= -->
+        <section class="a4-page" id="page-9">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Process Flowcharts</strong>
+                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+    
+                <h2 class="section-title">
+                    <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Block Casting</span>
+                </h2>
+                <h3 class="subsection-title">4. المرحلة 4: الصب في القالب وتكوين البلوك (Block Casting)</h3>
+        
+                <div class="flowchart-figure-box" style="margin-top:0.25rem;">
+                    <img src="flowcharts_png/full_single_images/Stage04_Block_Casting_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 4 – الصب في القالب وتكوين البلوك">
+                    <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 4 – الصب في القالب وتكوين البلوك (Full Process Flow)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Section 4: Stage 4 Flowchart</span>
+                <span>الصفحة 09 من 53</span>
+            </footer>
+        </section>
+    
+        <!-- ================= PAGE 10: VISUAL PROCESS FLOWCHART STAGE 5 (VACUUM DE-AIRING) ================= -->
+        <section class="a4-page" id="page-10">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Process Flowcharts</strong>
+                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+    
+                <h2 class="section-title">
+                    <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Vacuum De-airing</span>
+                </h2>
+                <h3 class="subsection-title">5. المرحلة 5: سحب الهواء والكبس تحت الفاكيوم (Vacuum De-airing)</h3>
+        
+                <div class="flowchart-figure-box" style="margin-top:0.25rem;">
+                    <img src="flowcharts_png/full_single_images/Stage05_Vacuum_De-airing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم">
+                    <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم (Full Process Flow)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Section 4: Stage 5 Flowchart</span>
+                <span>الصفحة 10 من 53</span>
+            </footer>
+        </section>
+    
+        <!-- ================= PAGE 11: VISUAL PROCESS FLOWCHART STAGE 6 (DEMOULDING & CURING) ================= -->
+        <section class="a4-page" id="page-11">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Process Flowcharts</strong>
+                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+    
+                <h2 class="section-title">
+                    <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Demoulding & Curing</span>
+                </h2>
+                <h3 class="subsection-title">6. المرحلة 6: فك القوالب والمعالجة والإنضاج (Demoulding & Curing)</h3>
+        
+                <div class="flowchart-figure-box" style="margin-top:0.25rem;">
+                    <img src="flowcharts_png/full_single_images/Stage06_Demoulding_and_Curing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 6 – فك القوالب والمعالجة والإنضاج">
+                    <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 6 – فك القوالب والمعالجة والإنضاج (Full Process Flow)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Section 4: Stage 6 Flowchart</span>
+                <span>الصفحة 11 من 53</span>
+            </footer>
+        </section>
+    
+        <!-- ================= PAGE 12: VISUAL PROCESS FLOWCHART STAGE 7 (GANG SAW SLABBING) ================= -->
+        <section class="a4-page" id="page-12">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Process Flowcharts</strong>
+                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+    
+                <h2 class="section-title">
+                    <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Gang Saw Slabbing</span>
+                </h2>
+                <h3 class="subsection-title">7. المرحلة 7: تقطيع البلوك إلى ألواح باستخدام المناشير (Gang Saw Slabbing)</h3>
+        
+                <div class="flowchart-figure-box" style="margin-top:0.25rem;">
+                    <img src="flowcharts_png/full_single_images/Stage07_Gang_Saw_Slabbing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام المناشير">
+                    <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام المناشير (Full Process Flow)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Section 4: Stage 7 Flowchart</span>
+                <span>الصفحة 12 من 53</span>
+            </footer>
+        </section>
+    
+        <!-- ================= PAGE 13: VISUAL PROCESS FLOWCHART STAGE 8 (GRINDING & POLISHING) ================= -->
+        <section class="a4-page" id="page-13">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Process Flowcharts</strong>
+                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+    
+                <h2 class="section-title">
+                    <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Grinding & Polishing</span>
+                </h2>
+                <h3 class="subsection-title">8. المرحلة 8: الجلي والتلميع والمعالجة السطحية (Grinding & Polishing)</h3>
+        
+                <div class="flowchart-figure-box" style="margin-top:0.25rem;">
+                    <img src="flowcharts_png/full_single_images/Stage08_Grinding_and_Polishing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 8 – الجلي والتلميع والمعالجة السطحية">
+                    <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 8 – الجلي والتلميع والمعالجة السطحية (Full Process Flow)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Section 4: Stage 8 Flowchart</span>
+                <span>الصفحة 13 من 53</span>
+            </footer>
+        </section>
+    
+        <!-- ================= PAGE 14: VISUAL PROCESS FLOWCHART STAGE 9 (CUSTOM CUTTING & PACKAGING) ================= -->
+        <section class="a4-page" id="page-14">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Process Flowcharts</strong>
+                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+    
+                <h2 class="section-title">
+                    <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Custom Cutting & Packaging</span>
+                </h2>
+                <h3 class="subsection-title">9. المرحلة 9: القطع والتفصيل والتغليف النهائي (Custom Cutting & Packaging)</h3>
+        
+                <div class="flowchart-figure-box" style="margin-top:0.25rem;">
+                    <img src="flowcharts_png/full_single_images/Stage09_Custom_Cutting_and_Packaging_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 9 – القطع والتفصيل والتغليف النهائي">
+                    <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 9 – القطع والتفصيل والتغليف النهائي (Full Process Flow)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Section 4: Stage 9 Flowchart</span>
+                <span>الصفحة 14 من 53</span>
+            </footer>
+        </section>
+    
     `;
 }

@@ -3,8 +3,8 @@
 
 export function getPages16to21() {
     return `
-<!-- ================= PAGE 19: PLANT KPIs (F-SERIES) & RECORDS DESTINY ================= -->
-        <section class="a4-page" id="page-19">
+<!-- ================= PAGE 45: PLANT KPIs (F-SERIES) & RECORDS DESTINY ================= -->
+        <section class="a4-page" id="page-45">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -309,12 +309,12 @@ export function getPages16to21() {
             <footer class="page-footer">
                 <span>(To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Plant KPIs & Records Fate</span>
-                <span>الصفحة 19 من 27</span>
+                <span>الصفحة 45 من 53</span>
             </footer>
         </section>
 
-<!-- ================= PAGE 20: GAPS RESOLUTION & TRACEABILITY MATRIX ================= -->
-        <section class="a4-page" id="page-20">
+<!-- ================= PAGE 46: GAPS RESOLUTION & TRACEABILITY MATRIX ================= -->
+        <section class="a4-page" id="page-46">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -591,12 +591,12 @@ export function getPages16to21() {
             <footer class="page-footer">
                 <span>(To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Gaps & Traceability Matrix</span>
-                <span>الصفحة 20 من 27</span>
+                <span>الصفحة 46 من 53</span>
             </footer>
         </section>
 
-<!-- ================= PAGE 21: IMPROVEMENT PRIORITIES & OPERATIONAL RISKS ================= -->
-        <section class="a4-page" id="page-21">
+<!-- ================= PAGE 47: IMPROVEMENT PRIORITIES & OPERATIONAL RISKS ================= -->
+        <section class="a4-page" id="page-47">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -835,12 +835,12 @@ export function getPages16to21() {
             <footer class="page-footer">
                 <span>(To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Priorities & Operational Risks</span>
-                <span>الصفحة 21 من 27</span>
+                <span>الصفحة 47 من 53</span>
             </footer>
         </section>
 
-<!-- ================= PAGE 22: ROADMAP, OPEN QUESTIONS (OQ) & SIGNOFF ================= -->
-        <section class="a4-page" id="page-22">
+<!-- ================= PAGE 48: ROADMAP, OPEN QUESTIONS (OQ) & SIGNOFF ================= -->
+        <section class="a4-page" id="page-48">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -945,12 +945,12 @@ export function getPages16to21() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Roadmap & Open Questions</span>
-                <span>الصفحة 22 من 27</span>
+                <span>الصفحة 48 من 53</span>
             </footer>
         </section>
 
-<!-- ================= PAGE 23: APPENDIX A - PART 1 (SOP ARCHITECTURE & CATALOG) ================= -->
-        <section class="a4-page" id="page-23">
+<!-- ================= PAGE 49: APPENDIX A - PART 1 (SOP ARCHITECTURE & CATALOG) ================= -->
+        <section class="a4-page" id="page-49">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -1029,12 +1029,12 @@ export function getPages16to21() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Appendix A: SOP Architecture</span>
-                <span>الصفحة 23 من 27</span>
+                <span>الصفحة 49 من 53</span>
             </footer>
         </section>
 
-<!-- ================= PAGE 24: APPENDIX A - PART 2 (STAGE SOPs & DETAILS) ================= -->
-        <section class="a4-page" id="page-24">
+<!-- ================= PAGE 50: APPENDIX A - PART 2 (STAGE SOPs & DETAILS) ================= -->
+        <section class="a4-page" id="page-50">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -1111,12 +1111,12 @@ export function getPages16to21() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Appendix A: Stage Controls</span>
-                <span>الصفحة 24 من 27</span>
+                <span>الصفحة 50 من 53</span>
             </footer>
         </section>
 
-<!-- ================= PAGE 25: APPENDIX B - PART 1 (KPI DICTIONARY & L1/L3) ================= -->
-        <section class="a4-page" id="page-25">
+<!-- ================= PAGE 51: APPENDIX B - PART 1 (KPI DICTIONARY & L1/L3) ================= -->
+        <section class="a4-page" id="page-51">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -1202,12 +1202,12 @@ export function getPages16to21() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Appendix B: Plant KPIs L1 & L3</span>
-                <span>الصفحة 25 من 27</span>
+                <span>الصفحة 51 من 53</span>
             </footer>
         </section>
 
-<!-- ================= PAGE 26: APPENDIX B - PART 2 (DEPT KPIs, OP METRICS & TREE) ================= -->
-        <section class="a4-page" id="page-26">
+<!-- ================= PAGE 52: APPENDIX B - PART 2 (DEPT KPIs, OP METRICS & TREE) ================= -->
+        <section class="a4-page" id="page-52">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -1288,12 +1288,12 @@ export function getPages16to21() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Appendix B: Dept KPIs & Tree</span>
-                <span>الصفحة 26 من 27</span>
+                <span>الصفحة 52 من 53</span>
             </footer>
         </section>
 
-<!-- ================= PAGE 27: APPENDIX C (DATA CAPTURE, REPORTS & DASHBOARDS) ================= -->
-        <section class="a4-page" id="page-27">
+<!-- ================= PAGE 53: APPENDIX C (DATA CAPTURE, REPORTS & DASHBOARDS) ================= -->
+        <section class="a4-page" id="page-53">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
@@ -1389,7 +1389,7 @@ export function getPages16to21() {
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Dashboards & Reports</span>
-                <span>الصفحة 27 من 27 (نهاية الوثيقة)</span>
+                <span>الصفحة 53 من 53 (نهاية الوثيقة)</span>
             </footer>
         </section>
     `;

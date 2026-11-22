@@ -1,22 +1,26 @@
-// src_pages/pages6_10.js - Pages 7 through 11 of To-Be Document v0.3
-// Stages 1 to 5: Dedicated full-page executive layout with prominent Process Flowcharts & Decision Gates.
+// src_pages/pages6_10.js - Stages 1 through 5 of To-Be Document v0.3
+// Each stage is structured across 3 dedicated A4 pages:
+// Page 1: Trigger & Inputs/Outputs Strip + Flowchart Part 1 (Gate input to decision)
+// Page 2: Flowchart Part 2 (Decision to outcomes) + [PFC] Legend
+// Page 3: SOP Details Card + KPIs Table
 
 export function getPages6to10() {
     return `
-        <!-- ================= PAGE 7: STAGE 1 (RAW MATERIALS RECEIVING & STORAGE) ================= -->
-        <section class="a4-page" id="page-7">
+
+        <!-- ================= PAGE 15: STAGE 1 PART 1 (RAW MATERIAL RECEIVING & INSPECTION) ================= -->
+        <section class="a4-page" id="page-15">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">Terrazzo - تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To-Be Document</span>
-                    
-                
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
                 <div class="doc-meta-header">
                     <strong>Stage 1: Receiving & Sieve QC</strong>
                     <span>Section 5 — Raw Materials Management</span>
-                
+                </div>
             </header>
 
             <main class="page-content">
@@ -25,156 +29,86 @@ export function getPages6to10() {
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إغلاق فجوة الوزن ISS-001 والـ 3 سايلوهات</span>
                 </h2>
 
-                <!-- Flowchart for Stage 4 (Casting) -->
-
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 2</span>
-                            <span>مخطط تدفق التكسير والتجهيز (Stage 2) – بوابة القبول/الرفض</span>
-                        
-                        <span class="badge badge-proposed">[Gate 2: Crushing QC]</span>
-                    
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">1. توجيه الخام إلى إحدى الكسارات
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">2. فحص حجم الجزيئات (G1‑G5) باستخدام منخل
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">هل حجم الجزيئات ضمن النطاق المطلوب؟
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title"><span>✔ قبول – المتابعة إلى الخلط</span>
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title"><span>✖ رفض – إعادة التكسير أو العزل</span>
-                            
-                        
-                    
-                
-
-                <!-- Roles & Staffing for Stage 2 -->
-                <div class="roles-table" style="margin-top:1rem;">
-                    <table class="data-table" style="font-size:0.8rem;">
-                        <thead>
-                            <tr>
-                                <th>الدور</th><th>عدد الأشخاص</th><th>المسؤوليات</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>مدير العمليات</td><td>1</td><td>إدارة العملية كاملة ومتابعة الإنتاج</td></tr>
-                            <tr><td>مشرف الكسارة</td><td>2</td><td>تشغيل ومراقبة 2 كسارة وضمان الصيانة</td></tr>
-                            <tr><td>فني صيانة آلات</td><td>1</td><td>صيانة طوارئ وإصلاح عطل الكسارات</td></tr>
-                            <tr><td>عامل تحميل/نقل</td><td>2</td><td>نقل الخامات إلى الكسارات وتفريغ المنتج المكسّر</td></tr>
-                            <tr><td>مفتش جودة المنتج المكسّر</td><td>1</td><td>فحص حجم الجزيئات وتوثيق القبول/الرفض</td></tr>
-                        </tbody>
-                    </table>
-                
-
-
                 <div class="callout-box info" style="margin:0 0 0.85rem 0; padding:0.65rem 1rem;">
                     <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; font-size:0.82rem;">
-                        <div><strong style="color:var(--primary); display:block;">المُطلق (Trigger):</strong> وصول شاحنة مورد بأمر شراء PO معتمد
-                        <div><strong style="color:var(--primary); display:block;">المدخلات (Inputs):</strong> كسر رخام، أسمنت (في الـ 3 سايلوهات)، كربونات، صبغات، ريزن
-                        <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> خامات مفحوصة ومخزنة برقم دفعة Lot ID بالسايلوهات والساحة
-                        <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> أمين المخزن الرئيسي + مسؤول البسكول
-                    
-                
+                        <div><strong style="color:var(--primary); display:block;">المُطلق (Trigger):</strong> وصول شاحنة مورد بأمر شراء PO معتمد</div>
+                        <div><strong style="color:var(--primary); display:block;">المدخلات (Inputs):</strong> كسر رخام، أسمنت (في الـ 3 سايلوهات)، كربونات، صبغات، ريزن</div>
+                        <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> خامات مفحوصة ومخزنة برقم دفعة Lot ID بالسايلوهات والساحة</div>
+                        <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> أمين المخزن الرئيسي + مسؤول البسكول</div>
+                    </div>
 
-                <!-- Flowchart for Stage 3 (Batch Mixing) -->
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 3</span>
-                            <span>مخطط تدفق الخلط الآلي (Stage 3) – بوابة القبول/الرفض</span>
-                        
-                        <span class="badge badge-proposed">[Gate 3: Mixing QC]</span>
-                    
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">1. تحميل المكونات (الركام، الأسمنت، الماء) إلى خلاط الجرارات
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">2. تشغيل الخلط إلى درجة تجانس محددة (وقت/سرعة)
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">3. قياس خصائص الخليط (قوة اللزوجة، وقت التدفق)
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">هل الخصائص ضمن نطاق المواصفات؟
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title"><span>✔ قبول – إرسال الخليط إلى مرحلة الصب</span>
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title"><span>✖ رفض – تعديل نسب المكونات وإعادة الخلط</span>
-                            
-                        
-                    
-                
+                <!-- Process Flowchart Part 1 (Gate input to decision) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage01_Raw_Material_Receiving_and_Inspection_part1.png" class="flowchart-img" style="max-height: 155mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 1 – استلام وفحص وتخزين الخامات (الجزء 1 من 2)">
+                    <div class="flowchart-caption">الشكل 1: المخطط الانسيابي للمرحلة 1 – استلام وفحص وتخزين الخامات (الجزء 1 من 2)</div>
+                </div>
+            </main>
 
-                <!-- Roles & Staffing for Stage 3 -->
-                <div class="roles-table" style="margin-top:1rem;">
-                    <table class="data-table" style="font-size:0.8rem;">
-                        <thead>
-                            <tr>
-                                <th>الدور</th><th>عدد الأشخاص</th><th>المسؤوليات</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>مدير العمليات</td><td>1</td><td>الإشراف على عملية الخلط وضمان الالتزام بالمواصفات.</td></tr>
-                            <tr><td>مشغل محطة الخلط الآلي</td><td>1</td><td>تشغيل الخلاط، ضبط نسب المكونات، ومراقبة زمن الخلط.</td></tr>
-                            <tr><td>فني جودة الخلط</td><td>1</td><td>قياس خصائص الخليط (لزوجة، وقت تدفق) وإصدار قرار القبول/الرفض.</td></tr>
-                            <tr><td>قائد صيانة الخلط</td><td>1</td><td>صيانة دورية للخلّاط وضمان جاهزيته.</td></tr>
-                        </tbody>
-                    </table>
-                
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 1</span>
-                            <span>مخطط تدفق عملية الاستلام وبوابة فحص الجودة (Stage 1 Decision Flow)</span>
-                        
-                        <span class="badge badge-proposed">[Gate 1: Receiving QC]</span>
-                    
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 1: Receiving & Sieve QC</span>
+                <span>الصفحة 15 من 53</span>
+            </footer>
+        </section>
 
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">
-                            1. وصول الشاحنة للبوابة ⬅ التحقق من أمر الشراء المعتمد PO ⬅ الوزن الإجمالي على ميزان البسكول
-                        
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">
-                            2. سحب عينة ممثلة من الشحنة ⬅ إجراء التحليل المنخلي لكسر الرخام، واختبار الرطوبة ونقاء الأسمنت
-                        
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">
-                            بوابة القرار: هل نتائج الفحص المخبري مطابقة للمواصفة وشهادة التحليل الفنية؟
-                        
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title">
-                                    <span>✔ مسار القبول والتسكين (Accept & Store)</span>
-                                
-                                <div class="pflow-branch-accept-desc">
-                                    <ul>
-                                        <li>توجيه الشاحنة لموقع التفريغ المحدد (تفريغ الأسمنت في أحد الـ 3 سايلوهات المخصصة، أو ساحة الكسر).</li>
-                                        <li>وزن ثانٍ للشاحنة فارغة لحساب الوزن الصافي الدقيق.</li>
-                                        <li>توليد وطباعة ملصق الدفعة Lot ID وتثبيته على السايلو/الموقع/الجونية.</li>
-                                        <li>إصدار إذن استلام مخزني (GRN) وتحديث رصيد المخزن المتاح للصرف فورا في سجل المصنع.</li>
-                                    </ul>
-                                
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title">
-                                    <span>✖ مسار الرفض والعزل (Reject & Quarantine)</span>
-                                
-                                <div class="pflow-branch-reject-desc">
-                                    <ul>
-                                        <li>إيقاف عملية التفريغ فورا ومنع اختلاط الشحنة بالخامات القائمة في السايلوهات أو الساحة.</li>
-                                        <li>تحرير محضر عدم مطابقة (NCR) موثق بالصور ونسب الانحراف.</li>
-                                        <li>إخطار إدارة المشتريات والمورد وإرجاع الشاحنة بكامل حمولتها.</li>
-                                        <li>في حالات النزاع: حجز الشحنة في ساحة العزل المعلمة بالأحمر دون أي صرف.</li>
-                                    </ul>
-                                
-                            
-                        
-                    
-                
+        <!-- ================= PAGE 16: STAGE 1 PART 2 (RAW MATERIAL RECEIVING & INSPECTION CONT.) ================= -->
+        <section class="a4-page" id="page-16">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 1: Receiving & Sieve QC (تابع)</strong>
+                    <span>Section 5 — Raw Materials Management</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>5. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage) (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
+                </h2>
+
+                <!-- Process Flowchart Part 2 (Decision to outcomes) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage01_Raw_Material_Receiving_and_Inspection_part2.png" class="flowchart-img" style="max-height: 185mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 1 – استلام وفحص وتخزين الخامات (الجزء 2 من 2)">
+                    <div class="flowchart-caption">الشكل 1: المخطط الانسيابي للمرحلة 1 – استلام وفحص وتخزين الخامات (الجزء 2 من 2)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 1: Receiving & Sieve QC</span>
+                <span>الصفحة 16 من 53</span>
+            </footer>
+        </section>
+
+        <!-- ================= PAGE 17: STAGE 1 SOP & KPIS (RAW MATERIAL RECEIVING & INSPECTION) ================= -->
+        <section class="a4-page" id="page-17">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 1: Receiving & Sieve QC (SOP & KPIs)</strong>
+                    <span>Section 5 — Raw Materials Management</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>5. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
+                </h2>
 
                 <!-- SOP Details -->
                 <div class="sop-card" style="margin-bottom:0.85rem;">
@@ -182,13 +116,13 @@ export function getPages6to10() {
                         <div class="sop-title">
                             <span class="badge badge-sop">SOP-RM-01</span>
                             <span>إجراء استلام وفحص وتسكين الخامات وتفريغ الـ 3 سايلوهات [Proposed]</span>
-                        
+                        </div>
                         <div class="sop-meta-pills">
                             <span>المالك: أمين المخزن</span>
                             <span>المشاركون: فني المختبر، وزن البسكول، المشتريات</span>
                             <span>نقطة التسجيل: سجل الاستلام المخزني GRN</span>
-                        
-                    
+                        </div>
+                    </div>
                     <div class="sop-body">
                         <ol>
                             <li>التحقق الصارم من وجود أمر شراء مفتوح (PO) برقم مطابق في سجل المصنع قبل السماح بدخول بوابة المصنع.</li>
@@ -197,8 +131,8 @@ export function getPages6to10() {
                             <li>إجراء اختبار التدرج المنخلي ونسبة الرطوبة، ولا يتم التفريغ إلا بعد توقيع فني المختبر على إذن الفحص.</li>
                             <li>إعادة وزن الشاحنة فارغة، وحساب صافي الوزن الفعلي، وإصدار إذن استلام GRN وتسكين الخامة برقم الدفعة في أحد الـ 3 سايلوهات المعتمدة أو مستودع الخامات.</li>
                         </ol>
-                    
-                
+                    </div>
+                </div>
 
                 <!-- KPIs Table -->
                 <div class="data-table-wrapper">
@@ -256,30 +190,30 @@ export function getPages6to10() {
                             </tr>
                         </tbody>
                     </table>
-                
+                </div>
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Stage 1: Receiving & Sieve QC</span>
-                <span>الصفحة 07 من 27</span>
+                <span>الصفحة 17 من 53</span>
             </footer>
         </section>
-
-        <!-- ================= PAGE 8: STAGE 2 (CRUSHING, SCREENING & SIZING - 2 CRUSHERS) ================= -->
-        <section class="a4-page" id="page-8">
+    
+        <!-- ================= PAGE 18: STAGE 2 PART 1 (CRUSHING & SIZING) ================= -->
+        <section class="a4-page" id="page-18">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo - تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To-Be Document</span>
-                    
-                
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
                 <div class="doc-meta-header">
-                    <strong>Stage 2: Crushing & Sizing</strong>
-                    <span>Section 6 — Aggregate Preparation (2 Crushers)</span>
-                
+                    <strong>Stage 2: Crushing & Sizing (2 Crushers)</strong>
+                    <span>Section 6 — Aggregate Preparation</span>
+                </div>
             </header>
 
             <main class="page-content">
@@ -288,156 +222,86 @@ export function getPages6to10() {
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">التصنيف الحجمي G1–G5 | 2 كسارة بالمصنع</span>
                 </h2>
 
-                <!-- Flowchart for Stage 4 (Casting) -->
-
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 2</span>
-                            <span>مخطط تدفق التكسير والتجهيز (Stage 2) – بوابة القبول/الرفض</span>
-                        
-                        <span class="badge badge-proposed">[Gate 2: Crushing QC]</span>
-                    
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">1. توجيه الخام إلى إحدى الكسارات
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">2. فحص حجم الجزيئات (G1‑G5) باستخدام منخل
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">هل حجم الجزيئات ضمن النطاق المطلوب؟
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title"><span>✔ قبول – المتابعة إلى الخلط</span>
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title"><span>✖ رفض – إعادة التكسير أو العزل</span>
-                            
-                        
-                    
-                
-
-                <!-- Roles & Staffing for Stage 2 -->
-                <div class="roles-table" style="margin-top:1rem;">
-                    <table class="data-table" style="font-size:0.8rem;">
-                        <thead>
-                            <tr>
-                                <th>الدور</th><th>عدد الأشخاص</th><th>المسؤوليات</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>مدير العمليات</td><td>1</td><td>إدارة العملية كاملة ومتابعة الإنتاج</td></tr>
-                            <tr><td>مشرف الكسارة</td><td>2</td><td>تشغيل ومراقبة 2 كسارة وضمان الصيانة</td></tr>
-                            <tr><td>فني صيانة آلات</td><td>1</td><td>صيانة طوارئ وإصلاح عطل الكسارات</td></tr>
-                            <tr><td>عامل تحميل/نقل</td><td>2</td><td>نقل الخامات إلى الكسارات وتفريغ المنتج المكسّر</td></tr>
-                            <tr><td>مفتش جودة المنتج المكسّر</td><td>1</td><td>فحص حجم الجزيئات وتوثيق القبول/الرفض</td></tr>
-                        </tbody>
-                    </table>
-                
-
-
                 <div class="callout-box info" style="margin:0 0 0.85rem 0; padding:0.65rem 1rem;">
                     <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; font-size:0.82rem;">
-                        <div><strong style="color:var(--primary); display:block;">المُطلق (Trigger):</strong> أمر إنتاج تكسير لسد عجز فئات الخلط وتوزيع الأحمال على الـ 2 كسارة
-                        <div><strong style="color:var(--primary); display:block;">المدخلات (Inputs):</strong> كسر رخام خام غير مصنف + كسر معاد تدويره يغذي الـ 2 كسارة بالمصنع
-                        <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> كسر مصنف (G1-G5) عبر الـ 2 كسارة وشبكات المناخل بجونيات مكودة وموزونة
-                        <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشرف فترة تشغيل الـ 2 كسارة
-                    
-                
+                        <div><strong style="color:var(--primary); display:block;">المُطلق (Trigger):</strong> أمر إنتاج تكسير لسد عجز فئات الخلط وتوزيع الأحمال على الـ 2 كسارة</div>
+                        <div><strong style="color:var(--primary); display:block;">المدخلات (Inputs):</strong> كسر رخام خام غير مصنف + كسر معاد تدويره يغذي الـ 2 كسارة بالمصنع</div>
+                        <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> كسر مصنف (G1-G5) عبر الـ 2 كسارة وشبكات المناخل بجونيات مكودة وموزونة</div>
+                        <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشرف فترة تشغيل الـ 2 كسارة</div>
+                    </div>
 
-                <!-- Flowchart for Stage 3 (Batch Mixing) -->
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 3</span>
-                            <span>مخطط تدفق الخلط الآلي (Stage 3) – بوابة القبول/الرفض</span>
-                        
-                        <span class="badge badge-proposed">[Gate 3: Mixing QC]</span>
-                    
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">1. تحميل المكونات (الركام، الأسمنت، الماء) إلى خلاط الجرارات
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">2. تشغيل الخلط إلى درجة تجانس محددة (وقت/سرعة)
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">3. قياس خصائص الخليط (قوة اللزوجة، وقت التدفق)
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">هل الخصائص ضمن نطاق المواصفات؟
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title"><span>✔ قبول – إرسال الخليط إلى مرحلة الصب</span>
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title"><span>✖ رفض – تعديل نسب المكونات وإعادة الخلط</span>
-                            
-                        
-                    
-                
+                <!-- Process Flowchart Part 1 (Gate input to decision) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage02_Crushing_and_Sizing_part1.png" class="flowchart-img" style="max-height: 155mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 2 – تكسير وفرز كسر الرخام (الجزء 1 من 2)">
+                    <div class="flowchart-caption">الشكل 2: المخطط الانسيابي للمرحلة 2 – تكسير وفرز كسر الرخام (الجزء 1 من 2)</div>
+                </div>
+            </main>
 
-                <!-- Roles & Staffing for Stage 3 -->
-                <div class="roles-table" style="margin-top:1rem;">
-                    <table class="data-table" style="font-size:0.8rem;">
-                        <thead>
-                            <tr>
-                                <th>الدور</th><th>عدد الأشخاص</th><th>المسؤوليات</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>مدير العمليات</td><td>1</td><td>الإشراف على عملية الخلط وضمان الالتزام بالمواصفات.</td></tr>
-                            <tr><td>مشغل محطة الخلط الآلي</td><td>1</td><td>تشغيل الخلاط، ضبط نسب المكونات، ومراقبة زمن الخلط.</td></tr>
-                            <tr><td>فني جودة الخلط</td><td>1</td><td>قياس خصائص الخليط (لزوجة، وقت تدفق) وإصدار قرار القبول/الرفض.</td></tr>
-                            <tr><td>قائد صيانة الخلط</td><td>1</td><td>صيانة دورية للخلّاط وضمان جاهزيته.</td></tr>
-                        </tbody>
-                    </table>
-                
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 2</span>
-                            <span>مخطط تدفق التكسير عبر الـ 2 كسارة وبوابة التحليل المنخلي (Stage 2 Sizing Flow)</span>
-                        
-                        <span class="badge badge-proposed">[Gate 2: Aggregate Sizing - 2 Crushers]</span>
-                    
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 2: Crushing & Sizing (2 Crushers)</span>
+                <span>الصفحة 18 من 53</span>
+            </footer>
+        </section>
 
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">
-                            1. صرف دفعة كسر الرخام الخام بالوزن الفعلي ⬅ تغذية الـ 2 كسارة بالمصنع (الكسارة الأولى والكسارة الثانية)
-                        
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">
-                            2. فرز الحبيبات الناتجة من الـ 2 كسارة عبر شبكة المناخل الاهتزازية متعددة الطبقات (G1, G2, G3, G4, G5)
-                        
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">
-                            بوابة القرار: هل منحنى التدرج الحبيبي ونظافة الحبيبات الناتجة من الـ 2 كسارة مطابقة لمواصفة الخلطة القياسية؟
-                        
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title">
-                                    <span>✔ مسار القبول والتعبئة (Accept & Bag)</span>
-                                
-                                <div class="pflow-branch-accept-desc">
-                                    <ul>
-                                        <li>تعبئة كل فئة ناتجة في جونيات منفصلة مكودة بلون وحجم الحبيبة ومصدر الكسارة.</li>
-                                        <li>وزن كل جونية بدقة على الميزان الأرضي وطباعة ملصق الدفعة.</li>
-                                        <li>نقل الجونيات إلى صوامع/مستودع الخامات نصف المصنعة الجاهزة للخلط.</li>
-                                        <li>تسجيل كميات الإنتاج الفعلي ونسبة المردود في سجل تشغيل الـ 2 كسارة.</li>
-                                    </ul>
-                                
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title">
-                                    <span>✖ مسار إعادة التكسير والضبط (Re-crush & Adjust)</span>
-                                
-                                <div class="pflow-branch-reject-desc">
-                                    <ul>
-                                        <li>إعادة الحبيبات الخشنة المتجاوزة للمقاس عبر سير الإرجاع للكسارة الثانية (الثانوية) لإعادة التكسير Re-crush.</li>
-                                        <li>إيقاف خط التكسير فورا في حال تمزق أو انسداد المناخل الاهتزازية في أي من الكسارتين.</li>
-                                        <li>تعديل خلوص فكوك الـ 2 كسارة وسرعة التغذية وضبط زوايا الاهتزاز.</li>
-                                        <li>عزل أي دفعة ملوثة بالأتربة وإعادة غسيلها أو غربلتها قبل الإفراج.</li>
-                                    </ul>
-                                
-                            
-                        
-                    
-                
+        <!-- ================= PAGE 19: STAGE 2 PART 2 (CRUSHING & SIZING CONT.) ================= -->
+        <section class="a4-page" id="page-19">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 2: Crushing & Sizing (2 Crushers) (تابع)</strong>
+                    <span>Section 6 — Aggregate Preparation</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>6. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
+                </h2>
+
+                <!-- Process Flowchart Part 2 (Decision to outcomes) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage02_Crushing_and_Sizing_part2.png" class="flowchart-img" style="max-height: 185mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 2 – تكسير وفرز كسر الرخام (الجزء 2 من 2)">
+                    <div class="flowchart-caption">الشكل 2: المخطط الانسيابي للمرحلة 2 – تكسير وفرز كسر الرخام (الجزء 2 من 2)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 2: Crushing & Sizing (2 Crushers)</span>
+                <span>الصفحة 19 من 53</span>
+            </footer>
+        </section>
+
+        <!-- ================= PAGE 20: STAGE 2 SOP & KPIS (CRUSHING & SIZING) ================= -->
+        <section class="a4-page" id="page-20">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 2: Crushing & Sizing (2 Crushers) (SOP & KPIs)</strong>
+                    <span>Section 6 — Aggregate Preparation</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>6. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
+                </h2>
 
                 <!-- SOP Details -->
                 <div class="sop-card" style="margin-bottom:0.85rem;">
@@ -445,13 +309,13 @@ export function getPages6to10() {
                         <div class="sop-title">
                             <span class="badge badge-sop">SOP-CR-01</span>
                             <span>إجراء تشغيل الـ 2 كسارة وتصنيف الرخام الحجمي والتنظيف عند تغيير الألوان [Proposed]</span>
-                        
+                        </div>
                         <div class="sop-meta-pills">
                             <span>المالك: مشرف الـ 2 كسارة</span>
                             <span>المشاركون: المشغلون، فني الجودة، المخازن</span>
                             <span>نقطة التسجيل: أمر إنتاج التكسير وسجل تشغيل الـ 2 كسارة</span>
-                        
-                    
+                        </div>
+                    </div>
                     <div class="sop-body">
                         <ol>
                             <li>إطلاق أمر تشغيل التكسير وتوزيع الأحمال على الـ 2 كسارة بالمصنع وفق خطة الإنتاج الأسبوعية لسد النقص في فئات الكسر (G1–G5).</li>
@@ -460,8 +324,8 @@ export function getPages6to10() {
                             <li>سحب عينة دورية (1 كجم لكل دفعة) لإجراء التحليل المنخلي والتأكد من بقاء الحبيبات الناتجة من الكسارتين ضمن الحدود المسموحة.</li>
                             <li>تعبئة كل فئة ناتجة في جونية مستقلة وتثبيت ملصق تفصيلي (الفئة الحجمية، اللون، الوزن الصافي، تاريخ التشغيل، كود الكسارة).</li>
                         </ol>
-                    
-                
+                    </div>
+                </div>
 
                 <!-- KPIs Table -->
                 <div class="data-table-wrapper">
@@ -519,30 +383,30 @@ export function getPages6to10() {
                             </tr>
                         </tbody>
                     </table>
-                
+                </div>
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
                 <span class="status-tag">Stage 2: Crushing & Sizing (2 Crushers)</span>
-                <span>الصفحة 08 من 27</span>
+                <span>الصفحة 20 من 53</span>
             </footer>
         </section>
-
-        <!-- ================= PAGE 9: STAGE 3 (AUTOMATIC MIXING & FORMULATION) ================= -->
-        <section class="a4-page" id="page-9">
+    
+        <!-- ================= PAGE 21: STAGE 3 PART 1 (AUTOMATIC MIXING) ================= -->
+        <section class="a4-page" id="page-21">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">Terrazzo - تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To-Be Document</span>
-                    
-                
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
                 <div class="doc-meta-header">
-                    <strong>Stage 3: Batch Mixing</strong>
+                    <strong>Stage 3: Mixing & Formulation</strong>
                     <span>Section 7 — Formulation & Preparation</span>
-                
+                </div>
             </header>
 
             <main class="page-content">
@@ -551,170 +415,100 @@ export function getPages6to10() {
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إغلاق فجوة ميزان الميكسر ISS-002 وسحب الأسمنت من السايلوهات</span>
                 </h2>
 
-                <!-- Flowchart for Stage 4 (Casting) -->
-
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 2</span>
-                            <span>مخطط تدفق التكسير والتجهيز (Stage 2) – بوابة القبول/الرفض</span>
-                        
-                        <span class="badge badge-proposed">[Gate 2: Crushing QC]</span>
-                    
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">1. توجيه الخام إلى إحدى الكسارات
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">2. فحص حجم الجزيئات (G1‑G5) باستخدام منخل
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">هل حجم الجزيئات ضمن النطاق المطلوب؟
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title"><span>✔ قبول – المتابعة إلى الخلط</span>
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title"><span>✖ رفض – إعادة التكسير أو العزل</span>
-                            
-                        
-                    
-                
-
-                <!-- Roles & Staffing for Stage 2 -->
-                <div class="roles-table" style="margin-top:1rem;">
-                    <table class="data-table" style="font-size:0.8rem;">
-                        <thead>
-                            <tr>
-                                <th>الدور</th><th>عدد الأشخاص</th><th>المسؤوليات</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>مدير العمليات</td><td>1</td><td>إدارة العملية كاملة ومتابعة الإنتاج</td></tr>
-                            <tr><td>مشرف الكسارة</td><td>2</td><td>تشغيل ومراقبة 2 كسارة وضمان الصيانة</td></tr>
-                            <tr><td>فني صيانة آلات</td><td>1</td><td>صيانة طوارئ وإصلاح عطل الكسارات</td></tr>
-                            <tr><td>عامل تحميل/نقل</td><td>2</td><td>نقل الخامات إلى الكسارات وتفريغ المنتج المكسّر</td></tr>
-                            <tr><td>مفتش جودة المنتج المكسّر</td><td>1</td><td>فحص حجم الجزيئات وتوثيق القبول/الرفض</td></tr>
-                        </tbody>
-                    </table>
-                
-
-
                 <div class="callout-box info" style="margin:0 0 0.85rem 0; padding:0.65rem 1rem;">
                     <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; font-size:0.82rem;">
-                        <div><strong style="color:var(--primary); display:block;">المُطلق (Trigger):</strong> أمر إنتاج بلوك تيرازو مجدول بحسب BOM
-                        <div><strong style="color:var(--primary); display:block;">المدخلات (Inputs):</strong> كسر مصنف (من الـ 2 كسارة)، أسمنت (من الـ 3 سايلوهات)، كربونات، مياه، ملدنات، صبغة
-                        <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> خلطة تيرازو متجانسة جاهزة للصب فورا
-                        <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشغل محطة الخلط الآلي
-                    
-                
+                        <div><strong style="color:var(--primary); display:block;">المُطلق (Trigger):</strong> أمر إنتاج بلوك ترازو مجدول بحسب BOM</div>
+                        <div><strong style="color:var(--primary); display:block;">المدخلات (Inputs):</strong> كسر مصنف (من الـ 2 كسارة)، أسمنت (من الـ 3 سايلوهات)، كربونات، مياه، ملدنات، صبغة</div>
+                        <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> خلطة ترازو متجانسة جاهزة للصب فورا</div>
+                        <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشغل محطة الخلط الآلي</div>
+                    </div>
 
-                <!-- Flowchart for Stage 3 (Batch Mixing) -->
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 3</span>
-                            <span>مخطط تدفق الخلط الآلي (Stage 3) – بوابة القبول/الرفض</span>
-                        
-                        <span class="badge badge-proposed">[Gate 3: Mixing QC]</span>
-                    
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">1. تحميل المكونات (الركام، الأسمنت، الماء) إلى خلاط الجرارات
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">2. تشغيل الخلط إلى درجة تجانس محددة (وقت/سرعة)
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">3. قياس خصائص الخليط (قوة اللزوجة، وقت التدفق)
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">هل الخصائص ضمن نطاق المواصفات؟
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title"><span>✔ قبول – إرسال الخليط إلى مرحلة الصب</span>
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title"><span>✖ رفض – تعديل نسب المكونات وإعادة الخلط</span>
-                            
-                        
-                    
-                
+                <!-- Process Flowchart Part 1 (Gate input to decision) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage03_Automatic_Mixing_part1.png" class="flowchart-img" style="max-height: 155mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 3 – الخلط الآلي وتجهيز الخلطة (الجزء 1 من 2)">
+                    <div class="flowchart-caption">الشكل 3: المخطط الانسيابي للمرحلة 3 – الخلط الآلي وتجهيز الخلطة (الجزء 1 من 2)</div>
+                </div>
+            </main>
 
-                <!-- Roles & Staffing for Stage 3 -->
-                <div class="roles-table" style="margin-top:1rem;">
-                    <table class="data-table" style="font-size:0.8rem;">
-                        <thead>
-                            <tr>
-                                <th>الدور</th><th>عدد الأشخاص</th><th>المسؤوليات</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>مدير العمليات</td><td>1</td><td>الإشراف على عملية الخلط وضمان الالتزام بالمواصفات.</td></tr>
-                            <tr><td>مشغل محطة الخلط الآلي</td><td>1</td><td>تشغيل الخلاط، ضبط نسب المكونات، ومراقبة زمن الخلط.</td></tr>
-                            <tr><td>فني جودة الخلط</td><td>1</td><td>قياس خصائص الخليط (لزوجة، وقت تدفق) وإصدار قرار القبول/الرفض.</td></tr>
-                            <tr><td>قائد صيانة الخلط</td><td>1</td><td>صيانة دورية للخلّاط وضمان جاهزيته.</td></tr>
-                        </tbody>
-                    </table>
-                
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 3</span>
-                            <span>مخطط تدفق الخلط الآلي وبوابة فحص القوام واللون (Stage 3 Mixing Flow)</span>
-                        
-                        <span class="badge badge-proposed">[Gate 3: Mix Consistency & Color]</span>
-                    
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 3: Mixing & Formulation</span>
+                <span>الصفحة 21 من 53</span>
+            </footer>
+        </section>
 
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">
-                            1. استدعاء وصفة الخلطة القياسية BOM ⬅ سحب الأسمنت آلياً من الـ 3 سايلوهات ووزن المكونات في ميزان الميكسر
-                        
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">
-                            2. خلط جاف (Dry Mix) لمدة دقيقتين ⬅ حقن المياه المعايرة والمواد الكيميائية والصبغات السائلة آلياً
-                        
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">
-                            بوابة القرار: هل قوام الخلطة وتجانس اللون وزمن الدورة الكلي مطابق لمعايير الوصفة؟
-                        
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title">
-                                    <span>✔ مسار القبول وتفريغ الصب (Accept & Discharge)</span>
-                                
-                                <div class="pflow-branch-accept-desc">
-                                    <ul>
-                                        <li>تفريغ الخلطة فورا في قمع الصب ونقلها لقالب البلوك المجهز.</li>
-                                        <li>توليد كود الدفعة وتسجيل توقيت التفريغ لبدء احتساب المهلة القصوى.</li>
-                                        <li>صرف كميات المواد الخام المستهلكة فعليا من رصيد السايلوهات والمخزن في سجل المصنع.</li>
-                                        <li>البدء الفوري في تحضير الدفعة الثانية لتفادي تكون فواصل صب باردة.</li>
-                                    </ul>
-                                
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title">
-                                    <span>✖ مسار رفض الخلطة والإيقاف (Reject & Stop)</span>
-                                
-                                <div class="pflow-branch-reject-desc">
-                                    <ul>
-                                        <li>حظر صب الخلطة نهائيا في القالب لمنع تصنيع بلوك معيب عالي التكلفة.</li>
-                                        <li>تفريغ الخلطة المعيبة في قوالب صب كتل خرسانية ثانوية أو تخريدها.</li>
-                                        <li>تحرير محضر هدر خلطة وفحص حساسات الوزن وتدفق المياه وحاقن الصبغة وخطوط السايلوهات.</li>
-                                        <li>إعادة معايرة خلايا الحمل (Load Cells) قبل السماح بإطلاق أي دفعة جديدة.</li>
-                                    </ul>
-                                
-                            
-                        
-                    
-                
+        <!-- ================= PAGE 22: STAGE 3 PART 2 (AUTOMATIC MIXING CONT.) ================= -->
+        <section class="a4-page" id="page-22">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 3: Mixing & Formulation (تابع)</strong>
+                    <span>Section 7 — Formulation & Preparation</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>7. المرحلة 3: الخلط الآلي (Automatic Mixing) (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
+                </h2>
+
+                <!-- Process Flowchart Part 2 (Decision to outcomes) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage03_Automatic_Mixing_part2.png" class="flowchart-img" style="max-height: 185mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 3 – الخلط الآلي وتجهيز الخلطة (الجزء 2 من 2)">
+                    <div class="flowchart-caption">الشكل 3: المخطط الانسيابي للمرحلة 3 – الخلط الآلي وتجهيز الخلطة (الجزء 2 من 2)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 3: Mixing & Formulation</span>
+                <span>الصفحة 22 من 53</span>
+            </footer>
+        </section>
+
+        <!-- ================= PAGE 23: STAGE 3 SOP & KPIS (AUTOMATIC MIXING) ================= -->
+        <section class="a4-page" id="page-23">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 3: Mixing & Formulation (SOP & KPIs)</strong>
+                    <span>Section 7 — Formulation & Preparation</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>7. المرحلة 3: الخلط الآلي (Automatic Mixing)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
+                </h2>
 
                 <!-- SOP Details -->
                 <div class="sop-card" style="margin-bottom:0.85rem;">
                     <div class="sop-card-header">
                         <div class="sop-title">
                             <span class="badge badge-sop">SOP-MX-01</span>
-                            <span>إجراء وزن وتعبئة وخلط خلطة التيرازو الآلية والسحب من السايلوهات [Proposed]</span>
-                        
+                            <span>إجراء وزن وتعبئة وخلط خلطة الترازو الآلية والسحب من السايلوهات [Proposed]</span>
+                        </div>
                         <div class="sop-meta-pills">
                             <span>المالك: مشغل محطة الخلط</span>
                             <span>المشاركون: فني الجودة، مشرف فترة التشغيل</span>
                             <span>نقطة التسجيل: سجل تشغيل الخلاطة وأمر الإنتاج</span>
-                        
-                    
+                        </div>
+                    </div>
                     <div class="sop-body">
                         <ol>
                             <li>اختيار كود الوصفة المعتمد BOM من لوحة التحكم الآلية، ومطابقة الكميات الإجمالية مع حجم القالب المستهدف.</li>
@@ -723,8 +517,8 @@ export function getPages6to10() {
                             <li>بدء دورة الخلط الجاف أولا، ثم حقن المياه والمواد الملدنة آليا مع مراقبة مؤشر الحمل والتيار لمحرك الخلاط.</li>
                             <li>التأكد من التوزيع اللوني المتجانس وتناسق الخلطة، وتوثيق وقت انتهاء الخلطة والتفريغ خلال أقل من 15 دقيقة.</li>
                         </ol>
-                    
-                
+                    </div>
+                </div>
 
                 <!-- KPIs Table -->
                 <div class="data-table-wrapper">
@@ -782,30 +576,30 @@ export function getPages6to10() {
                             </tr>
                         </tbody>
                     </table>
-                
+                </div>
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
-                <span class="status-tag">Stage 3: Automatic Mixing</span>
-                <span>الصفحة 09 من 27</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 3: Mixing & Formulation</span>
+                <span>الصفحة 23 من 53</span>
             </footer>
         </section>
-
-        <!-- ================= PAGE 10: STAGE 4 (BLOCK CASTING & COMPACTION) ================= -->
-        <section class="a4-page" id="page-10">
+    
+        <!-- ================= PAGE 24: STAGE 4 PART 1 (BLOCK CASTING) ================= -->
+        <section class="a4-page" id="page-24">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">Terrazzo - تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To-Be Document</span>
-                    
-                
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
                 <div class="doc-meta-header">
-                    <strong>Stage 4: Block Casting</strong>
+                    <strong>Stage 4: Mould Preparation & Casting</strong>
                     <span>Section 8 — Casting & Pre-Vibration</span>
-                
+                </div>
             </header>
 
             <main class="page-content">
@@ -814,156 +608,86 @@ export function getPages6to10() {
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">ميلاد رقم البلوك Block ID</span>
                 </h2>
 
-                <!-- Flowchart for Stage 4 (Casting) -->
-
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 2</span>
-                            <span>مخطط تدفق التكسير والتجهيز (Stage 2) – بوابة القبول/الرفض</span>
-                        
-                        <span class="badge badge-proposed">[Gate 2: Crushing QC]</span>
-                    
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">1. توجيه الخام إلى إحدى الكسارات
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">2. فحص حجم الجزيئات (G1‑G5) باستخدام منخل
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">هل حجم الجزيئات ضمن النطاق المطلوب؟
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title"><span>✔ قبول – المتابعة إلى الخلط</span>
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title"><span>✖ رفض – إعادة التكسير أو العزل</span>
-                            
-                        
-                    
-                
-
-                <!-- Roles & Staffing for Stage 2 -->
-                <div class="roles-table" style="margin-top:1rem;">
-                    <table class="data-table" style="font-size:0.8rem;">
-                        <thead>
-                            <tr>
-                                <th>الدور</th><th>عدد الأشخاص</th><th>المسؤوليات</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>مدير العمليات</td><td>1</td><td>إدارة العملية كاملة ومتابعة الإنتاج</td></tr>
-                            <tr><td>مشرف الكسارة</td><td>2</td><td>تشغيل ومراقبة 2 كسارة وضمان الصيانة</td></tr>
-                            <tr><td>فني صيانة آلات</td><td>1</td><td>صيانة طوارئ وإصلاح عطل الكسارات</td></tr>
-                            <tr><td>عامل تحميل/نقل</td><td>2</td><td>نقل الخامات إلى الكسارات وتفريغ المنتج المكسّر</td></tr>
-                            <tr><td>مفتش جودة المنتج المكسّر</td><td>1</td><td>فحص حجم الجزيئات وتوثيق القبول/الرفض</td></tr>
-                        </tbody>
-                    </table>
-                
-
-
                 <div class="callout-box info" style="margin:0 0 0.85rem 0; padding:0.65rem 1rem;">
                     <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; font-size:0.82rem;">
-                        <div><strong style="color:var(--primary); display:block;">المُطلق (Trigger):</strong> جاهزية القالب ووصول خلطة التيرازو من الميكسر
-                        <div><strong style="color:var(--primary); display:block;">المدخلات (Inputs):</strong> قالب مدهون بالعازل + خلطة تيرازو (دفعتان 5+5 طن)
-                        <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> بلوك مصبوب ومدموك أوليا يحمل Block ID
-                        <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشرف محطة الصب والقوالب
-                    
-                
+                        <div><strong style="color:var(--primary); display:block;">المُطلق (Trigger):</strong> جاهزية القالب ووصول خلطة الترازو من الميكسر</div>
+                        <div><strong style="color:var(--primary); display:block;">المدخلات (Inputs):</strong> قالب مدهون بالعازل + خلطة ترازو (دفعتان 5+5 طن)</div>
+                        <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> بلوك مصبوب ومدموك أوليا يحمل Block ID</div>
+                        <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشرف محطة الصب والقوالب</div>
+                    </div>
 
-                <!-- Flowchart for Stage 3 (Batch Mixing) -->
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 3</span>
-                            <span>مخطط تدفق الخلط الآلي (Stage 3) – بوابة القبول/الرفض</span>
-                        
-                        <span class="badge badge-proposed">[Gate 3: Mixing QC]</span>
-                    
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">1. تحميل المكونات (الركام، الأسمنت، الماء) إلى خلاط الجرارات
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">2. تشغيل الخلط إلى درجة تجانس محددة (وقت/سرعة)
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">3. قياس خصائص الخليط (قوة اللزوجة، وقت التدفق)
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">هل الخصائص ضمن نطاق المواصفات؟
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title"><span>✔ قبول – إرسال الخليط إلى مرحلة الصب</span>
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title"><span>✖ رفض – تعديل نسب المكونات وإعادة الخلط</span>
-                            
-                        
-                    
-                
+                <!-- Process Flowchart Part 1 (Gate input to decision) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage04_Block_Casting_part1.png" class="flowchart-img" style="max-height: 155mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 4 – الصب في القالب وتكوين البلوك (الجزء 1 من 2)">
+                    <div class="flowchart-caption">الشكل 4: المخطط الانسيابي للمرحلة 4 – الصب في القالب وتكوين البلوك (الجزء 1 من 2)</div>
+                </div>
+            </main>
 
-                <!-- Roles & Staffing for Stage 3 -->
-                <div class="roles-table" style="margin-top:1rem;">
-                    <table class="data-table" style="font-size:0.8rem;">
-                        <thead>
-                            <tr>
-                                <th>الدور</th><th>عدد الأشخاص</th><th>المسؤوليات</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>مدير العمليات</td><td>1</td><td>الإشراف على عملية الخلط وضمان الالتزام بالمواصفات.</td></tr>
-                            <tr><td>مشغل محطة الخلط الآلي</td><td>1</td><td>تشغيل الخلاط، ضبط نسب المكونات، ومراقبة زمن الخلط.</td></tr>
-                            <tr><td>فني جودة الخلط</td><td>1</td><td>قياس خصائص الخليط (لزوجة، وقت تدفق) وإصدار قرار القبول/الرفض.</td></tr>
-                            <tr><td>قائد صيانة الخلط</td><td>1</td><td>صيانة دورية للخلّاط وضمان جاهزيته.</td></tr>
-                        </tbody>
-                    </table>
-                
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 4</span>
-                            <span>مخطط تدفق صب البلوك وبوابة فحص التوزيع والدمك (Stage 4 Casting Flow)</span>
-                        
-                        <span class="badge badge-proposed">[Gate 4: Mold Filling & Leveling]</span>
-                    
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 4: Mould Preparation & Casting</span>
+                <span>الصفحة 24 من 53</span>
+            </footer>
+        </section>
 
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">
-                            1. تجهيز القالب، دهان مادة العزل، وتثبيت بطاقة التتبع الرقمية (RFID/باركود) برقم البلوك Block ID
-                        
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">
-                            2. صب الدفعة الأولى (5 طن) ثم الاهتزاز الأولي ⬅ صب الدفعة الثانية (5 طن) وتسوية السطح ميكانيكياً
-                        
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">
-                            بوابة القرار: هل اكتمل صب الدفعتين بنجاح دون تأخير زمني وتجانست الخلطة دون فواصل باردة؟
-                        
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title">
-                                    <span>✔ مسار القبول والنقل للفاكيوم (Accept & Move)</span>
-                                
-                                <div class="pflow-branch-accept-desc">
-                                    <ul>
-                                        <li>نقل القالب عبر خط السير الرولر الآلي مباشرة لمحطة الفاكيوم.</li>
-                                        <li>توثيق رقم القالب ورقم البلوك وتوقيت انتهاء الصب في سجل المصنع.</li>
-                                        <li>ربط أرقام دفعات الخامات المستخدمة في الدفعتين برقم البلوك مباشرة.</li>
-                                        <li>دخول القالب لغرفة الفاكيوم خلال أقل من 10 دقائق من انتهاء الصب.</li>
-                                    </ul>
-                                
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title">
-                                    <span>✖ مسار حجز القالب ومعالجة العيوب (Reject & Hold)</span>
-                                
-                                <div class="pflow-branch-reject-desc">
-                                    <ul>
-                                        <li>إذا تأخرت الدفعة الثانية > 25 دقيقة: إيقاف الصب فورا لمنع فاصل بارد.</li>
-                                        <li>وسم البلوك ببطاقة صفراء (موقوف للجودة - QC Hold) وفتح تقرير NCR.</li>
-                                        <li>فحص أسباب تعطل الميكسر أو تأخر الصب وإعادة تقييم جدوى الكبس.</li>
-                                        <li>في حال التصلب الجزئي غير المتجانس: تخريد الكتلة وإعادة تدويرها ككسر للـ 2 كسارة.</li>
-                                    </ul>
-                                
-                            
-                        
-                    
-                
+        <!-- ================= PAGE 25: STAGE 4 PART 2 (BLOCK CASTING CONT.) ================= -->
+        <section class="a4-page" id="page-25">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 4: Mould Preparation & Casting (تابع)</strong>
+                    <span>Section 8 — Casting & Pre-Vibration</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>8. المرحلة 4: الصب في القالب (Casting into Mould) (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
+                </h2>
+
+                <!-- Process Flowchart Part 2 (Decision to outcomes) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage04_Block_Casting_part2.png" class="flowchart-img" style="max-height: 185mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 4 – الصب في القالب وتكوين البلوك (الجزء 2 من 2)">
+                    <div class="flowchart-caption">الشكل 4: المخطط الانسيابي للمرحلة 4 – الصب في القالب وتكوين البلوك (الجزء 2 من 2)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 4: Mould Preparation & Casting</span>
+                <span>الصفحة 25 من 53</span>
+            </footer>
+        </section>
+
+        <!-- ================= PAGE 26: STAGE 4 SOP & KPIS (BLOCK CASTING) ================= -->
+        <section class="a4-page" id="page-26">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 4: Mould Preparation & Casting (SOP & KPIs)</strong>
+                    <span>Section 8 — Casting & Pre-Vibration</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>8. المرحلة 4: الصب في القالب (Casting into Mould)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
+                </h2>
 
                 <!-- SOP Details -->
                 <div class="sop-card" style="margin-bottom:0.85rem;">
@@ -971,13 +695,13 @@ export function getPages6to10() {
                         <div class="sop-title">
                             <span class="badge badge-sop">SOP-CS-01</span>
                             <span>إجراء تجهيز القالب، الصب المتوازن، وتوليد بطاقة البلوك [Proposed]</span>
-                        
+                        </div>
                         <div class="sop-meta-pills">
                             <span>المالك: مشرف الصب</span>
                             <span>المشاركون: فني القوالب، مشغل الونش، فني الجودة</span>
                             <span>نقطة التسجيل: بطاقة البلوك وسجل الصب اليومي</span>
-                        
-                    
+                        </div>
+                    </div>
                     <div class="sop-body">
                         <ol>
                             <li>فحص سلامة القالب ميكانيكيا ونظافته التامة ودهانه بطبقة رقيقة متجانسة من زيت عزل القوالب المعتمد.</li>
@@ -986,8 +710,8 @@ export function getPages6to10() {
                             <li>صب الدفعة الثانية (5 طن) فورا خلال مهلة لا تتجاوز 10 دقائق لمنع تكون أي خط فاصل بارد (Cold Joint).</li>
                             <li>تسوية السطح العلوي للقالب آليا وتدوين وقت انتهاء الصب تمهيدا لإدخال القالب لمحطة الفاكيوم فورا.</li>
                         </ol>
-                    
-                
+                    </div>
+                </div>
 
                 <!-- KPIs Table -->
                 <div class="data-table-wrapper">
@@ -1045,30 +769,30 @@ export function getPages6to10() {
                             </tr>
                         </tbody>
                     </table>
-                
+                </div>
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
-                <span class="status-tag">Stage 4: Block Casting</span>
-                <span>الصفحة 10 من 27</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 4: Mould Preparation & Casting</span>
+                <span>الصفحة 26 من 53</span>
             </footer>
         </section>
-
-        <!-- ================= PAGE 11: STAGE 5 (VACUUM DE-AIRING & COMPACTION) ================= -->
-        <section class="a4-page" id="page-11">
+    
+        <!-- ================= PAGE 27: STAGE 5 PART 1 (VACUUM DE-AIRING) ================= -->
+        <section class="a4-page" id="page-27">
             <header class="page-header">
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">Terrazzo - تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To-Be Document</span>
-                    
-                
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
                 <div class="doc-meta-header">
-                    <strong>Stage 5: Vacuum De-airing</strong>
+                    <strong>Stage 5: Vacuum De-airing & Press</strong>
                     <span>Section 9 — Compaction & De-airing</span>
-                
+                </div>
             </header>
 
             <main class="page-content">
@@ -1077,156 +801,86 @@ export function getPages6to10() {
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">تحقيق كثافة الصخور الطبيعية</span>
                 </h2>
 
-                <!-- Flowchart for Stage 4 (Casting) -->
-
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 2</span>
-                            <span>مخطط تدفق التكسير والتجهيز (Stage 2) – بوابة القبول/الرفض</span>
-                        
-                        <span class="badge badge-proposed">[Gate 2: Crushing QC]</span>
-                    
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">1. توجيه الخام إلى إحدى الكسارات
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">2. فحص حجم الجزيئات (G1‑G5) باستخدام منخل
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">هل حجم الجزيئات ضمن النطاق المطلوب؟
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title"><span>✔ قبول – المتابعة إلى الخلط</span>
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title"><span>✖ رفض – إعادة التكسير أو العزل</span>
-                            
-                        
-                    
-                
-
-                <!-- Roles & Staffing for Stage 2 -->
-                <div class="roles-table" style="margin-top:1rem;">
-                    <table class="data-table" style="font-size:0.8rem;">
-                        <thead>
-                            <tr>
-                                <th>الدور</th><th>عدد الأشخاص</th><th>المسؤوليات</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>مدير العمليات</td><td>1</td><td>إدارة العملية كاملة ومتابعة الإنتاج</td></tr>
-                            <tr><td>مشرف الكسارة</td><td>2</td><td>تشغيل ومراقبة 2 كسارة وضمان الصيانة</td></tr>
-                            <tr><td>فني صيانة آلات</td><td>1</td><td>صيانة طوارئ وإصلاح عطل الكسارات</td></tr>
-                            <tr><td>عامل تحميل/نقل</td><td>2</td><td>نقل الخامات إلى الكسارات وتفريغ المنتج المكسّر</td></tr>
-                            <tr><td>مفتش جودة المنتج المكسّر</td><td>1</td><td>فحص حجم الجزيئات وتوثيق القبول/الرفض</td></tr>
-                        </tbody>
-                    </table>
-                
-
-
                 <div class="callout-box info" style="margin:0 0 0.85rem 0; padding:0.65rem 1rem;">
                     <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; font-size:0.82rem;">
-                        <div><strong style="color:var(--primary); display:block;">المُطلق (Trigger):</strong> خروج قالب البلوك المصبوب من محطة الصب
-                        <div><strong style="color:var(--primary); display:block;">المدخلات (Inputs):</strong> قالب بلوك مصبوب + دورة تفريغ هوائي واهتزاز
-                        <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> بلوك تيرازو عالي الكثافة خالي تماما من الجيوب الهوائية
-                        <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشغل محطة الفاكيوم والكبس الميكانيكي
-                    
-                
+                        <div><strong style="color:var(--primary); display:block;">المُطلق (Trigger):</strong> خروج قالب البلوك المصبوب من محطة الصب</div>
+                        <div><strong style="color:var(--primary); display:block;">المدخلات (Inputs):</strong> قالب بلوك مصبوب + دورة تفريغ هوائي واهتزاز</div>
+                        <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> بلوك ترازو عالي الكثافة خالي تماما من الجيوب الهوائية</div>
+                        <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشغل محطة الفاكيوم والكبس الميكانيكي</div>
+                    </div>
 
-                <!-- Flowchart for Stage 3 (Batch Mixing) -->
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 3</span>
-                            <span>مخطط تدفق الخلط الآلي (Stage 3) – بوابة القبول/الرفض</span>
-                        
-                        <span class="badge badge-proposed">[Gate 3: Mixing QC]</span>
-                    
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">1. تحميل المكونات (الركام، الأسمنت، الماء) إلى خلاط الجرارات
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">2. تشغيل الخلط إلى درجة تجانس محددة (وقت/سرعة)
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">3. قياس خصائص الخليط (قوة اللزوجة، وقت التدفق)
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">هل الخصائص ضمن نطاق المواصفات؟
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title"><span>✔ قبول – إرسال الخليط إلى مرحلة الصب</span>
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title"><span>✖ رفض – تعديل نسب المكونات وإعادة الخلط</span>
-                            
-                        
-                    
-                
+                <!-- Process Flowchart Part 1 (Gate input to decision) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage05_Vacuum_De-airing_part1.png" class="flowchart-img" style="max-height: 155mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم (الجزء 1 من 2)">
+                    <div class="flowchart-caption">الشكل 5: المخطط الانسيابي للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم (الجزء 1 من 2)</div>
+                </div>
+            </main>
 
-                <!-- Roles & Staffing for Stage 3 -->
-                <div class="roles-table" style="margin-top:1rem;">
-                    <table class="data-table" style="font-size:0.8rem;">
-                        <thead>
-                            <tr>
-                                <th>الدور</th><th>عدد الأشخاص</th><th>المسؤوليات</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>مدير العمليات</td><td>1</td><td>الإشراف على عملية الخلط وضمان الالتزام بالمواصفات.</td></tr>
-                            <tr><td>مشغل محطة الخلط الآلي</td><td>1</td><td>تشغيل الخلاط، ضبط نسب المكونات، ومراقبة زمن الخلط.</td></tr>
-                            <tr><td>فني جودة الخلط</td><td>1</td><td>قياس خصائص الخليط (لزوجة، وقت تدفق) وإصدار قرار القبول/الرفض.</td></tr>
-                            <tr><td>قائد صيانة الخلط</td><td>1</td><td>صيانة دورية للخلّاط وضمان جاهزيته.</td></tr>
-                        </tbody>
-                    </table>
-                
-                <div class="process-flowchart-box">
-                    <div class="pflow-header">
-                        <div class="pflow-title">
-                            <span class="badge badge-sop">Flowchart 5</span>
-                            <span>مخطط تدفق الفاكيوم والكبس وبوابة التحقق من التفريغ (Stage 5 Vacuum Flow)</span>
-                        
-                        <span class="badge badge-proposed">[Gate 5: Vacuum Level & Compaction]</span>
-                    
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 5: Vacuum De-airing & Press</span>
+                <span>الصفحة 27 من 53</span>
+            </footer>
+        </section>
 
-                    <div class="pflow-diagram">
-                        <div class="pflow-step">
-                            1. إدخال القالب لغرفة الفاكيوم ⬅ إحكام إغلاق العوازل المطاطية ⬅ بدء تشغيل مضخات التفريغ
-                        
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-step">
-                            2. تطبيق أطوار سحب الهواء التدريجي المتزامن مع اهتزاز عالي التردد ⬅ تطبيق الكبس الهيدروليكي
-                        
-                        <div class="pflow-arrow">▼
-                        <div class="pflow-decision">
-                            بوابة القرار: هل تم تحقيق مستوى التفريغ المستهدف (100 mbar) وزمن الكبس المحدد في الوصفة؟
-                        
-                        <div class="pflow-branches">
-                            <div class="pflow-branch-accept">
-                                <div class="pflow-branch-accept-title">
-                                    <span>✔ مسار القبول والتحرير (Accept & Release)</span>
-                                
-                                <div class="pflow-branch-accept-desc">
-                                    <ul>
-                                        <li>كسر التفريغ تدريجيا وفتح الغرفة وسحب القالب على خط السير.</li>
-                                        <li>توثيق قيم التفريغ وأطوار الاهتزاز والضغط في بطاقة البلوك وسجل المصنع.</li>
-                                        <li>نقل القالب فورا إلى ساحة المعالجة الأولية لتمضية فترة التصلب (24 ساعة).</li>
-                                        <li>إفراج القالب للمرحلة التالية في سجل متابعة الإنتاج والتكاليف.</li>
-                                    </ul>
-                                
-                            
-                            <div class="pflow-branch-reject">
-                                <div class="pflow-branch-reject-title">
-                                    <span>✖ مسار العطل والإنذار (Alarm & Investigate)</span>
-                                
-                                <div class="pflow-branch-reject-desc">
-                                    <ul>
-                                        <li>إذا حدث تسريب تفريغ: إطلاق إنذار فوري ووقف الدورة ومراجعة العوازل.</li>
-                                        <li>إذا كان البلوك لا يزال لدنا: تصحيح العازل وإعادة تشغيل دورة الفاكيوم فورا.</li>
-                                        <li>إذا تصلب البلوك مع تفريغ ناقص: وسم البلوك بعلامة حمراء (معيب مساميا).</li>
-                                        <li>فتح محضر صيانة عاجل لمضخات التفريغ وتحويل البلوك لاختبار كثافة معملي.</li>
-                                    </ul>
-                                
-                            
-                        
-                    
-                
+        <!-- ================= PAGE 28: STAGE 5 PART 2 (VACUUM DE-AIRING CONT.) ================= -->
+        <section class="a4-page" id="page-28">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 5: Vacuum De-airing & Press (تابع)</strong>
+                    <span>Section 9 — Compaction & De-airing</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>9. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing) (تابع)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
+                </h2>
+
+                <!-- Process Flowchart Part 2 (Decision to outcomes) -->
+                <div class="flowchart-figure-box">
+                    <img src="flowcharts_png/Stage05_Vacuum_De-airing_part2.png" class="flowchart-img" style="max-height: 185mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم (الجزء 2 من 2)">
+                    <div class="flowchart-caption">الشكل 5: المخطط الانسيابي للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم (الجزء 2 من 2)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                </div>
+            </main>
+
+            <footer class="page-footer">
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 5: Vacuum De-airing & Press</span>
+                <span>الصفحة 28 من 53</span>
+            </footer>
+        </section>
+
+        <!-- ================= PAGE 29: STAGE 5 SOP & KPIS (VACUUM DE-AIRING) ================= -->
+        <section class="a4-page" id="page-29">
+            <header class="page-header">
+                <div class="page-header-logos">
+                    <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
+                    <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
+                    </div>
+                </div>
+                <div class="doc-meta-header">
+                    <strong>Stage 5: Vacuum De-airing & Press (SOP & KPIs)</strong>
+                    <span>Section 9 — Compaction & De-airing</span>
+                </div>
+            </header>
+
+            <main class="page-content">
+                <h2 class="section-title">
+                    <span>9. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing)</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
+                </h2>
 
                 <!-- SOP Details -->
                 <div class="sop-card" style="margin-bottom:0.85rem;">
@@ -1234,13 +888,13 @@ export function getPages6to10() {
                         <div class="sop-title">
                             <span class="badge badge-sop">SOP-VC-01</span>
                             <span>إجراء تشغيل غرفة الفاكيوم، مراقبة أطوار الضغط، وفحص العوازل [Proposed]</span>
-                        
+                        </div>
                         <div class="sop-meta-pills">
                             <span>المالك: مشغل الفاكيوم</span>
                             <span>المشاركون: فني الصيانة، مهندس الإنتاج، الجودة</span>
                             <span>نقطة التسجيل: بطاقة البلوك وقراءات لوحة التحكم PLC</span>
-                        
-                    
+                        </div>
+                    </div>
                     <div class="sop-body">
                         <ol>
                             <li>فحص موانع التسرب المطاطية المحيطة بغرفة الفاكيوم ونظافة مجرى القالب قبل إدخال القالب وإغلاق الغرفة.</li>
@@ -1249,8 +903,8 @@ export function getPages6to10() {
                             <li>مراقبة ثبات مؤشرات الضغط والتفريغ طوال مدة الدورة (8–12 دقيقة) وتوثيق أي تذبذب غير طبيعي.</li>
                             <li>تحرير الضغط الهيدروليكي والتفريغ تدريجيا، وسحب القالب، وتوقيع مشغل الفاكيوم على بطاقة البلوك.</li>
                         </ol>
-                    
-                
+                    </div>
+                </div>
 
                 <!-- KPIs Table -->
                 <div class="data-table-wrapper">
@@ -1308,14 +962,14 @@ export function getPages6to10() {
                             </tr>
                         </tbody>
                     </table>
-                
+                </div>
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
-                <span class="status-tag">Stage 5: Vacuum De-airing</span>
-                <span>الصفحة 11 من 27</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span class="status-tag">Stage 5: Vacuum De-airing & Press</span>
+                <span>الصفحة 29 من 53</span>
             </footer>
         </section>
-    `;
+        `;
 }
