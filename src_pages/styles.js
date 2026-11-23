@@ -1,4 +1,4 @@
-// src_pages/styles.js - Executive consulting design system for Trazoo To-Be Document v0.3
+// src_pages/styles.js - Executive consulting design system for Terrazzo To-Be Document v0.3
 // Features: Large typography, wide generous spacing, dedicated flowcharts with Accept/Reject branches, print-ready A4.
 
 export function getHead() {
@@ -7,7 +7,7 @@ export function getHead() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>وثيقة الوضع المستهدف (To-Be Document) — مصنع ترازو Trazoo | ABC Counsel — إصدار v0.3</title>
+    <title>وثيقة الوضع المستهدف (To-Be Document) — مصنع تيرازو Terrazzo | ABC Counsel — إصدار v0.3</title>
 
     <!-- Google Fonts: Alexandria & Cairo -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +27,7 @@ export function getHead() {
             </div>
             <div>
                 <h1>وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</h1>
-                <span style="font-size:0.75rem; color:#64748b; font-weight:600;">مشروع إعادة هندسة العمليات التشغيلية — مصنع Trazoo</span>
+                <span style="font-size:0.75rem; color:#64748b; font-weight:600;">مشروع إعادة هندسة العمليات التشغيلية — مصنع Terrazzo</span>
             </div>
             <span class="status-pill-head">مسودة لمراجعة الإدارة</span>
         </div>

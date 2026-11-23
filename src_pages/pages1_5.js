@@ -39,7 +39,7 @@ export function getPages1to5() {
             <div class="cover-hero-center">
                 <div class="cover-badge-top">مشروع دراسة وإعادة هندسة العمليات الصناعية التشغيلية</div>
                 <h1 class="cover-main-title">وثيقة الوضع المستهدف (To-Be Document)</h1>
-                <div class="cover-main-subtitle">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</div>
+                <div class="cover-main-subtitle">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</div>
             </div>
 
             <!-- Metadata Details Grid -->
@@ -47,7 +47,7 @@ export function getPages1to5() {
                 <div class="cover-details-grid">
                     <div class="cover-detail-item">
                         <span class="cover-detail-label">الجهة المالكة (Client)</span>
-                        <span class="cover-detail-value">مصنع Trazoo (ترازو)</span>
+                        <span class="cover-detail-value">مصنع Terrazzo (تيرازو)</span>
                     </div>
 
                     <div class="cover-detail-item">
@@ -83,7 +83,7 @@ export function getPages1to5() {
 
             <!-- Cover Footer -->
             <div style="position: relative; z-index: 2; font-size: 0.74rem; color: var(--text-muted); border-top: 1px solid #e2e8f0; padding-top: 0.65rem;">
-                وثيقة سرية — للاستخدام الداخلي المشترك بين إدارة مصنع Trazoo وشركة ABC Counsel
+                وثيقة سرية — للاستخدام الداخلي المشترك بين إدارة مصنع Terrazzo وشركة ABC Counsel
             </div>
         </section>
 
@@ -93,7 +93,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ export function getPages1to5() {
                 </h2>
 
                 <p style="font-size:0.76rem; line-height:1.45; margin-bottom:0.4rem;">
-                    تحدد هذه الوثيقة كيف سيعمل مصنع ترازو بعد إعادة هندسة العمليات: تسع مراحل إنتاج مكودة، وكل مرحلة لها إجراء تشغيل قياسي (SOP) ومؤشرات أداء محددة المعادلة والمصدر والمسؤول. الوثيقة تصف العمليات والسجلات والضوابط فقط، ولا تفرض أي نظام أو برمجية معينة (قرار D1/D2)، حيث يمثل السجل دليلا ماديا أو رقميا تختاره الإدارة لاحقا.
+                    تحدد هذه الوثيقة كيف سيعمل مصنع تيرازو بعد إعادة هندسة العمليات: تسع مراحل إنتاج مكودة، وكل مرحلة لها إجراء تشغيل قياسي (SOP) ومؤشرات أداء محددة المعادلة والمصدر والمسؤول. الوثيقة تصف العمليات والسجلات والضوابط فقط، ولا تفرض أي نظام أو برمجية معينة (قرار D1/D2)، حيث يمثل السجل دليلا ماديا أو رقميا تختاره الإدارة لاحقا.
                 </p>
 
                 <h3 class="subsection-title">منهجية الوثيقة وقواعد الوسم الدقيقة (Tagging Rules)</h3>
@@ -125,7 +125,7 @@ export function getPages1to5() {
                     </div>
                     <div class="callout-box warning" style="margin:0; padding:0.4rem 0.6rem;">
                         <span class="badge badge-tbc" style="margin-bottom:0.2rem;">[TBC]</span>
-                        <p style="font-size:0.7rem; margin:0; line-height:1.35;">يحتاج تأكيدا أو قرارا من إدارة Trazoo، ولا تُعتمد قيمته قبل حسمه بالقسم 22.</p>
+                        <p style="font-size:0.7rem; margin:0; line-height:1.35;">يحتاج تأكيدا أو قرارا من إدارة Terrazzo، ولا تُعتمد قيمته قبل حسمه بالقسم 22.</p>
                     </div>
                 </div>
 
@@ -199,7 +199,7 @@ export function getPages1to5() {
                             <tr class="toc-row" onclick="scrollToPage('page-45')"><td><strong>17</strong></td><td><a href="#page-45" class="toc-link">مؤشرات المصنع الموحدة ومصير السجلات الـ 25</a></td><td>منظومة F-01..15 الموحدة، ومصير السجلات والنماذج الحالية للوضع المستهدف</td><td style="text-align:center;"><span class="toc-page-pill">45</span></td></tr>
                             <tr class="toc-row" onclick="scrollToPage('page-46')"><td><strong>18</strong></td><td><a href="#page-46" class="toc-link">إغلاق الفجوات الـ 16 ومصفوفة التتبع الشاملة</a></td><td>إغلاق ISS-001..16 و RSK-001..04 ومصفوفة التتبع T1 إلى T20</td><td style="text-align:center;"><span class="toc-page-pill">46</span></td></tr>
                             <tr class="toc-row" onclick="scrollToPage('page-47')"><td><strong>19</strong></td><td><a href="#page-47" class="toc-link">أولويات التحسين والمخاطر التشغيلية والضوابط</a></td><td>مصفوفة الأولويات الصناعية (P1, P2, P3) وسجل المخاطر التشغيلية والضوابط</td><td style="text-align:center;"><span class="toc-page-pill">47</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-48')"><td><strong>20</strong></td><td><a href="#page-48" class="toc-link">خارطة التطبيق، الأسئلة OQ، والاعتماد الرسمي</a></td><td>مراحل التنفيذ الخمس، الأسئلة المفتوحة (28 سؤالاً بعد حسم الـ 2 كسارة)، واستمارة التوقيع والاعتماد</td><td style="text-align:center;"><span class="toc-page-pill">48</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-48')"><td><strong>20</strong></td><td><a href="#page-48" class="toc-link">خارطة التطبيق، الأسئلة OQ، والاعتماد الرسمي</a></td><td>مراحل التنفيذ الخمس، الأسئلة المفتوحة (30 سؤالاً)، واستمارة التوقيع والاعتماد</td><td style="text-align:center;"><span class="toc-page-pill">48</span></td></tr>
                             <tr class="toc-row" onclick="scrollToPage('page-49')"><td><strong>21</strong></td><td><a href="#page-49" class="toc-link">الملحق أ: معمارية الـ 51 إجراء والكتالوج العام</a></td><td>معمارية الإجراءات، إجراءات SOP-GEN العامة الـ 14 وقواعد التشغيل</td><td style="text-align:center;"><span class="toc-page-pill">49</span></td></tr>
                             <tr class="toc-row" onclick="scrollToPage('page-50')"><td><strong>22</strong></td><td><a href="#page-50" class="toc-link">الملحق أ: إجراءات التشغيل القياسية التفصيلية</a></td><td>مجموعات الإجراءات التفصيلية للمراحل التسع والعمليات المساندة (31 إجراء)</td><td style="text-align:center;"><span class="toc-page-pill">50</span></td></tr>
                             <tr class="toc-row" onclick="scrollToPage('page-51')"><td><strong>23</strong></td><td><a href="#page-51" class="toc-link">الملحق ب: قاموس مؤشرات الأداء (105 مؤشرات)</a></td><td>المؤشرات الشاملة L1، ومؤشرات المراحل التفصيلية L3 وقواعد الاحتساب</td><td style="text-align:center;"><span class="toc-page-pill">51</span></td></tr>
@@ -211,7 +211,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Executive Summary & TOC</span>
                 <span>الصفحة 02 من 53</span>
             </footer>
@@ -223,7 +223,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -249,7 +249,7 @@ export function getPages1to5() {
                             <tr>
                                 <th style="width: 8%;">#</th>
                                 <th style="width: 25%;">المبدأ المستهدف</th>
-                                <th style="width: 67%;">التطبيق العملي في مصنع Trazoo</th>
+                                <th style="width: 67%;">التطبيق العملي في مصنع Terrazzo</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -372,7 +372,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Principles & Assumptions</span>
                 <span>الصفحة 03 من 53</span>
             </footer>
@@ -384,7 +384,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -495,7 +495,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Target Org & RACI</span>
                 <span>الصفحة 04 من 53</span>
             </footer>
@@ -507,7 +507,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -565,7 +565,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Process Map & Gates</span>
                 <span>الصفحة 05 من 53</span>
             </footer>
@@ -578,7 +578,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -607,7 +607,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Section 4: Stage 1 Flowchart</span>
                 <span>الصفحة 06 من 53</span>
             </footer>
@@ -619,7 +619,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -645,7 +645,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Section 4: Stage 2 Flowchart</span>
                 <span>الصفحة 07 من 53</span>
             </footer>
@@ -657,7 +657,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -683,7 +683,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Section 4: Stage 3 Flowchart</span>
                 <span>الصفحة 08 من 53</span>
             </footer>
@@ -695,7 +695,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -721,7 +721,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Section 4: Stage 4 Flowchart</span>
                 <span>الصفحة 09 من 53</span>
             </footer>
@@ -733,7 +733,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -759,7 +759,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Section 4: Stage 5 Flowchart</span>
                 <span>الصفحة 10 من 53</span>
             </footer>
@@ -771,7 +771,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -797,7 +797,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Section 4: Stage 6 Flowchart</span>
                 <span>الصفحة 11 من 53</span>
             </footer>
@@ -809,7 +809,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -835,7 +835,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Section 4: Stage 7 Flowchart</span>
                 <span>الصفحة 12 من 53</span>
             </footer>
@@ -847,7 +847,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -873,7 +873,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Section 4: Stage 8 Flowchart</span>
                 <span>الصفحة 13 من 53</span>
             </footer>
@@ -885,7 +885,7 @@ export function getPages1to5() {
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Trazoo (ترازو) لتصنيع الألواح والبلوكات</strong>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو) لتصنيع الألواح والبلوكات</strong>
                         <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) — إصدار v0.3</span>
                     </div>
                 </div>
@@ -911,7 +911,7 @@ export function getPages1to5() {
             </main>
 
             <footer class="page-footer">
-                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Trazoo</span>
+                <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
                 <span class="status-tag">Section 4: Stage 9 Flowchart</span>
                 <span>الصفحة 14 من 53</span>
             </footer>
