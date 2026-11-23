@@ -2843,60 +2843,13 @@
                 <h3 class="subsection-title">6.9 المرحلة 9: القطع والتفصيل والتغليف النهائي (Custom Cutting & Packaging)
                 </h3>
 
-                <div class="mermaid-card">
-                    <div class="flowchart-caption" style="margin-top:0; margin-bottom:0.65rem;">
-                        المرحلة 09 – القطع والتفصيل والتغليف النهائي (STAGE 09 – Custom Cutting &amp; Packaging)
-                    </div>
-                    <div class="mermaid">
-                        flowchart TD
-                        START(["بداية: أمر بيع معتمد أو أمر قص تفصيلي"]) --> A["أمر البيع المعتمد والمخطط التفصيلي
-                        (الرسم)"]
-                        A --> B["اختيار اللوح والتحقق من Slab ID واختيار الجودة (درجة أولى)"]
-                        B --> C["مراجعة الأبعاد ومواصفات العميل ورمز درجة اللون Shade Code"]
-                        C --> D["تحميل برنامج القص على ماكينة CNC"]
-                        D --> E["قص القطعة الأولى"]
-                        E --> F["فحص القطعة الأولى (First Article)"]
-                        F --> G1{"هل القطعة الأولى مطابقة للأبعاد؟ (± مم [PFC])"}
-
-                        G1 -- "لا" --> R1["ضبط إحداثيات CNC"]
-                        R1 -- "إعادة القص والفحص" --> E
-
-                        G1 -- "نعم" --> G["استكمال قص باقي القطع مع مياه التبريد"]
-                        G --> H["تنظيف القطع وتجفيفها وشطف الحواف"]
-                        H --> I["الفحص النهائي: الأبعاد والشعر واللون وسلامة الحواف"]
-                        I --> G2{"هل جميع القطع مقبولة؟"}
-
-                        G2 -- "لا" --> G3{"هل إعادة العمل ممكنة؟"}
-                        G3 -- "نعم" --> R2["إعادة التهذيب أو إعادة العمل ثم إعادة الفحص"]
-                        R2 -- "إعادة الفحص" --> I
-
-                        G3 -- "لا" --> R3["تسجيل القطع المرفوضة وتعيينها وصرف لوح بديل لاستكمال أمر العمل"]
-                        R3 --> END_REJ(["نهاية: قطع مرفوضة"])
-
-                        G2 -- "نعم" --> J["رص القطع على طبالي خشبية مع فواصل ورقية"]
-                        J --> K["تغليف المنتج"]
-                        K --> L[/"ملصق الطرد: كود المنتج وSlab ID والكمية والوزن الإجمالي"/]
-                        L --> M["نقل الطرود إلى مستودع المنتج التام"]
-                        M --> N[/"إثبات الحالة بمخزنه وإشعار المبيعات بجاهزية الشحن"/]
-                        N --> END_OK(["نهاية: منتج تام معبأ"])
-
-                        classDef terminal fill:#0f172a,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold;
-                        classDef step fill:#f8fafc,stroke:#0284c7,stroke-width:1.5px,color:#0f172a;
-                        classDef io fill:#f1f5f9,stroke:#475569,stroke-width:1.5px,color:#0f172a;
-                        classDef gate fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e,font-weight:bold;
-                        classDef reject fill:#fff1f2,stroke:#e11d48,stroke-width:2px,color:#9f1239,font-weight:bold;
-                        classDef done fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46,font-weight:bold;
-
-                        class START terminal;
-                        class END_OK done;
-                        class END_REJ reject;
-                        class A,B,C,D,E,F,G,H,I,J,K,M,R1,R2,R3 step;
-                        class L,N io;
-                        class G1,G2,G3 gate;
-                    </div>
-                    <div class="flowchart-legend">
-                        المصدر: وثيقة الوضع المستهدف To-Be v0.3. [PFC] = Pending Factory Confirmation (قيد تأكيد المصنع)
-                    </div>
+                <div class="flowchart-figure-box" style="margin-top:0.25rem;">
+                    <img src="flowcharts_png/full_single_images/Stage09_Custom_Cutting_and_Packaging_full.png"
+                        class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;"
+                        alt="المخطط الانسيابي الكامل للمرحلة 9 – القطع والتفصيل والتغليف النهائي">
+                    <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 9 – القطع والتفصيل والتغليف النهائي
+                        (Full Process Flow)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2990,13 +2943,49 @@
                 </h2>
 
                 <!-- Process Flowchart Part 2 (Decision to outcomes) -->
-                <div class="flowchart-figure-box">
-                    <img src="flowcharts_png/Stage01_Raw_Material_Receiving_and_Inspection_part2.png"
-                        class="flowchart-img" style="max-height: 185mm; width: auto; max-width: 100%;"
-                        alt="المخطط الانسيابي للمرحلة 1 – استلام وفحص وتخزين الخامات (الجزء 2 من 2)">
-                    <div class="flowchart-caption">الشكل 1: المخطط الانسيابي للمرحلة 1 – استلام وفحص وتخزين الخامات
-                        (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
+                <div class="mermaid-card">
+                    <div class="flowchart-caption" style="margin-top:0; margin-bottom:0.65rem;">
+                        المرحلة 01 – استلام وفحص وتخزين الخامات (STAGE 01 – Raw Material Receiving &amp; Inspection) –
+                        الجزء 2
+                    </div>
+                    <div class="mermaid">flowchart TD
+                        P2_R1["إيقاف التفريغ فورا وعزل الشحنة في ساحة الحجر"]
+                        P2_R2[/"تحرير تقرير عدم مطابقة NCR موثق بالصور"/]
+                        P2_R3["إخطار المشتريات والمورد وإرجاع الشحنة"]
+                        END_REJ(["نهاية: خامة مرفوضة"])
+
+                        P2_F["اعتماد الفني المعملي - توقيع إذن الفحص"]
+                        P2_G["توجيه الشاحنة وتفريغ الخامة في الموقع المخصص"]
+                        P2_H["وزن ثان: الشاحنة فارغة وحساب الوزن الصافي"]
+                        P2_I[/"إصدار إذن استلام GRN وتحديث رصيد المخزن"/]
+                        P2_J["توليد ملصق Lot ID وتثبيته على الموقع أو الجونية"]
+                        P2_K["تخصيص موقع التخزين - سيلو أو ساحة أو مخزن"]
+                        END_OK(["نهاية: خامات مفحوصة ومخزنة"])
+
+                        P2_R1 --> P2_R2
+                        P2_R2 --> P2_R3
+                        P2_R3 --> END_REJ
+
+                        P2_F --> P2_G
+                        P2_G --> P2_H
+                        P2_H --> P2_I
+                        P2_I --> P2_J
+                        P2_J --> P2_K
+                        P2_K --> END_OK
+
+                        classDef terminal fill:#0f172a,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold;
+                        classDef step fill:#f8fafc,stroke:#0284c7,stroke-width:1.5px,color:#0f172a;
+                        classDef io fill:#f1f5f9,stroke:#475569,stroke-width:1.5px,color:#0f172a;
+                        classDef reject fill:#fff1f2,stroke:#e11d48,stroke-width:2px,color:#9f1239,font-weight:bold;
+                        classDef done fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46,font-weight:bold;
+
+                        class END_OK done;
+                        class END_REJ reject;
+                        class P2_R2,P2_I io;
+                        class P2_R1,P2_R3,P2_F,P2_G,P2_H,P2_J,P2_K step;</div>
+                    <div class="flowchart-legend">
+                        المصدر: وثيقة الوضع المستهدف To-Be v0.3. [PFC] = Pending Factory Confirmation (قيد تأكيد المصنع)
+                    </div>
                 </div>
             </main>
 
@@ -3207,13 +3196,47 @@
                 </h2>
 
                 <!-- Process Flowchart Part 2 (Decision to outcomes) -->
-                <div class="flowchart-figure-box">
-                    <img src="flowcharts_png/Stage02_Crushing_and_Sizing_part2.png" class="flowchart-img"
-                        style="max-height: 185mm; width: auto; max-width: 100%;"
-                        alt="المخطط الانسيابي للمرحلة 2 – تكسير وفرز كسر الرخام (الجزء 2 من 2)">
-                    <div class="flowchart-caption">الشكل 2: المخطط الانسيابي للمرحلة 2 – تكسير وفرز كسر الرخام (الجزء 2
-                        من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
+                <div class="mermaid-card">
+                    <div class="flowchart-caption" style="margin-top:0; margin-bottom:0.65rem;">
+                        المرحلة 02 – تكسير وفرز كسر الرخام (STAGE 02 – Crushing &amp; Sizing) – الجزء 1
+                    </div>
+                    <div class="mermaid">flowchart TD
+                        START(["بداية: أمر إنتاج تكسير"])
+                        A[/"أمر إنتاج التكسير من خطة الإنتاج"/]
+                        B["فحص الكسارة والسيور والمناخل وتغيير اللون عن الدفعة السابقة"]
+                        G1{"هل الماكينات جاهزة ونظيفة؟"}
+                        R1["تنظيف الكسارة والسيور والمناخل أو إصلاحها"]
+                        C[/"تسجيل كمية كرس الرخام الخام المغذاة بالوزن الفعلي"/]
+                        D["تغذية الكسارة"]
+                        E["تكسير أولي وثانوي"]
+                        NEXT["استكمال الفرز والتعبئة وفحص التدرج - يتبع في الجزء 2"]
+
+                        START --> A
+                        A --> B
+                        B --> G1
+                        G1 -- "لا" --> R1
+                        R1 -- "إعادة الفحص" --> B
+                        G1 -- "نعم" --> C
+                        C --> D
+                        D --> E
+                        E --> NEXT
+
+                        classDef terminal fill:#0f172a,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold;
+                        classDef step fill:#f8fafc,stroke:#0284c7,stroke-width:1.5px,color:#0f172a;
+                        classDef io fill:#f1f5f9,stroke:#475569,stroke-width:1.5px,color:#0f172a;
+                        classDef gate fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e,font-weight:bold;
+                        classDef reject fill:#fff1f2,stroke:#e11d48,stroke-width:2px,color:#9f1239,font-weight:bold;
+                        classDef done fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46,font-weight:bold;
+
+                        class START terminal;
+                        class A,C io;
+                        class B,D,E step;
+                        class G1 gate;
+                        class R1 reject;
+                        class NEXT done;</div>
+                    <div class="flowchart-legend">
+                        المصدر: وثيقة الوضع المستهدف To-Be v0.3. [PFC] = Pending Factory Confirmation (قيد تأكيد المصنع)
+                    </div>
                 </div>
             </main>
 
@@ -3642,13 +3665,54 @@
                 </h2>
 
                 <!-- Process Flowchart Part 2 (Decision to outcomes) -->
-                <div class="flowchart-figure-box">
-                    <img src="flowcharts_png/Stage04_Block_Casting_part2.png" class="flowchart-img"
-                        style="max-height: 185mm; width: auto; max-width: 100%;"
-                        alt="المخطط الانسيابي للمرحلة 4 – الصب في القالب وتكوين البلوك (الجزء 2 من 2)">
-                    <div class="flowchart-caption">الشكل 4: المخطط الانسيابي للمرحلة 4 – الصب في القالب وتكوين البلوك
-                        (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
+                <div class="mermaid-card">
+                    <div class="flowchart-caption" style="margin-top:0; margin-bottom:0.65rem;">
+                        المرحلة 04 – الصب في القالب وتكوين البلوك (STAGE 04 – Block Casting) – الجزء 2
+                    </div>
+                    <div class="mermaid">flowchart TD
+                        P2_G["صب الدفعة الثانية 5 طن ضمن المهلة القصوى PFC"]
+                        P2_H["تسوية السطح العلوي ميكانيكيا"]
+                        P2_I["فحص الصب: اكتمال الدفعتين وعدم وجود فواصل باردة"]
+                        P2_G2{"هل اكتمل الصب بشكل صحيح؟"}
+
+                        P2_R2["وسم البلوك ببطاقة صفراء - موقوف للجودة Hold QC"]
+                        P2_R3[/"فتح تقرير عدم مطابقة NCR"/]
+                        END_REJ(["نهاية: بلوك موقوف"])
+
+                        P2_J[/"تسجيل رقم القالب والبلوك وتوقيت انتهاء الصب"/]
+                        P2_K["ربط أرقام دفعات الخامة بالبلوك"]
+                        P2_L["نقل القالب إلى محطة الفاكيوم"]
+                        END_OK(["نهاية: بلوك مصبوب بـ Block ID"])
+
+                        P2_G --> P2_H
+                        P2_H --> P2_I
+                        P2_I --> P2_G2
+
+                        P2_G2 -- "لا" --> P2_R2
+                        P2_R2 --> P2_R3
+                        P2_R3 --> END_REJ
+
+                        P2_G2 -- "نعم" --> P2_J
+                        P2_J --> P2_K
+                        P2_K --> P2_L
+                        P2_L --> END_OK
+
+                        classDef terminal fill:#0f172a,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold;
+                        classDef step fill:#f8fafc,stroke:#0284c7,stroke-width:1.5px,color:#0f172a;
+                        classDef io fill:#f1f5f9,stroke:#475569,stroke-width:1.5px,color:#0f172a;
+                        classDef gate fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e,font-weight:bold;
+                        classDef reject fill:#fff1f2,stroke:#e11d48,stroke-width:2px,color:#9f1239,font-weight:bold;
+                        classDef done fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46,font-weight:bold;
+
+                        class END_OK done;
+                        class END_REJ reject;
+                        class P2_J,P2_R3 io;
+                        class P2_G,P2_H,P2_I,P2_K,P2_L step;
+                        class P2_G2 gate;
+                        class P2_R2 reject;</div>
+                    <div class="flowchart-legend">
+                        المصدر: وثيقة الوضع المستهدف To-Be v0.3. [PFC] = Pending Factory Confirmation (قيد تأكيد المصنع)
+                    </div>
                 </div>
             </main>
 
@@ -3859,13 +3923,58 @@
                 </h2>
 
                 <!-- Process Flowchart Part 2 (Decision to outcomes) -->
-                <div class="flowchart-figure-box">
-                    <img src="flowcharts_png/Stage05_Vacuum_De-airing_part2.png" class="flowchart-img"
-                        style="max-height: 185mm; width: auto; max-width: 100%;"
-                        alt="المخطط الانسيابي للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم (الجزء 2 من 2)">
-                    <div class="flowchart-caption">الشكل 5: المخطط الانسيابي للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم
-                        (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
+                <div class="mermaid-card">
+                    <div class="flowchart-caption" style="margin-top:0; margin-bottom:0.65rem;">
+                        المرحلة 05 – سحب الهواء والكبس تحت الفاكيوم (STAGE 05 – Vacuum De-airing) – الجزء 2
+                    </div>
+                    <div class="mermaid">flowchart TD
+                        P2_F["تطبيق الكبس الهيدروليكي - وارد في To-Be فقط PFC"]
+                        P2_G["مراقبة الضغط والتفريغ وزمن الدورة"]
+                        P2_G2{"هل تحققت معاملات التشغيل؟ هدف 100 mbar PFC"}
+
+                        P2_R2["إيقاف الدورة وإطلاق إنذار وفتح طلب صيانة عاجل"]
+                        P2_G3{"هل البلوك لا يزال لدينا؟"}
+                        P2_R3["تصحيح العازل وإعادة دورة الفاكيوم فورا"]
+                        P2_R4["وسم البلوك بعلامة حمراء - معيب مساميا - وفتح NCR واختبار كثافة"]
+                        END_REJ(["نهاية: بلوك موقوف"])
+
+                        P2_H["تحرير الضغط والتفريغ تدريجيا"]
+                        P2_I[/"توثيق قيم التفريغ والاهتزاز والضغط على بطاقة البلوك"/]
+                        P2_J["نقل القالب إلى ساحة المعالجة الأولية 24 ساعة"]
+                        END_OK(["نهاية: بلوك مفرغ الهواء"])
+
+                        P2_F --> P2_G
+                        P2_G --> P2_G2
+
+                        P2_G2 -- "لا" --> P2_R2
+                        P2_R2 --> P2_G3
+                        P2_G3 -- "نعم" --> P2_R3
+                        P2_R3 -- "إعادة الدورة" --> P2_F
+                        P2_G3 -- "لا" --> P2_R4
+                        P2_R4 --> END_REJ
+
+                        P2_G2 -- "نعم" --> P2_H
+                        P2_H --> P2_I
+                        P2_I --> P2_J
+                        P2_J --> END_OK
+
+                        classDef terminal fill:#0f172a,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold;
+                        classDef step fill:#f8fafc,stroke:#0284c7,stroke-width:1.5px,color:#0f172a;
+                        classDef io fill:#f1f5f9,stroke:#475569,stroke-width:1.5px,color:#0f172a;
+                        classDef gate fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e,font-weight:bold;
+                        classDef reject fill:#fff1f2,stroke:#e11d48,stroke-width:2px,color:#9f1239,font-weight:bold;
+                        classDef done fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46,font-weight:bold;
+
+                        class END_OK done;
+                        class END_REJ reject;
+                        class P2_I io;
+                        class P2_F,P2_G,P2_H,P2_J step;
+                        class P2_G2,P2_G3 gate;
+                        class P2_R2,P2_R3,P2_R4 reject;</div>
+                    <div class="flowchart-legend">
+                        المصدر: وثيقة الوضع المستهدف To-Be v0.3. [PFC] = Pending Factory Confirmation (قيد تأكيد
+                        المصنع)[cite: 14]
+                    </div>
                 </div>
             </main>
 
@@ -4078,13 +4187,58 @@
                 </h2>
 
                 <!-- Process Flowchart Part 2 (Decision to outcomes) -->
-                <div class="flowchart-figure-box">
-                    <img src="flowcharts_png/Stage06_Demoulding_and_Curing_part2.png" class="flowchart-img"
-                        style="max-height: 185mm; width: auto; max-width: 100%;"
-                        alt="المخطط الانسيابي للمرحلة 6 – فك القوالب والمعالجة والإنضاج (الجزء 2 من 2)">
-                    <div class="flowchart-caption">الشكل 6: المخطط الانسيابي للمرحلة 6 – فك القوالب والمعالجة والإنضاج
-                        (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
+                <div class="mermaid-card">
+                    <div class="flowchart-caption" style="margin-top:0; margin-bottom:0.65rem;">
+                        المرحلة 06 – فك القوالب والمعالجة (STAGE 06 – Demoulding &amp; Curing) – الجزء 2[cite: 14]
+                    </div>
+                    <div class="mermaid">flowchart TD
+                        P2_G["اكتمال الحد الأدنى للمعالجة 14 يوما PFC"]
+                        P2_H["اختبارات الجودة - مطرقة شميدت + مكعبات الضغط"]
+                        P2_G2{"هل يحقق البلوك معايير الجودة؟ 35 MPa PFC"}
+
+                        P2_R2["تمديد المعالجة الرطبة 7 أيام إضافية"]
+                        P2_G3{"هل بلغت المعالجة الحد الأقصى 28 يوما PFC؟"}
+                        P2_R3["خفض تصنيف البلوك لاستخدامات غير إنشائية أو التكسير عند وجود شروخ هيكلية"]
+                        END_REJ(["نهاية: بلوك مخفض أو محول"])
+
+                        P2_I["اعتماد مهندس الجودة"]
+                        P2_J[/"إصدار ترخيص إفراج النشر Slab Release Note"/]
+                        P2_K["تحديث حالة البلوك: جاهز للنشر وتثبيت ملصق الإفراج"]
+                        P2_L["نقل البلوك إلى خط المناشير"]
+                        END_OK(["نهاية: بلوك معالج مفرج للنشر"])
+
+                        P2_G --> P2_H
+                        P2_H --> P2_G2
+
+                        P2_G2 -- "لا" --> P2_R2
+                        P2_R2 --> P2_G3
+                        P2_G3 -- "لا، إعادة الاختبار" --> P2_H
+                        P2_G3 -- "نعم" --> P2_R3
+                        P2_R3 --> END_REJ
+
+                        P2_G2 -- "نعم" --> P2_I
+                        P2_I --> P2_J
+                        P2_J --> P2_K
+                        P2_K --> P2_L
+                        P2_L --> END_OK
+
+                        classDef terminal fill:#0f172a,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold;
+                        classDef step fill:#f8fafc,stroke:#0284c7,stroke-width:1.5px,color:#0f172a;
+                        classDef io fill:#f1f5f9,stroke:#475569,stroke-width:1.5px,color:#0f172a;
+                        classDef gate fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e,font-weight:bold;
+                        classDef reject fill:#fff1f2,stroke:#e11d48,stroke-width:2px,color:#9f1239,font-weight:bold;
+                        classDef done fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46,font-weight:bold;
+
+                        class END_OK done;
+                        class END_REJ reject;
+                        class P2_J io;
+                        class P2_G,P2_H,P2_I,P2_K,P2_L step;
+                        class P2_G2,P2_G3 gate;
+                        class P2_R2,P2_R3 reject;</div>
+                    <div class="flowchart-legend">
+                        المصدر: وثيقة الوضع المستهدف To-Be v0.3. [PFC] = Pending Factory Confirmation (قيد تأكيد
+                        المصنع)[cite: 14]
+                    </div>
                 </div>
             </main>
 
@@ -4295,13 +4449,55 @@
                 </h2>
 
                 <!-- Process Flowchart Part 2 (Decision to outcomes) -->
-                <div class="flowchart-figure-box">
-                    <img src="flowcharts_png/Stage07_Gang_Saw_Slabbing_part2.png" class="flowchart-img"
-                        style="max-height: 185mm; width: auto; max-width: 100%;"
-                        alt="المخطط الانسيابي للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام المناشير (الجزء 2 من 2)">
-                    <div class="flowchart-caption">الشكل 7: المخطط الانسيابي للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام
-                        المناشير (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
+                <div class="mermaid-card">
+                    <div class="flowchart-caption" style="margin-top:0; margin-bottom:0.65rem;">
+                        المرحلة 07 – تقطيع البلوك إلى ألواح باستخدام المناشير (STAGE 07 – Gang Saw Slabbing) – الجزء 2
+                    </div>
+                    <div class="mermaid">flowchart TD
+                        P2_G["اكتمال النشر وسحب الألواح وغسلها من الروبة"]
+                        P2_H["عد الألواح وقياس السمك وفحص حالتها"]
+                        P2_G2{"هل الألواح مقبولة؟ السمك والهالك PFC"}
+
+                        P2_R2["فتح NCR وتحديد الإجراء التصحيحي: ترميم الشروخ بالإيبوكسي أو تحويل المكسور لإعادة
+                        التدوير"]
+                        END_REJ(["نهاية مسار عدم المطابقة - مسار الألواح المعالجة PFC"])
+
+                        P2_I["توليد Slab ID لكل لوح وطباعة الباركود ولصقه"]
+                        P2_J[/"تسجيل عدد الألواح والمساحة الإجمالية م2"/]
+                        P2_K["رص الألواح على حوامل A-Frames"]
+                        P2_L["إغلاق أمر المنشار وتسجيل ساعات الشفرات والمياه"]
+                        P2_M["نقل الألواح إلى قسم الجلي"]
+                        END_OK(["نهاية: ألواح مكودة"])
+
+                        P2_G --> P2_H
+                        P2_H --> P2_G2
+
+                        P2_G2 -- "لا" --> P2_R2
+                        P2_R2 --> END_REJ
+
+                        P2_G2 -- "نعم" --> P2_I
+                        P2_I --> P2_J
+                        P2_J --> P2_K
+                        P2_K --> P2_L
+                        P2_L --> P2_M
+                        P2_M --> END_OK
+
+                        classDef terminal fill:#0f172a,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold;
+                        classDef step fill:#f8fafc,stroke:#0284c7,stroke-width:1.5px,color:#0f172a;
+                        classDef io fill:#f1f5f9,stroke:#475569,stroke-width:1.5px,color:#0f172a;
+                        classDef gate fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e,font-weight:bold;
+                        classDef reject fill:#fff1f2,stroke:#e11d48,stroke-width:2px,color:#9f1239,font-weight:bold;
+                        classDef done fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46,font-weight:bold;
+
+                        class END_OK done;
+                        class END_REJ reject;
+                        class P2_J io;
+                        class P2_G,P2_H,P2_I,P2_K,P2_L,P2_M step;
+                        class P2_G2 gate;
+                        class P2_R2 reject;</div>
+                    <div class="flowchart-legend">
+                        المصدر: وثيقة الوضع المستهدف To-Be v0.3. [PFC] = Pending Factory Confirmation (قيد تأكيد المصنع)
+                    </div>
                 </div>
             </main>
 
@@ -4512,13 +4708,59 @@
                 </h2>
 
                 <!-- Process Flowchart Part 2 (Decision to outcomes) -->
-                <div class="flowchart-figure-box">
-                    <img src="flowcharts_png/Stage08_Grinding_and_Polishing_part2.png" class="flowchart-img"
-                        style="max-height: 185mm; width: auto; max-width: 100%;"
-                        alt="المخطط الانسيابي للمرحلة 8 – الجلي والتلميع والمعالجة السطحية (الجزء 2 من 2)">
-                    <div class="flowchart-caption">الشكل 8: المخطط الانسيابي للمرحلة 8 – الجلي والتلميع والمعالجة
-                        السطحية (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
+                <div class="mermaid-card">
+                    <div class="flowchart-caption" style="margin-top:0; margin-bottom:0.65rem;">
+                        المرحلة 08 – الجلي والتلميع والمعالجة السطحية (STAGE 08 – Grinding &amp; Polishing) – الجزء
+                        2[cite: 16]
+                    </div>
+                    <div class="mermaid">flowchart TD
+                        P2_G["تلميع متدرج"]
+                        P2_H["تلميع نهائي"]
+                        P2_I["فحص السطح: اللمعان GU عند 5 نقاط والمسام والخدوش"]
+                        P2_G2{"هل يحقق اللوح معيار الجودة؟ 85 GU PFC"}
+
+                        P2_G3{"هل العيب قابل للإصلاح؟"}
+                        P2_R2["إعادة تلميع مرة واحدة أو معالجة موضعية بالراتنج"]
+                        P2_R3["تخفيض التصنيف إلى درجة ثانية Grade B وتسجيل النتيجة"]
+                        END_B(["نهاية: لوح درجة ثانية"])
+
+                        P2_J["اعتماد اللوح: ختم الجودة وتصنيفه درجة أولى Grade A"]
+                        P2_K[/"تسجيل نتيجة الجودة وقراءة اللمعان على بطاقة اللوح"/]
+                        P2_L["نقل اللوح إلى مخزن الألواح المصقولة أو إلى قص CNC"]
+                        END_OK(["نهاية: لوح مصقول معتمد"])
+
+                        P2_G --> P2_H
+                        P2_H --> P2_I
+                        P2_I --> P2_G2
+
+                        P2_G2 -- "لا" --> P2_G3
+                        P2_G3 -- "نعم" --> P2_R2
+                        P2_R2 -- "إعادة الفحص" --> P2_I
+                        P2_G3 -- "لا" --> P2_R3
+                        P2_R3 --> END_B
+
+                        P2_G2 -- "نعم" --> P2_J
+                        P2_J --> P2_K
+                        P2_K --> P2_L
+                        P2_L --> END_OK
+
+                        classDef terminal fill:#0f172a,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold;
+                        classDef step fill:#f8fafc,stroke:#0284c7,stroke-width:1.5px,color:#0f172a;
+                        classDef io fill:#f1f5f9,stroke:#475569,stroke-width:1.5px,color:#0f172a;
+                        classDef gate fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e,font-weight:bold;
+                        classDef reject fill:#fff1f2,stroke:#e11d48,stroke-width:2px,color:#9f1239,font-weight:bold;
+                        classDef done fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46,font-weight:bold;
+
+                        class END_OK done;
+                        class END_B reject;
+                        class P2_K io;
+                        class P2_G,P2_H,P2_I,P2_J,P2_L step;
+                        class P2_G2,P2_G3 gate;
+                        class P2_R2,P2_R3 reject;</div>
+                    <div class="flowchart-legend">
+                        المصدر: وثيقة الوضع المستهدف To-Be v0.3. [PFC] = Pending Factory Confirmation (قيد تأكيد
+                        المصنع)[cite: 16]
+                    </div>
                 </div>
             </main>
 
@@ -4730,13 +4972,61 @@
                 </h2>
 
                 <!-- Process Flowchart Part 2 (Decision to outcomes) -->
-                <div class="flowchart-figure-box">
-                    <img src="flowcharts_png/Stage09_Custom_Cutting_and_Packaging_part2.png" class="flowchart-img"
-                        style="max-height: 185mm; width: auto; max-width: 100%;"
-                        alt="المخطط الانسيابي للمرحلة 9 – القطع والتفصيل والتغليف النهائي (الجزء 2 من 2)">
-                    <div class="flowchart-caption">الشكل 9: المخطط الانسيابي للمرحلة 9 – القطع والتفصيل والتغليف النهائي
-                        (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
+                <div class="mermaid-card">
+                    <div class="flowchart-caption" style="margin-top:0; margin-bottom:0.65rem;">
+                        المرحلة 09 – القطع والتفصيل والتغليف النهائي (STAGE 09 – Custom Cutting &amp; Packaging) – الجزء
+                        2[cite: 17]
+                    </div>
+                    <div class="mermaid">flowchart TD
+                        P2_H["تنظيف القطع وتجفيفها وشطف الحواف"]
+                        P2_I["الفحص النهائي: الأبعاد واللمعان واللون وسلامة الحواف"]
+                        P2_G2{"هل جميع القطع مقبولة؟"}
+
+                        P2_G3{"هل إعادة العمل ممكنة؟"}
+                        P2_R2["إعادة التشذيب أو إعادة العمل ثم إعادة الفحص"]
+                        P2_R3["تسجيل القطع المرفوضة وتقرير هدر وصرف لوح بديل لاستكمال أمر العميل"]
+                        END_REJ(["نهاية: قطع مرفوضة"])
+
+                        P2_J["رص القطع على طبالي خشبية مع فواصل واقية"]
+                        P2_K["تغليف المنتج"]
+                        P2_L[/"ملصق الطرد: كود المشروع و Slab ID والكمية والوزن الإجمالي"/]
+                        P2_M["نقل الطرود إلى مستودع المنتج التام FG"]
+                        P2_N[/"إذن إضافة مخزنية وإشعار المبيعات بجاهزية الشحن"/]
+                        END_OK(["نهاية: منتج تام مغلف"])
+
+                        P2_H --> P2_I
+                        P2_I --> P2_G2
+
+                        P2_G2 -- "لا" --> P2_G3
+                        P2_G3 -- "نعم" --> P2_R2
+                        P2_R2 -- "إعادة الفحص" --> P2_I
+                        P2_G3 -- "لا" --> P2_R3
+                        P2_R3 --> END_REJ
+
+                        P2_G2 -- "نعم" --> P2_J
+                        P2_J --> P2_K
+                        P2_K --> P2_L
+                        P2_L --> P2_M
+                        P2_M --> P2_N
+                        P2_N --> END_OK
+
+                        classDef terminal fill:#0f172a,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold;
+                        classDef step fill:#f8fafc,stroke:#0284c7,stroke-width:1.5px,color:#0f172a;
+                        classDef io fill:#f1f5f9,stroke:#475569,stroke-width:1.5px,color:#0f172a;
+                        classDef gate fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e,font-weight:bold;
+                        classDef reject fill:#fff1f2,stroke:#e11d48,stroke-width:2px,color:#9f1239,font-weight:bold;
+                        classDef done fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46,font-weight:bold;
+
+                        class END_OK done;
+                        class END_REJ reject;
+                        class P2_L,P2_N io;
+                        class P2_H,P2_I,P2_J,P2_K,P2_M,P2_R2,P2_R3 step;
+                        class P2_G2,P2_G3 gate;
+                        class P2_R2,P2_R3 reject;</div>
+                    <div class="flowchart-legend">
+                        المصدر: وثيقة الوضع المستهدف To-Be v0.3. [PFC] = Pending Factory Confirmation (قيد تأكيد
+                        المصنع)[cite: 17]
+                    </div>
                 </div>
             </main>
 
@@ -4940,6 +5230,7 @@
                                     </ul>
                                 </div>
                             </div>
+
                             <div class="pflow-branch-reject">
                                 <div class="pflow-branch-reject-title">
                                     <span>✖ مسار العجز وإعادة الجدولة (Shortage & Re-plan)</span>
@@ -4956,6 +5247,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
 
                 <!-- SOP Details -->
