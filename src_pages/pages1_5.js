@@ -68,7 +68,7 @@ export function getPages1to5() {
                     <div class="cover-detail-item" style="grid-column: span 2;">
                         <span class="cover-detail-label">الحالة التشغيلية والاعتماد (Status)</span>
                         <span class="cover-detail-value" style="color: #b45309;">
-                            مسودة لمراجعة الإدارة — تعتمد على حسم الأسئلة المفتوحة والقرارات المطلوبة (القسم 22)
+                            مسودة لمراجعة الإدارة — تعتمد على حسم الأسئلة المفتوحة والقرارات المطلوبة (القسم 20 - البند 20.2)
                         </span>
                     </div>
 
@@ -99,13 +99,13 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>To-Be Operating Model</strong>
-                    <span>Executive Summary & Methodology</span>
+                    <span>Section 1 — Executive Summary & Methodology</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title" id="toc-section">
-                    <span>0. بيانات الوثيقة والملخص التنفيذي ومنهجية الوسم</span>
+                    <span>1. بيانات الوثيقة والملخص التنفيذي ومنهجية الوسم</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Scope, Shifts & Rules</span>
                 </h2>
 
@@ -113,7 +113,7 @@ export function getPages1to5() {
                     تحدد هذه الوثيقة كيف سيعمل مصنع تيرازو بعد إعادة هندسة العمليات: تسع مراحل إنتاج مكودة، وكل مرحلة لها إجراء تشغيل قياسي (SOP) ومؤشرات أداء محددة المعادلة والمصدر والمسؤول. الوثيقة تصف العمليات والسجلات والضوابط فقط، ولا تفرض أي نظام أو برمجية معينة (قرار D1/D2)، حيث يمثل السجل دليلا ماديا أو رقميا تختاره الإدارة لاحقا.
                 </p>
 
-                <h3 class="subsection-title">منهجية الوثيقة وقواعد الوسم الدقيقة (Tagging Rules)</h3>
+                <h3 class="subsection-title">1.1 منهجية الوثيقة وقواعد الوسم الدقيقة (Document Methodology & Tagging Rules)</h3>
                 <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:0.45rem; margin-bottom:0.45rem;">
                     <div class="callout-box info" style="margin:0; padding:0.4rem 0.6rem;">
                         <span class="badge badge-as-is" style="margin-bottom:0.2rem;">[As-Is]</span>
@@ -125,11 +125,11 @@ export function getPages1to5() {
                     </div>
                     <div class="callout-box warning" style="margin:0; padding:0.4rem 0.6rem;">
                         <span class="badge badge-tbc" style="margin-bottom:0.2rem;">[TBC]</span>
-                        <p style="font-size:0.7rem; margin:0; line-height:1.35;">يحتاج تأكيدا أو قرارا من إدارة Terrazzo، ولا تُعتمد قيمته قبل حسمه بالقسم 22.</p>
+                        <p style="font-size:0.7rem; margin:0; line-height:1.35;">يحتاج تأكيدا أو قرارا من إدارة Terrazzo، ولا تُعتمد قيمته قبل حسمه بالقسم 20 (البند 20.2).</p>
                     </div>
                 </div>
 
-                <h3 class="subsection-title">الانتقالات الخمسة الرئيسية للتحول الصناعي (The 5 Core Shifts)</h3>
+                <h3 class="subsection-title">1.2 الانتقالات الخمسة الرئيسية للتحول الصناعي (The 5 Core Shifts)</h3>
                 <div class="shift-grid">
                     <div class="shift-card">
                         <div class="shift-card-title">1. الوزن الدقيق</div>
@@ -168,7 +168,7 @@ export function getPages1to5() {
                     </div>
                 </div>
 
-                <h3 class="subsection-title">جدول المحتويات التنفيذي وفهرس الأقسام (22 قسما و3 ملاحق)</h3>
+                <h3 class="subsection-title">1.3 جدول المحتويات وفهرس الأقسام القياسي (20 قسماً و3 ملاحق)</h3>
                 <div class="data-table-wrapper" style="margin-top:0.3rem;">
                     <table class="data-table" style="font-size:0.69rem;">
                         <thead>
@@ -180,32 +180,30 @@ export function getPages1to5() {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="toc-row" onclick="scrollToPage('page-3')"><td><strong>01</strong></td><td><a href="#page-3" class="toc-link">الغرض ومبادئ التصميم وحسم التعارضات</a></td><td>مبادئ التصميم P1–P8، وافتراضات حسم التعارضات A-01 إلى A-09</td><td style="text-align:center;"><span class="toc-page-pill">03</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-4')"><td><strong>02</strong></td><td><a href="#page-4" class="toc-link">الهيكل التنظيمي ومصفوفة الصلاحيات RACI</a></td><td>الأدوار التشغيلية المضافة، مصفوفة الصلاحيات، وقواعد الفصل الإلزامية</td><td style="text-align:center;"><span class="toc-page-pill">04</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-5')"><td><strong>03</strong></td><td><a href="#page-5" class="toc-link">خريطة التدفق ونقاط التحكم والتتبع</a></td><td>مسار العمليات التسع، مراكز العمل، بوابات التحكم، وشجرة التتبع</td><td style="text-align:center;"><span class="toc-page-pill">05</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-6')"><td><strong>04</strong></td><td><a href="#page-6" class="toc-link">المعمارية العامة لبوابات الجودة (1-9)</a></td><td>مخططات المراحل التسع مع بوابات القبول والرفض ومسارات الفرز</td><td style="text-align:center;"><span class="toc-page-pill">06</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-15')"><td><strong>05</strong></td><td><a href="#page-15" class="toc-link">المرحلة 1: استلام وتخزين الخامات (RM QC)</a></td><td>SOP-RM-01، إغلاق فجوة الوزن ISS-001، فحص الكسر ومؤشرات S1</td><td style="text-align:center;"><span class="toc-page-pill">15</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-18')"><td><strong>06</strong></td><td><a href="#page-18" class="toc-link">المرحلة 2: تكسير وفرز كسر الرخام (Sizing)</a></td><td>SOP-CR-01، التصنيف الحجمي G1–G5، تشغيل الـ 2 كسارة، تنظيف الكسارات ومؤشرات S2</td><td style="text-align:center;"><span class="toc-page-pill">18</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-21')"><td><strong>07</strong></td><td><a href="#page-21" class="toc-link">المرحلة 3: الخلط الآلي ووصفات الخلطة (BOM)</a></td><td>SOP-MX-01، ميزان الميكسر الرقمي، تجانس اللون ومؤشرات S3</td><td style="text-align:center;"><span class="toc-page-pill">21</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-24')"><td><strong>08</strong></td><td><a href="#page-24" class="toc-link">المرحلة 4: الصب في القالب وتوليد Block ID</a></td><td>SOP-CS-01، دهان العازل، الدمك المتوازن، التتبع ومؤشرات S4</td><td style="text-align:center;"><span class="toc-page-pill">24</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-27')"><td><strong>09</strong></td><td><a href="#page-27" class="toc-link">المرحلة 5: سحب الهواء والكبس تحت الفاكيوم</a></td><td>SOP-VC-01، تحقيق 100 mbar، تفريغ الجيوب الهوائية ومؤشرات S5</td><td style="text-align:center;"><span class="toc-page-pill">27</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-30')"><td><strong>10</strong></td><td><a href="#page-30" class="toc-link">المرحلة 6: الفك والمعالجة (Demoulding & Curing)</a></td><td>SOP-CU-01، الرش المائي 14 يوما، اختبار الصلادة 35 MPa ومؤشرات S6</td><td style="text-align:center;"><span class="toc-page-pill">30</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-33')"><td><strong>11</strong></td><td><a href="#page-33" class="toc-link">المرحلة 7: التقطيع بالمناشير (Gang Saws)</a></td><td>SOP-GS-01، خطوط BM1–BM4، ضبط السمك، باركود Slab ID ومؤشرات S7</td><td style="text-align:center;"><span class="toc-page-pill">33</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-36')"><td><strong>12</strong></td><td><a href="#page-36" class="toc-link">المرحلة 8: الجلي والتلميع والمعالجة السطحية</a></td><td>SOP-PL-01، المعالجة بالريزن، تحقيق اللمعان 85 GU ومؤشرات S8</td><td style="text-align:center;"><span class="toc-page-pill">36</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-39')"><td><strong>13</strong></td><td><a href="#page-39" class="toc-link">المرحلة 9: القطع والتفصيل والتغليف النهائي</a></td><td>SOP-PK-01، منشار الجسر CNC، فحص الأبعاد، التغليف ومؤشرات S9</td><td style="text-align:center;"><span class="toc-page-pill">39</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-42')"><td><strong>14</strong></td><td><a href="#page-42" class="toc-link">العمليات المساندة: التخطيط وإدارة المخازن</a></td><td>SOP-PP-01، SOP-WH-01، خطة الإنتاج، التخزين المكود ومؤشرات SUP</td><td style="text-align:center;"><span class="toc-page-pill">42</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-43')"><td><strong>15</strong></td><td><a href="#page-43" class="toc-link">العمليات المساندة: الجودة، المختبر والصيانة</a></td><td>SOP-QC-01، SOP-MT-01، إدارة الـ NCR، صيانة القوالب والجاهزية</td><td style="text-align:center;"><span class="toc-page-pill">43</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-44')"><td><strong>16</strong></td><td><a href="#page-44" class="toc-link">العمليات المساندة: الهالك والتدوير ومعايرة الموازين</a></td><td>SOP-SC-01، SOP-CA-01، فرز وتدوير الكسر، دقة البسكول والموازين</td><td style="text-align:center;"><span class="toc-page-pill">44</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-45')"><td><strong>17</strong></td><td><a href="#page-45" class="toc-link">مؤشرات المصنع الموحدة ومصير السجلات الـ 25</a></td><td>منظومة F-01..15 الموحدة، ومصير السجلات والنماذج الحالية للوضع المستهدف</td><td style="text-align:center;"><span class="toc-page-pill">45</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-46')"><td><strong>18</strong></td><td><a href="#page-46" class="toc-link">إغلاق الفجوات الـ 16 ومصفوفة التتبع الشاملة</a></td><td>إغلاق ISS-001..16 و RSK-001..04 ومصفوفة التتبع T1 إلى T20</td><td style="text-align:center;"><span class="toc-page-pill">46</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-47')"><td><strong>19</strong></td><td><a href="#page-47" class="toc-link">أولويات التحسين والمخاطر التشغيلية والضوابط</a></td><td>مصفوفة الأولويات الصناعية (P1, P2, P3) وسجل المخاطر التشغيلية والضوابط</td><td style="text-align:center;"><span class="toc-page-pill">47</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-48')"><td><strong>20</strong></td><td><a href="#page-48" class="toc-link">خارطة التطبيق، الأسئلة OQ، والاعتماد الرسمي</a></td><td>مراحل التنفيذ الخمس، الأسئلة المفتوحة (30 سؤالاً)، واستمارة التوقيع والاعتماد</td><td style="text-align:center;"><span class="toc-page-pill">48</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-49')"><td><strong>21</strong></td><td><a href="#page-49" class="toc-link">الملحق أ: معمارية الـ 51 إجراء والكتالوج العام</a></td><td>معمارية الإجراءات، إجراءات SOP-GEN العامة الـ 14 وقواعد التشغيل</td><td style="text-align:center;"><span class="toc-page-pill">49</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-50')"><td><strong>22</strong></td><td><a href="#page-50" class="toc-link">الملحق أ: إجراءات التشغيل القياسية التفصيلية</a></td><td>مجموعات الإجراءات التفصيلية للمراحل التسع والعمليات المساندة (31 إجراء)</td><td style="text-align:center;"><span class="toc-page-pill">50</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-51')"><td><strong>23</strong></td><td><a href="#page-51" class="toc-link">الملحق ب: قاموس مؤشرات الأداء (105 مؤشرات)</a></td><td>المؤشرات الشاملة L1، ومؤشرات المراحل التفصيلية L3 وقواعد الاحتساب</td><td style="text-align:center;"><span class="toc-page-pill">51</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-52')"><td><strong>24</strong></td><td><a href="#page-52" class="toc-link">الملحق ب: مؤشرات الإدارات الداعمة وشجرة القياس</a></td><td>مؤشرات الإدارات الداعمة L2، تأهيل المشغلين OP، وشجرة المؤشرات المتوازنة</td><td style="text-align:center;"><span class="toc-page-pill">52</span></td></tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-53')"><td><strong>25</strong></td><td><a href="#page-53" class="toc-link">الملحق ج: التقارير ولوحات المتابعة ونقاط التسجيل</a></td><td>نقاط التسجيل C01-C14، كتالوج 16 تقريرا، ولوحات التحكم الرقمية DB</td><td style="text-align:center;"><span class="toc-page-pill">53</span></td></tr>
-                            </tbody>
+                            <tr class="toc-row" onclick="scrollToPage('page-2')"><td><strong>01</strong></td><td><a href="#page-2" class="toc-link">1. بيانات الوثيقة والملخص التنفيذي ومنهجية الوسم</a></td><td>بطاقة الوثيقة، قواعد الوسم، الانتقالات الخمسة، وجدول المحتويات</td><td style="text-align:center;"><span class="toc-page-pill">02</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-3')"><td><strong>02</strong></td><td><a href="#page-3" class="toc-link">2. الغرض والنطاق ومبادئ التصميم المستهدف</a></td><td>نطاق التطبيق وحدود النظام، ومبادئ التصميم المستهدف P1–P8</td><td style="text-align:center;"><span class="toc-page-pill">03</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-3')"><td><strong>03</strong></td><td><a href="#page-3" class="toc-link">3. افتراضات التصميم لحسم التعارضات</a></td><td>افتراضات حسم تعارضات الوضع الحالي A-01 إلى A-09 والقرارات المعتمدة</td><td style="text-align:center;"><span class="toc-page-pill">03</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-4')"><td><strong>04</strong></td><td><a href="#page-4" class="toc-link">4. الهيكل التنظيمي ومصفوفة الصلاحيات RACI</a></td><td>الأدوار التشغيلية المضافة، مصفوفة الصلاحيات، وقواعد الفصل الإلزامية</td><td style="text-align:center;"><span class="toc-page-pill">04</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-5')"><td><strong>05</strong></td><td><a href="#page-5" class="toc-link">5. خريطة التدفق العامة ونقاط التحكم والتتبع</a></td><td>مسار العمليات التسع، مراكز العمل، بوابات التحكم، وشجرة التتبع</td><td style="text-align:center;"><span class="toc-page-pill">05</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-6')"><td><strong>06</strong></td><td><a href="#page-6" class="toc-link">6. المخططات الانسيابية لتدفق العمليات (1-9)</a></td><td>مخططات المراحل التسع مع بوابات القبول والرفض ومسارات الفرز</td><td style="text-align:center;"><span class="toc-page-pill">06</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-15')"><td><strong>07</strong></td><td><a href="#page-15" class="toc-link">7. المرحلة 1: استلام وتخزين الخامات (RM QC)</a></td><td>SOP-RM-01، إغلاق فجوة الوزن ISS-001، فحص الكسر ومؤشرات S1</td><td style="text-align:center;"><span class="toc-page-pill">15</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-18')"><td><strong>08</strong></td><td><a href="#page-18" class="toc-link">8. المرحلة 2: تكسير وفرز كسر الرخام (Sizing)</a></td><td>SOP-CR-01، التصنيف الحجمي G1–G5، تشغيل الـ 2 كسارة ومؤشرات S2</td><td style="text-align:center;"><span class="toc-page-pill">18</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-21')"><td><strong>09</strong></td><td><a href="#page-21" class="toc-link">9. المرحلة 3: الخلط الآلي ووصفات الخلطة (BOM)</a></td><td>SOP-MX-01، ميزان الميكسر الرقمي، تجانس اللون ومؤشرات S3</td><td style="text-align:center;"><span class="toc-page-pill">21</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-24')"><td><strong>10</strong></td><td><a href="#page-24" class="toc-link">10. المرحلة 4: الصب في القالب وتوليد Block ID</a></td><td>SOP-CS-01، دهان العازل، الدمك المتوازن، التتبع ومؤشرات S4</td><td style="text-align:center;"><span class="toc-page-pill">24</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-27')"><td><strong>11</strong></td><td><a href="#page-27" class="toc-link">11. المرحلة 5: سحب الهواء والكبس تحت الفاكيوم</a></td><td>SOP-VC-01، تحقيق 100 mbar، تفريغ الجيوب الهوائية ومؤشرات S5</td><td style="text-align:center;"><span class="toc-page-pill">27</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-30')"><td><strong>12</strong></td><td><a href="#page-30" class="toc-link">12. المرحلة 6: الفك والمعالجة (Demoulding & Curing)</a></td><td>SOP-CU-01، الرش المائي 14 يوما، اختبار الصلادة 35 MPa ومؤشرات S6</td><td style="text-align:center;"><span class="toc-page-pill">30</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-33')"><td><strong>13</strong></td><td><a href="#page-33" class="toc-link">13. المرحلة 7: التقطيع بالمناشير (Gang Saws)</a></td><td>SOP-GS-01، خطوط BM1–BM4، ضبط السمك، باركود Slab ID ومؤشرات S7</td><td style="text-align:center;"><span class="toc-page-pill">33</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-36')"><td><strong>14</strong></td><td><a href="#page-36" class="toc-link">14. المرحلة 8: الجلي والتلميع والمعالجة السطحية</a></td><td>SOP-PL-01، المعالجة بالريزن، تحقيق اللمعان 85 GU ومؤشرات S8</td><td style="text-align:center;"><span class="toc-page-pill">36</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-39')"><td><strong>15</strong></td><td><a href="#page-39" class="toc-link">15. المرحلة 9: القطع والتفصيل والتغليف النهائي</a></td><td>SOP-PK-01، منشار الجسر CNC، فحص الأبعاد، التغليف ومؤشرات S9</td><td style="text-align:center;"><span class="toc-page-pill">39</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-42')"><td><strong>16</strong></td><td><a href="#page-42" class="toc-link">16. العمليات المساندة لمنظومة الإنتاج (6 مجالات)</a></td><td>SOPs المساندة: التخطيط، المخازن، الجودة، الصيانة، الهالك، والمعايرة</td><td style="text-align:center;"><span class="toc-page-pill">42</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-45')"><td><strong>17</strong></td><td><a href="#page-45" class="toc-link">17. منظومة قياس الأداء وحوكمة السجلات</a></td><td>منظومة F-01..15 الموحدة، ومصير السجلات والنماذج الحالية (25 نموذجاً)</td><td style="text-align:center;"><span class="toc-page-pill">45</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-46')"><td><strong>18</strong></td><td><a href="#page-46" class="toc-link">18. معالجة الفجوات ومصفوفة التتبع الشاملة</a></td><td>إغلاق ISS-001..16 و RSK-001..04 ومصفوفة التتبع T1 إلى T20</td><td style="text-align:center;"><span class="toc-page-pill">46</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-47')"><td><strong>19</strong></td><td><a href="#page-47" class="toc-link">19. أولويات التحسين وإدارة المخاطر التشغيلية</a></td><td>مصفوفة الأولويات الصناعية (P1, P2, P3) وسجل المخاطر التشغيلية والضوابط</td><td style="text-align:center;"><span class="toc-page-pill">47</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-48')"><td><strong>20</strong></td><td><a href="#page-48" class="toc-link">20. خارطة التطبيق، الأسئلة المفتوحة، والاعتماد</a></td><td>مراحل التنفيذ الخمس، الأسئلة المفتوحة (30 سؤالاً)، واستمارة الاعتماد الرسمي</td><td style="text-align:center;"><span class="toc-page-pill">48</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-49')"><td><strong>21</strong></td><td><a href="#page-49" class="toc-link">21. الملحق أ: معمارية وإجراءات التشغيل القياسية</a></td><td>معمارية الإجراءات، SOP-GEN العامة الـ 14، ومصفوفة إجراءات المراحل (31 إجراء)</td><td style="text-align:center;"><span class="toc-page-pill">49</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-51')"><td><strong>22</strong></td><td><a href="#page-51" class="toc-link">22. الملحق ب: القاموس المعتمد لمؤشرات الأداء</a></td><td>المؤشرات الشاملة L1، مؤشرات المراحل L3، مؤشرات الإدارات الداعمة L2 و OP</td><td style="text-align:center;"><span class="toc-page-pill">51</span></td></tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-53')"><td><strong>23</strong></td><td><a href="#page-53" class="toc-link">23. الملحق ج: كتالوج التقارير ولوحات المتابعة</a></td><td>نقاط التسجيل C01-C14، كتالوج 16 تقريراً، ولوحات التحكم الرقمية DB</td><td style="text-align:center;"><span class="toc-page-pill">53</span></td></tr>
+                        </tbody>
                     </table>
                 </div>
             </main>
@@ -229,20 +227,20 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Design Principles & Assumptions</strong>
-                    <span>Sections 1 & 2</span>
+                    <span>Sections 2 & 3</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>1. الغرض والنطاق ومبادئ التصميم المستهدف</span>
+                    <span>2. الغرض والنطاق ومبادئ التصميم المستهدف</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Core Operating Architecture</span>
                 </h2>
                 <p style="font-size:0.77rem; margin-bottom:0.4rem;">
                     تغطي الوثيقة نفس نطاق As-Is: العمليات الإنتاجية، التخطيط والمشتريات، المخازن والصرف، الصيانة وقطع الغيار، معالجة المياه، ومحاسبة التكاليف. يضاف إليها تتبع البلوكات والألواح بالباركود وعلامات التعريف [As-Is]. خارج النطاق حاليا: المبيعات والتحصيل، الحسابات الدائنة والإقفال السنوي، وشؤون الموظفين.
                 </p>
 
-                <h3 class="subsection-title">مبادئ التصميم المستهدف (Target Design Principles)</h3>
+                <h3 class="subsection-title">2.1 مبادئ التصميم المستهدف (Target Design Principles - P1 إلى P8)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.5rem;">
                     <table class="data-table">
                         <thead>
@@ -298,9 +296,10 @@ export function getPages1to5() {
                 </div>
 
                 <h2 class="section-title">
-                    <span>2. افتراضات التصميم لحسم التعارضات (Design Assumptions)</span>
+                    <span>3. افتراضات التصميم لحسم التعارضات (Design Assumptions)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">حلول تعارضات As-Is صفحات 4-16</span>
                 </h2>
+                <h3 class="subsection-title">3.1 مصفوفة حسم تعارضات الوضع الحالي والقرارات المعتمدة (A-01 إلى A-09)</h3>
                 <div class="data-table-wrapper">
                     <table class="data-table">
                         <thead>
@@ -390,20 +389,20 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Organization & RACI Matrix</strong>
-                    <span>Section 3</span>
+                    <span>Section 4</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>3. الهيكل التنظيمي المستهدف ومصفوفة الصلاحيات (RACI)</span>
+                    <span>4. الهيكل التنظيمي المستهدف ومصفوفة الصلاحيات (RACI)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Segregation of Duties</span>
                 </h2>
                 <p style="font-size:0.77rem; margin-bottom:0.35rem;">
                     تبقى الأدوار العشرة الموثقة في As-Is (القسم 4) [As-Is]، وتضاف ستة أدوار تشغيلية لازمة لتشغيل النموذج المستهدف مع منع أي تعارض مصالح:
                 </p>
 
-                <h3 class="subsection-title">الأدوار التشغيلية الستة المضافة (Added Target Roles)</h3>
+                <h3 class="subsection-title">4.1 الأدوار التشغيلية الستة المضافة (Added Target Roles)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table">
                         <thead>
@@ -448,7 +447,7 @@ export function getPages1to5() {
                     </table>
                 </div>
 
-                <h3 class="subsection-title">مصفوفة الصلاحيات والحوكمة التشغيلية (RACI Matrix)</h3>
+                <h3 class="subsection-title">4.2 مصفوفة الصلاحيات والحوكمة التشغيلية (RACI Matrix)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.71rem;">
                         <thead>
@@ -513,13 +512,13 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Map & Control Gates</strong>
-                    <span>Section 4 (Table)</span>
+                    <span>Section 5 (Table)</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>4. خريطة التدفق المستهدفة ونقاط التحكم (Process Flow & Gates)</span>
+                    <span>5. خريطة التدفق العامة ونقاط التحكم والتتبع (Process Flow & Gates)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">9-Stage Target Routing</span>
                 </h2>
                 <p style="font-size:0.77rem; margin-bottom:0.35rem;">
@@ -553,7 +552,7 @@ export function getPages1to5() {
                     </table>
                 </div>
 
-                <h3 class="subsection-title">نمط وسلسلة التتبع الشاملة (Traceability Pattern)</h3>
+                <h3 class="subsection-title">5.1 نمط وسلسلة التتبع الشاملة وشجرة الأنساب (Traceability Pattern)</h3>
                 <div class="callout-box success" style="margin-bottom:0.35rem;">
                     <div style="font-size:0.74rem; font-weight:700; color:var(--primary); line-height:1.6; text-align:center; background:#ffffff; padding:0.4rem; border-radius:6px; border:1px solid #cbd5e1;">
                         رقم دفعة الخامة ⬅ رقم دفعة الكسر المصنف ⬅ دفعة الخلطة ⬅ رقم البلوك (Block ID) ⬅ أرقام الألواح (Block ID + تسلسل) ⬅ رقم الطرد النهائي
@@ -584,23 +583,23 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
             <main class="page-content">
     
                 <h2 class="section-title">
-                    <span>المخططات الانسيابية لتدفق العمليات (Flowcharts: Stages 1 to 9)</span>
+                    <span>6. المخططات الانسيابية لتدفق العمليات (Flowcharts: Stages 1 to 9)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Visual Gates & Decisions</span>
                 </h2>
                 <p style="font-size:0.75rem; margin-bottom:0.35rem;">
                     تبين المخططات التالية الخطوات الأساسية، بوابات التحكم والتحقق، ومسارات القبول أو الرفض لكل مرحلة إنتاجية [Proposed]:
                 </p>
-                <h3 class="subsection-title">1. المرحلة 1: استلام وفحص وتخزين الخامات (Raw Material Receiving & Inspection)</h3>
+                <h3 class="subsection-title">6.1 المرحلة 1: استلام وفحص وتخزين الخامات (Raw Material Receiving & Inspection)</h3>
         
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
-                    <img src="flowcharts_png/full_single_images/Stage01_Raw_Material_Receiving_and_Inspection_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 1 – استلام وفحص وتخزين الخامات">
+                    <img src="flowcharts_png/المرحله الأولي.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 1 – استلام وفحص وتخزين الخامات">
                     <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 1 – استلام وفحص وتخزين الخامات (Full Process Flow)</div>
                     <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
                 </div>
@@ -625,7 +624,7 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -635,7 +634,7 @@ export function getPages1to5() {
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Crushing & Sizing</span>
                 </h2>
-                <h3 class="subsection-title">2. المرحلة 2: تكسير وفرز كسر الرخام (Crushing & Sizing)</h3>
+                <h3 class="subsection-title">6.2 المرحلة 2: تكسير وفرز كسر الرخام (Crushing & Sizing)</h3>
         
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage02_Crushing_and_Sizing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 2 – تكسير وفرز كسر الرخام">
@@ -663,7 +662,7 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -673,7 +672,7 @@ export function getPages1to5() {
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Automatic Mixing</span>
                 </h2>
-                <h3 class="subsection-title">3. المرحلة 3: الخلط الآلي وتجهيز الخلطة (Automatic Mixing)</h3>
+                <h3 class="subsection-title">6.3 المرحلة 3: الخلط الآلي وتجهيز الخلطة (Automatic Mixing)</h3>
         
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage03_Automatic_Mixing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 3 – الخلط الآلي وتجهيز الخلطة">
@@ -701,7 +700,7 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -711,7 +710,7 @@ export function getPages1to5() {
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Block Casting</span>
                 </h2>
-                <h3 class="subsection-title">4. المرحلة 4: الصب في القالب وتكوين البلوك (Block Casting)</h3>
+                <h3 class="subsection-title">6.4 المرحلة 4: الصب في القالب وتكوين البلوك (Block Casting)</h3>
         
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage04_Block_Casting_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 4 – الصب في القالب وتكوين البلوك">
@@ -739,7 +738,7 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -749,7 +748,7 @@ export function getPages1to5() {
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Vacuum De-airing</span>
                 </h2>
-                <h3 class="subsection-title">5. المرحلة 5: سحب الهواء والكبس تحت الفاكيوم (Vacuum De-airing)</h3>
+                <h3 class="subsection-title">6.5 المرحلة 5: سحب الهواء والكبس تحت الفاكيوم (Vacuum De-airing)</h3>
         
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage05_Vacuum_De-airing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم">
@@ -777,7 +776,7 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -787,7 +786,7 @@ export function getPages1to5() {
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Demoulding & Curing</span>
                 </h2>
-                <h3 class="subsection-title">6. المرحلة 6: فك القوالب والمعالجة والإنضاج (Demoulding & Curing)</h3>
+                <h3 class="subsection-title">6.6 المرحلة 6: فك القوالب والمعالجة والإنضاج (Demoulding & Curing)</h3>
         
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage06_Demoulding_and_Curing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 6 – فك القوالب والمعالجة والإنضاج">
@@ -815,7 +814,7 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -825,7 +824,7 @@ export function getPages1to5() {
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Gang Saw Slabbing</span>
                 </h2>
-                <h3 class="subsection-title">7. المرحلة 7: تقطيع البلوك إلى ألواح باستخدام المناشير (Gang Saw Slabbing)</h3>
+                <h3 class="subsection-title">6.7 المرحلة 7: تقطيع البلوك إلى ألواح باستخدام المناشير (Gang Saw Slabbing)</h3>
         
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage07_Gang_Saw_Slabbing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام المناشير">
@@ -853,7 +852,7 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -863,7 +862,7 @@ export function getPages1to5() {
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Grinding & Polishing</span>
                 </h2>
-                <h3 class="subsection-title">8. المرحلة 8: الجلي والتلميع والمعالجة السطحية (Grinding & Polishing)</h3>
+                <h3 class="subsection-title">6.8 المرحلة 8: الجلي والتلميع والمعالجة السطحية (Grinding & Polishing)</h3>
         
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage08_Grinding_and_Polishing_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 8 – الجلي والتلميع والمعالجة السطحية">
@@ -891,7 +890,7 @@ export function getPages1to5() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -901,7 +900,7 @@ export function getPages1to5() {
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Custom Cutting & Packaging</span>
                 </h2>
-                <h3 class="subsection-title">9. المرحلة 9: القطع والتفصيل والتغليف النهائي (Custom Cutting & Packaging)</h3>
+                <h3 class="subsection-title">6.9 المرحلة 9: القطع والتفصيل والتغليف النهائي (Custom Cutting & Packaging)</h3>
         
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage09_Custom_Cutting_and_Packaging_full.png" class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;" alt="المخطط الانسيابي الكامل للمرحلة 9 – القطع والتفصيل والتغليف النهائي">

@@ -17,16 +17,16 @@ export function getPages16to21() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Plant KPIs & Records Destiny</strong>
-                    <span>Sections 15 & 16</span>
+                    <span>Section 17</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>15. مؤشرات المصنع الرئيسية (F-Series) وتوحيد المقاييس</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Unified Metrics
-                        Strategy</span>
+                    <span>17. منظومة قياس الأداء وحوكمة السجلات والنماذج</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Unified Metrics Strategy & Form Fate</span>
                 </h2>
+                <h3 class="subsection-title" style="margin-bottom:0.25rem;">17.1 مؤشرات المصنع الرئيسية (F-Series) وتوحيد المقاييس</h3>
                 <div class="callout-box info" style="margin-bottom:0.4rem; padding:0.4rem 0.65rem;">
                     <p style="font-size:0.72rem; margin:0; line-height:1.4;">
                         المجموعة الرئيسية الوحيدة لمؤشرات المصنع هي <strong>F-01 إلى F-15</strong> (الملحق ب). المجموعة
@@ -110,10 +110,9 @@ export function getPages16to21() {
                     </table>
                 </div>
 
-                <h2 class="section-title">
-                    <span>16. السجلات والنماذج الحالية: مصيرها في الوضع المستهدف</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">25 Form Fate Matrix</span>
-                </h2>
+                <h3 class="subsection-title" style="margin-top:0.35rem; margin-bottom:0.25rem; font-size:0.8rem; color:var(--primary); font-weight:700;">
+                    17.2 السجلات والنماذج الحالية: مصيرها في الوضع المستهدف (25 Form Fate Matrix)
+                </h3>
                 <div class="data-table-wrapper">
                     <table class="data-table" style="font-size:0.66rem;">
                         <thead>
@@ -327,16 +326,16 @@ export function getPages16to21() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Gaps & Traceability Matrix</strong>
-                    <span>Sections 17 & 18</span>
+                    <span>Section 18</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>17. معالجة المشكلات والمخاطر المرصودة في As-Is</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Closing Gaps &
-                        Issues</span>
+                    <span>18. معالجة الفجوات ومصفوفة التتبع الشاملة</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Closing Gaps & Traceability</span>
                 </h2>
+                <h3 class="subsection-title" style="margin-bottom:0.25rem;">18.1 معالجة المشكلات والمخاطر المرصودة في As-Is (Closing Gaps & Issues)</h3>
 
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.68rem;">
@@ -404,11 +403,9 @@ export function getPages16to21() {
                     </table>
                 </div>
 
-                <h2 class="section-title">
-                    <span>18. مصفوفة التتبع: من الوضع الحالي إلى المستهدف (T1 إلى T20)</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">As-Is to To-Be
-                        Traceability</span>
-                </h2>
+                <h3 class="subsection-title" style="margin-top:0.35rem; margin-bottom:0.25rem; font-size:0.8rem; color:var(--primary); font-weight:700;">
+                    18.2 مصفوفة التتبع: من الوضع الحالي إلى المستهدف (T1 إلى T20)
+                </h3>
                 <div class="data-table-wrapper">
                     <table class="data-table" style="font-size:0.65rem;">
                         <thead>
@@ -562,7 +559,7 @@ export function getPages16to21() {
                                 <td>T18</td>
                                 <td>السجلات</td>
                                 <td>12 مستندا مذكورا من أصل 17 (ص16 و19)</td>
-                                <td>جدول المصير (القسم 16) لـ 25 سجلا ونموذجا</td>
+                                <td>جدول المصير (القسم 17 - البند 17.2) لـ 25 سجلاً ونموذجاً</td>
                                 <td>سجل واحد لكل معاملة</td>
                                 <td style="text-align:center;"><span class="badge badge-tbc">[As-Is] [TBC]</span></td>
                             </tr>
@@ -609,15 +606,16 @@ export function getPages16to21() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Priorities & Operational Risks</strong>
-                    <span>Sections 19 & 20</span>
+                    <span>Section 19</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>19. مصفوفة أولويات التحسين الصناعي (Improvement Priorities)</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Priority Matrix</span>
+                    <span>19. أولويات التحسين وإدارة المخاطر التشغيلية</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Priority Matrix & Risk Register</span>
                 </h2>
+                <h3 class="subsection-title" style="margin-bottom:0.25rem;">19.1 مصفوفة أولويات التحسين الصناعي (Improvement Priorities)</h3>
 
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.67rem;">
@@ -712,11 +710,9 @@ export function getPages16to21() {
                     </table>
                 </div>
 
-                <h2 class="section-title">
-                    <span>20. المخاطر التشغيلية والضوابط الوقائية (Operational Risk Register)</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Risk & Control
-                        Matrix</span>
-                </h2>
+                <h3 class="subsection-title" style="margin-top:0.35rem; margin-bottom:0.25rem; font-size:0.8rem; color:var(--primary); font-weight:700;">
+                    19.2 المخاطر التشغيلية والضوابط الوقائية (Operational Risk Register)
+                </h3>
                 <div class="data-table-wrapper">
                     <table class="data-table" style="font-size:0.66rem;">
                         <thead>
@@ -851,15 +847,16 @@ export function getPages16to21() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Roadmap, Open Questions & Sign-off</strong>
-                    <span>Sections 21 & 22</span>
+                    <span>Section 20</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>21. خارطة التطبيق المرحلية (Implementation Roadmap)</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Phased Execution</span>
+                    <span>20. خارطة التطبيق والقرارات المفتوحة والاعتماد الرسمي</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Phased Execution & Sign-off</span>
                 </h2>
+                <h3 class="subsection-title" style="margin-bottom:0.25rem;">20.1 خارطة التطبيق المرحلية (Implementation Roadmap)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.67rem;">
                         <thead>
@@ -871,8 +868,8 @@ export function getPages16to21() {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr><td><strong>1. حسم القرارات</strong></td><td>حسم الأسئلة المفتوحة (القسم 22)، تثبيت الأدوار (تم حسم الـ 2 كسارة والـ 3 سايلوهات بقرار الإدارة)</td><td>اعتماد الإدارة على الوثيقة v1.0</td><td style="text-align:center;"><span class="badge badge-tbc">[TBC]</span></td></tr>
-                            <tr><td><strong>2. تثبيت السجلات</strong></td><td>اعتماد نماذج السجلات الـ 25، مصير السجلات من القسم 16، وتحديد أماكن الحفظ</td><td>اعتماد النماذج الرسمية</td><td style="text-align:center;"><span class="badge badge-proposed">[Proposed]</span></td></tr>
+                            <tr><td><strong>1. حسم القرارات</strong></td><td>حسم الأسئلة المفتوحة (القسم 20 - البند 20.2)، تثبيت الأدوار (تم حسم الـ 2 كسارة والـ 3 سايلوهات بقرار الإدارة)</td><td>اعتماد الإدارة على الوثيقة v1.0</td><td style="text-align:center;"><span class="badge badge-tbc">[TBC]</span></td></tr>
+                            <tr><td><strong>2. تثبيت السجلات</strong></td><td>اعتماد نماذج السجلات الـ 25، مصير السجلات من القسم 17 (البند 17.2)، وتحديد أماكن الحفظ</td><td>اعتماد النماذج الرسمية</td><td style="text-align:center;"><span class="badge badge-proposed">[Proposed]</span></td></tr>
                             <tr><td><strong>3. تشغيل تجريبي</strong></td><td>تنفيذ الإجراءات لمراحل الاستلام والخلط والصب على خطوط محدودة، وتدريب المشغلين</td><td>نتيجة تجريبية مقبولة</td><td style="text-align:center;"><span class="badge badge-proposed">[Proposed]</span></td></tr>
                             <tr><td><strong>4. تشغيل كامل</strong></td><td>تطبيق الإجراءات على المراحل التسع بالكامل، وجمع بيانات خط الأساس لمدة 8 أسابيع</td><td>تثبيت المستهدفات بقرار الإدارة</td><td style="text-align:center;"><span class="badge badge-proposed">[Proposed]</span></td></tr>
                             <tr><td><strong>5. التحسين المستمر</strong></td><td>مراجعة ربع سنوية للمعايير ومعدلات الهدر وتحديث إجراءات التشغيل</td><td>مراجعة دورية للإدارة</td><td style="text-align:center;"><span class="badge badge-proposed">[Proposed]</span></td></tr>
@@ -880,10 +877,9 @@ export function getPages16to21() {
                     </table>
                 </div>
 
-                <h2 class="section-title">
-                    <span>22. نقاط مفتوحة وقرارات مطلوبة لحسم التصميم (30 سؤالاً)</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Open Questions Register</span>
-                </h2>
+                <h3 class="subsection-title" style="margin-top:0.35rem; margin-bottom:0.25rem; font-size:0.8rem; color:var(--primary); font-weight:700;">
+                    20.2 نقاط مفتوحة وقرارات مطلوبة لحسم التصميم (30 سؤالاً)
+                </h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.64rem;">
                         <thead>
@@ -913,7 +909,7 @@ export function getPages16to21() {
                             <tr><td><span class="badge badge-tbc">OQ-17</span></td><td>صلاحيات اعتماد القبول بانحراف أو إعادة التشغيل</td><td>إجراء معالجة عدم المطابقة</td><td>مدير الجودة</td></tr>
                             <tr><td><span class="badge badge-tbc">OQ-18</span></td><td>عدد فترات التشغيل اليومية وتوقيت كل منها</td><td>إجراء تسليم الفترات GEN-02</td><td>مدير المصنع</td></tr>
                             <tr><td><span class="badge badge-tbc">OQ-19</span></td><td>الممارسات الحالية للسلامة وعزل الطاقة</td><td>إجراء LOTO وتصاريح العمل</td><td>مسؤول السلامة</td></tr>
-                            <tr><td><span class="badge badge-tbc">OQ-20</span></td><td>الخمسة مستندات غير المحددة في قسم السجلات As-Is</td><td>جدول مصير السجلات (القسم 16)</td><td>إدارة Terrazzo</td></tr>
+                            <tr><td><span class="badge badge-tbc">OQ-20</span></td><td>الخمسة مستندات غير المحددة في قسم السجلات As-Is</td><td>جدول مصير السجلات (القسم 17 - البند 17.2)</td><td>إدارة Terrazzo</td></tr>
                             <tr><td><span class="badge badge-tbc">OQ-21</span></td><td>العمر الافتراضي لأسلحة المناشير وأحجار الجلي</td><td>المعدل القياسي للمتر المربع</td><td>مدير الإنتاج والصيانة</td></tr>
                             <tr><td><span class="badge badge-tbc">OQ-22</span></td><td>عدد شفرات المنشار وسرعة النشر القياسية</td><td>مستهدفات OEE وإنتاجية المناشير</td><td>مدير الإنتاج</td></tr>
                             <tr><td><span class="badge badge-tbc">OQ-23</span></td><td>نسب توزيع فواتير الكهرباء وإمكانية عدادات فرعية</td><td>توزيع تكلفة المرافق والطاقة</td><td>الإدارة المالية والمصنع</td></tr>
@@ -961,20 +957,20 @@ export function getPages16to21() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Appendix A: SOP Architecture</strong>
-                    <span>General SOPs (SOP-GEN)</span>
+                    <span>Section 21 — General SOPs (SOP-GEN)</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>ملحق أ: معمارية وإجراءات التشغيل القياسية (SOP Architecture)</span>
+                    <span>21. الملحق أ: معمارية وإجراءات التشغيل القياسية (SOP Architecture)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">منظومة الـ 51 إجراء</span>
                 </h2>
                 <p style="font-size:0.76rem; margin-bottom:0.35rem;">
                     تتكون منظومة إجراءات المصنع من <strong>51 إجراء تشغيليا</strong> موزعة على 3 طبقات: <strong>14 إجراء عاما (SOP-GEN)</strong> تحكم كل المراحل، <strong>31 إجراء تخصصيا للمراحل</strong>، و <strong>6 إجراءات للعمليات الداعمة</strong>.
                 </p>
 
-                <h3 class="subsection-title">كتالوج الإجراءات العامة (SOP-GEN Catalog — 14 إجراء)</h3>
+                <h3 class="subsection-title">21.1 كتالوج الإجراءات العامة (SOP-GEN Catalog — 14 إجراء)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.68rem;">
                         <thead>
@@ -1005,7 +1001,7 @@ export function getPages16to21() {
                     </table>
                 </div>
 
-                <h3 class="subsection-title">تفاصيل الإجراءات العامة الحرجة (Critical SOP-GEN Details)</h3>
+                <h3 class="subsection-title">21.2 تفاصيل الإجراءات العامة الحرجة (Critical SOP-GEN Details)</h3>
                 <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.45rem;">
                     <div class="callout-box info" style="margin:0; font-size:0.71rem; line-height:1.4;">
                         <strong style="color:var(--primary); display:block; margin-bottom:0.15rem;">GEN-02: التسليم بين فترات التشغيل</strong>
@@ -1045,15 +1041,16 @@ export function getPages16to21() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Appendix A: Stage SOPs</strong>
-                    <span>31 Procedures & Critical Controls</span>
+                    <span>Section 21 — 31 Procedures & Critical Controls</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>مجموعات الإجراءات لكل مرحلة إنتاج (31 إجراء تفصيليا)</span>
+                    <span>21. الملحق أ: إجراءات التشغيل للمراحل الإنتاجية (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Stage SOP Matrix</span>
                 </h2>
+                <h3 class="subsection-title">21.3 مصفوفة إجراءات المراحل الإنتاجية التفصيلية (Stage SOP Matrix — 31 إجراء)</h3>
 
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.68rem;">
@@ -1080,7 +1077,7 @@ export function getPages16to21() {
                     </table>
                 </div>
 
-                <h3 class="subsection-title">الإجراءات التخصصية الحرجة ونقاط التحكم (Critical Stage Controls)</h3>
+                <h3 class="subsection-title">21.4 الإجراءات التخصصية الحرجة ونقاط التحكم (Critical Stage Controls)</h3>
                 <div class="data-table-wrapper">
                     <table class="data-table" style="font-size:0.68rem;">
                         <thead>
@@ -1127,17 +1124,17 @@ export function getPages16to21() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Appendix B: KPI Dictionary</strong>
-                    <span>Plant (L1) & Stage (L3) Metrics</span>
+                    <span>Section 22 — Plant (L1) & Stage (L3) Metrics</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>ملحق ب: القاموس المعتمد لمؤشرات الأداء (KPI Dictionary)</span>
+                    <span>22. الملحق ب: القاموس المعتمد لمؤشرات الأداء (KPI Dictionary)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">منظومة الـ 105 مؤشرات</span>
                 </h2>
 
-                <h3 class="subsection-title">المؤشرات العامة للمصنع (Plant-Level L1: F-01 إلى F-15)</h3>
+                <h3 class="subsection-title">22.1 المؤشرات العامة للمصنع (Plant-Level L1: F-01 إلى F-15)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.67rem;">
                         <thead>
@@ -1170,7 +1167,7 @@ export function getPages16to21() {
                     </table>
                 </div>
 
-                <h3 class="subsection-title">ملخص عينة مؤشرات المراحل التشغيلية L3 (54 مؤشرا لـ S1 حتى S9)</h3>
+                <h3 class="subsection-title">22.2 ملخص مؤشرات المراحل التشغيلية L3 (54 مؤشراً لـ S1 حتى S9)</h3>
                 <div class="data-table-wrapper">
                     <table class="data-table" style="font-size:0.66rem;">
                         <thead>
@@ -1218,13 +1215,13 @@ export function getPages16to21() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Appendix B: Dept KPIs & Tree</strong>
-                    <span>L2 Metrics, Operator Qualification & Energy</span>
+                    <span>Section 22 — L2 Metrics, Operator Qualification & Energy</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>مؤشرات الإدارات الداعمة (L2) وتأهيل المشغلين (OP)</span>
+                    <span>22. الملحق ب: مؤشرات الإدارات الداعمة وتأهيل المشغلين (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Departmental Enablers & Operators</span>
                 </h2>
 
@@ -1251,7 +1248,7 @@ export function getPages16to21() {
                     </table>
                 </div>
 
-                <h3 class="subsection-title">مؤشرات تأهيل المشغلين التشغيلية (Operator Qualification [Proposed])</h3>
+                <h3 class="subsection-title">22.3 مؤشرات تأهيل المشغلين التشغيلية (Operator Qualification [Proposed])</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.67rem;">
                         <thead>
@@ -1270,7 +1267,7 @@ export function getPages16to21() {
                     </table>
                 </div>
 
-                <h3 class="subsection-title">شجرة المؤشرات وروابط التفصيل (KPI Drill-down Tree)</h3>
+                <h3 class="subsection-title">22.4 شجرة المؤشرات وروابط التفصيل (KPI Drill-down Tree)</h3>
                 <div class="callout-box info" style="margin-bottom:0.45rem; font-size:0.71rem; line-height:1.42;">
                     <strong>F-02 العائد الكلي ⬅</strong> S7-01 العائد المساحي للبلوك · S7-02 كسر المناشير · S7-04 دقة السماكة · S8-01 FPY التلميع · S8-02 الدرجة الثانية · S9-01 استغلال اللوح CNC · S5-02 عيوب المسامية · S4-02 فاصل الدفعتين · S6-01 القطع المبكر.<br>
                     <strong>F-09 تكلفة المتر المربع ⬅</strong> الخامات (S3-02 الأسمنت، S3-03 الألوان، S2-01 عائد الكسر) · المستلزمات (S7-05 الأسلحة، S8-04 الريزن، S8-05 الأحجار، WT-03 الكيماويات) · الطاقة وساعات التشغيل (F-13 الطاقة، S7-03 OEE).<br>
@@ -1304,17 +1301,17 @@ export function getPages16to21() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Appendix C: Dashboards & Reports</strong>
-                    <span>Capture Points, 16 Reports & DB-00 to DB-S9</span>
+                    <span>Section 23 — Capture Points, 16 Reports & DB-00 to DB-S9</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>ملحق ج: كتالوج التقارير ولوحات المتابعة (Dashboards & Reports)</span>
+                    <span>23. الملحق ج: كتالوج التقارير ولوحات المتابعة (Dashboards & Reports)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Execution Intelligence</span>
                 </h2>
 
-                <h3 class="subsection-title">نقاط الالتقاط الإلزامية (C01 إلى C14) وكتالوج التقارير الـ 16</h3>
+                <h3 class="subsection-title">23.1 نقاط الالتقاط الإلزامية (C01 إلى C14) وكتالوج التقارير الـ 16</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.66rem;">
                         <thead>
@@ -1341,7 +1338,7 @@ export function getPages16to21() {
                     </table>
                 </div>
 
-                <h3 class="subsection-title">لوحات الإدارات (DB-01 إلى DB-09) وشاشات أرضية المصنع (DB-S1 إلى DB-S9)</h3>
+                <h3 class="subsection-title">23.2 لوحات الإدارات (DB-01 إلى DB-09) وشاشات أرضية المصنع (DB-S1 إلى DB-S9)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.66rem;">
                         <thead>

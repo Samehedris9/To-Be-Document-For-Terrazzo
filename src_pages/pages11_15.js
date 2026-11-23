@@ -17,13 +17,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 6: Curing & Maturation</strong>
-                    <span>Section 10 — Controlled Curing</span>
+                    <span>Section 12 — Controlled Curing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>10. المرحلة 6: الفك والمعالجة (Demoulding & Curing)</span>
+                    <span>12. المرحلة 6: الفك والمعالجة (Demoulding & Curing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إغلاق فجوة إفراج النشر ISS-005</span>
                 </h2>
 
@@ -61,13 +61,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 6: Curing & Maturation (تابع)</strong>
-                    <span>Section 10 — Controlled Curing</span>
+                    <span>Section 12 — Controlled Curing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>10. المرحلة 6: الفك والمعالجة (Demoulding & Curing) (تابع)</span>
+                    <span>12. المرحلة 6: الفك والمعالجة (Demoulding & Curing) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
                 </h2>
 
@@ -98,13 +98,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 6: Curing & Maturation (SOP & KPIs)</strong>
-                    <span>Section 10 — Controlled Curing</span>
+                    <span>Section 12 — Controlled Curing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>10. المرحلة 6: الفك والمعالجة (Demoulding & Curing)</span>
+                    <span>12. المرحلة 6: الفك والمعالجة (Demoulding & Curing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
                 </h2>
 
@@ -210,13 +210,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 7: Gang Saw Slabbing</strong>
-                    <span>Section 11 — BM1 to BM4 Lines</span>
+                    <span>Section 13 — BM1 to BM4 Lines</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>11. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4)</span>
+                    <span>13. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">ميلاد أكواد الألواح Slab IDs</span>
                 </h2>
 
@@ -254,13 +254,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 7: Gang Saw Slabbing (تابع)</strong>
-                    <span>Section 11 — BM1 to BM4 Lines</span>
+                    <span>Section 13 — BM1 to BM4 Lines</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>11. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4) (تابع)</span>
+                    <span>13. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
                 </h2>
 
@@ -291,13 +291,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 7: Gang Saw Slabbing (SOP & KPIs)</strong>
-                    <span>Section 11 — BM1 to BM4 Lines</span>
+                    <span>Section 13 — BM1 to BM4 Lines</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>11. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4)</span>
+                    <span>13. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
                 </h2>
 
@@ -403,13 +403,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 8: Grinding & Polishing</strong>
-                    <span>Section 12 — Surface Treatment</span>
+                    <span>Section 14 — Surface Treatment</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>12. المرحلة 8: الجلي والتلميع (Grinding & Polishing)</span>
+                    <span>14. المرحلة 8: الجلي والتلميع (Grinding & Polishing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">المعالجة السطحية وإغلاق المسام</span>
                 </h2>
 
@@ -447,13 +447,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 8: Grinding & Polishing (تابع)</strong>
-                    <span>Section 12 — Surface Treatment</span>
+                    <span>Section 14 — Surface Treatment</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>12. المرحلة 8: الجلي والتلميع (Grinding & Polishing) (تابع)</span>
+                    <span>14. المرحلة 8: الجلي والتلميع (Grinding & Polishing) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
                 </h2>
 
@@ -484,13 +484,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 8: Grinding & Polishing (SOP & KPIs)</strong>
-                    <span>Section 12 — Surface Treatment</span>
+                    <span>Section 14 — Surface Treatment</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>12. المرحلة 8: الجلي والتلميع (Grinding & Polishing)</span>
+                    <span>14. المرحلة 8: الجلي والتلميع (Grinding & Polishing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
                 </h2>
 
@@ -596,13 +596,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 9: Finishing & Dispatch</strong>
-                    <span>Section 13 — Finishing & Dispatch</span>
+                    <span>Section 15 — Finishing & Dispatch</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>13. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging)</span>
+                    <span>15. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">مطابقة مواصفات العميل والمشروعات</span>
                 </h2>
 
@@ -640,13 +640,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 9: Finishing & Dispatch (تابع)</strong>
-                    <span>Section 13 — Finishing & Dispatch</span>
+                    <span>Section 15 — Finishing & Dispatch</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>13. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging) (تابع)</span>
+                    <span>15. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
                 </h2>
 
@@ -677,13 +677,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 9: Finishing & Dispatch (SOP & KPIs)</strong>
-                    <span>Section 13 — Finishing & Dispatch</span>
+                    <span>Section 15 — Finishing & Dispatch</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>13. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging)</span>
+                    <span>15. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
                 </h2>
 
@@ -788,13 +788,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Supporting Processes: Planning & Inventory</strong>
-                    <span>Section 14.1 & 14.2 — Operational Enablers</span>
+                    <span>Section 16 — Operational Support Functions</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>14.1 و 14.2: تخطيط الإنتاج وإدارة المخازن (Planning & Warehouse)</span>
+                    <span>16. العمليات المساندة: تخطيط الإنتاج وإدارة المخازن (16.1 و 16.2)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">تحقيق التدفق المتوازن ومنع الاختناقات</span>
                 </h2>
 
@@ -945,7 +945,7 @@ export function getPages11to15() {
 
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
-                <span class="status-tag">Supporting 14.1 & 14.2: Planning & Warehouse</span>
+                <span class="status-tag">Supporting 16.1 & 16.2: Planning & Warehouse</span>
                 <span>الصفحة 42 من 53</span>
             </footer>
         </section>
@@ -962,13 +962,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Supporting Processes: Quality & Maintenance</strong>
-                    <span>Section 14.3 & 14.4 — Reliability & Standards</span>
+                    <span>Section 16 — Quality & Maintenance Standards</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>14.3 و 14.4: رقابة الجودة والمختبر والصيانة الوقائية (QC & Maintenance)</span>
+                    <span>16. العمليات المساندة: رقابة الجودة والمختبر والصيانة الوقائية (16.3 و 16.4)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إدارة حالات عدم المطابقة والجاهزية الفنية</span>
                 </h2>
 
@@ -1119,7 +1119,7 @@ export function getPages11to15() {
 
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
-                <span class="status-tag">Supporting 14.3 & 14.4: QC & Maintenance</span>
+                <span class="status-tag">Supporting 16.3 & 16.4: QC & Maintenance</span>
                 <span>الصفحة 43 من 53</span>
             </footer>
         </section>
@@ -1136,13 +1136,13 @@ export function getPages11to15() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Supporting Processes: Scrap & Calibration</strong>
-                    <span>Section 14.5 & 14.6 — Sustainability & Accuracy</span>
+                    <span>Section 16 — Scrap & Calibration Standards</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>14.5 و 14.6: إدارة الهالك والتدوير ومعايرة الموازين (Scrap & Calibration)</span>
+                    <span>16. العمليات المساندة: إدارة الهالك والتدوير ومعايرة الموازين (16.5 و 16.6)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">الاقتصاد الدائري وضمان الدقة القياسية</span>
                 </h2>
 
@@ -1292,7 +1292,7 @@ export function getPages11to15() {
 
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
-                <span class="status-tag">Supporting 14.5 & 14.6: Scrap & Calibration</span>
+                <span class="status-tag">Supporting 16.5 & 16.6: Scrap & Calibration</span>
                 <span>الصفحة 44 من 53</span>
             </footer>
         </section>

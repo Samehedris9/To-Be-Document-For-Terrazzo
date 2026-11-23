@@ -19,13 +19,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 1: Receiving & Sieve QC</strong>
-                    <span>Section 5 — Raw Materials Management</span>
+                    <span>Section 7 — Raw Materials Management</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>5. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage)</span>
+                    <span>7. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إغلاق فجوة الوزن ISS-001 والـ 3 سايلوهات</span>
                 </h2>
 
@@ -63,13 +63,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 1: Receiving & Sieve QC (تابع)</strong>
-                    <span>Section 5 — Raw Materials Management</span>
+                    <span>Section 7 — Raw Materials Management</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>5. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage) (تابع)</span>
+                    <span>7. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
                 </h2>
 
@@ -100,13 +100,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 1: Receiving & Sieve QC (SOP & KPIs)</strong>
-                    <span>Section 5 — Raw Materials Management</span>
+                    <span>Section 7 — Raw Materials Management</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>5. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage)</span>
+                    <span>7. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
                 </h2>
 
@@ -212,13 +212,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 2: Crushing & Sizing (2 Crushers)</strong>
-                    <span>Section 6 — Aggregate Preparation</span>
+                    <span>Section 8 — Aggregate Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>6. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة</span>
+                    <span>8. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">التصنيف الحجمي G1–G5 | 2 كسارة بالمصنع</span>
                 </h2>
 
@@ -256,13 +256,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 2: Crushing & Sizing (2 Crushers) (تابع)</strong>
-                    <span>Section 6 — Aggregate Preparation</span>
+                    <span>Section 8 — Aggregate Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>6. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة (تابع)</span>
+                    <span>8. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
                 </h2>
 
@@ -293,13 +293,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 2: Crushing & Sizing (2 Crushers) (SOP & KPIs)</strong>
-                    <span>Section 6 — Aggregate Preparation</span>
+                    <span>Section 8 — Aggregate Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>6. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة</span>
+                    <span>8. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
                 </h2>
 
@@ -405,13 +405,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 3: Mixing & Formulation</strong>
-                    <span>Section 7 — Formulation & Preparation</span>
+                    <span>Section 9 — Formulation & Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>7. المرحلة 3: الخلط الآلي (Automatic Mixing)</span>
+                    <span>9. المرحلة 3: الخلط الآلي (Automatic Mixing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إغلاق فجوة ميزان الميكسر ISS-002 وسحب الأسمنت من السايلوهات</span>
                 </h2>
 
@@ -449,13 +449,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 3: Mixing & Formulation (تابع)</strong>
-                    <span>Section 7 — Formulation & Preparation</span>
+                    <span>Section 9 — Formulation & Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>7. المرحلة 3: الخلط الآلي (Automatic Mixing) (تابع)</span>
+                    <span>9. المرحلة 3: الخلط الآلي (Automatic Mixing) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
                 </h2>
 
@@ -486,13 +486,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 3: Mixing & Formulation (SOP & KPIs)</strong>
-                    <span>Section 7 — Formulation & Preparation</span>
+                    <span>Section 9 — Formulation & Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>7. المرحلة 3: الخلط الآلي (Automatic Mixing)</span>
+                    <span>9. المرحلة 3: الخلط الآلي (Automatic Mixing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
                 </h2>
 
@@ -598,13 +598,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 4: Mould Preparation & Casting</strong>
-                    <span>Section 8 — Casting & Pre-Vibration</span>
+                    <span>Section 10 — Casting & Pre-Vibration</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>8. المرحلة 4: الصب في القالب (Casting into Mould)</span>
+                    <span>10. المرحلة 4: الصب في القالب (Casting into Mould)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">ميلاد رقم البلوك Block ID</span>
                 </h2>
 
@@ -642,13 +642,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 4: Mould Preparation & Casting (تابع)</strong>
-                    <span>Section 8 — Casting & Pre-Vibration</span>
+                    <span>Section 10 — Casting & Pre-Vibration</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>8. المرحلة 4: الصب في القالب (Casting into Mould) (تابع)</span>
+                    <span>10. المرحلة 4: الصب في القالب (Casting into Mould) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
                 </h2>
 
@@ -679,13 +679,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 4: Mould Preparation & Casting (SOP & KPIs)</strong>
-                    <span>Section 8 — Casting & Pre-Vibration</span>
+                    <span>Section 10 — Casting & Pre-Vibration</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>8. المرحلة 4: الصب في القالب (Casting into Mould)</span>
+                    <span>10. المرحلة 4: الصب في القالب (Casting into Mould)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
                 </h2>
 
@@ -791,13 +791,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 5: Vacuum De-airing & Press</strong>
-                    <span>Section 9 — Compaction & De-airing</span>
+                    <span>Section 11 — Compaction & De-airing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>9. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing)</span>
+                    <span>11. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">تحقيق كثافة الصخور الطبيعية</span>
                 </h2>
 
@@ -835,13 +835,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 5: Vacuum De-airing & Press (تابع)</strong>
-                    <span>Section 9 — Compaction & De-airing</span>
+                    <span>Section 11 — Compaction & De-airing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>9. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing) (تابع)</span>
+                    <span>11. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات القبول والرفض</span>
                 </h2>
 
@@ -872,13 +872,13 @@ export function getPages6to10() {
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 5: Vacuum De-airing & Press (SOP & KPIs)</strong>
-                    <span>Section 9 — Compaction & De-airing</span>
+                    <span>Section 11 — Compaction & De-airing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>9. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing)</span>
+                    <span>11. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي ومؤشرات الأداء التشغيلية</span>
                 </h2>
 

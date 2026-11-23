@@ -331,7 +331,7 @@
             border: 1px solid #6ee7b7;
         }
 
-        .badge-tbc {
+        .badge-TBD {
             background-color: #fffbeb;
             color: #b45309;
             border: 1px solid #fde68a;
@@ -1123,7 +1123,7 @@
                 <button class="filter-btn active" onclick="filterType('all', this)">الكل</button>
                 <button class="filter-btn" onclick="filterType('as-is', this)">[As-Is] وضع حالي</button>
                 <button class="filter-btn" onclick="filterType('proposed', this)">[Proposed] مقترح</button>
-                <button class="filter-btn" onclick="filterType('tbc', this)">[TBC] يحتاج تأكيد</button>
+                <button class="filter-btn" onclick="filterType('TBD', this)">[TBD] يحتاج تأكيد</button>
                 <button class="filter-btn" onclick="filterType('sop', this)">📋 إجراءات (SOPs)</button>
                 <button class="filter-btn" onclick="filterType('kpi', this)">📊 مؤشرات أداء (KPIs)</button>
                 <button class="filter-btn" onclick="filterType('oq', this)">❓ أسئلة مفتوحة (OQ)</button>
@@ -1208,7 +1208,8 @@
                     <div class="cover-detail-item" style="grid-column: span 2;">
                         <span class="cover-detail-label">الحالة التشغيلية والاعتماد (Status)</span>
                         <span class="cover-detail-value" style="color: #b45309;">
-                            مسودة لمراجعة الإدارة — تعتمد على حسم الأسئلة المفتوحة والقرارات المطلوبة (القسم 22)
+                            مسودة لمراجعة الإدارة — تعتمد على حسم الأسئلة المفتوحة والقرارات المطلوبة (القسم 20 - البند
+                            20.2)
                         </span>
                     </div>
 
@@ -1236,20 +1237,22 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
-                    <strong>To-Be Operating Model</strong>
-                    <span>Executive Summary & Methodology</span>
+                    <strong>To-Be Operations
+                        Model</strong>
+                    <span>Section 1 — Executive Summary & Methodology</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title" id="toc-section">
-                    <span>0. بيانات الوثيقة والملخص التنفيذي ومنهجية الوسم</span>
+                    <span>1. بيانات الوثيقة والملخص التنفيذي ومنهجية الوسم</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Scope, Shifts &
                         Rules</span>
                 </h2>
@@ -1261,7 +1264,8 @@
                     رقميا تختاره الإدارة لاحقا.
                 </p>
 
-                <h3 class="subsection-title">منهجية الوثيقة وقواعد الوسم الدقيقة (Tagging Rules)</h3>
+                <h3 class="subsection-title">1.1 منهجية الوثيقة وقواعد الوسم الدقيقة (Document Methodology & Tagging
+                    Rules)</h3>
                 <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:0.45rem; margin-bottom:0.45rem;">
                     <div class="callout-box info" style="margin:0; padding:0.4rem 0.6rem;">
                         <span class="badge badge-as-is" style="margin-bottom:0.2rem;">[As-Is]</span>
@@ -1274,13 +1278,13 @@
                             صريح، ويحتاج اعتماد إدارة المصنع.</p>
                     </div>
                     <div class="callout-box warning" style="margin:0; padding:0.4rem 0.6rem;">
-                        <span class="badge badge-tbc" style="margin-bottom:0.2rem;">[TBC]</span>
+                        <span class="badge badge-TBD" style="margin-bottom:0.2rem;">[TBD]</span>
                         <p style="font-size:0.7rem; margin:0; line-height:1.35;">يحتاج تأكيدا أو قرارا من إدارة
-                            Terrazzo، ولا تُعتمد قيمته قبل حسمه بالقسم 22.</p>
+                            Terrazzo، ولا تُعتمد قيمته قبل حسمه بالقسم 20 (البند 20.2).</p>
                     </div>
                 </div>
 
-                <h3 class="subsection-title">الانتقالات الخمسة الرئيسية للتحول الصناعي (The 5 Core Shifts)</h3>
+                <h3 class="subsection-title">1.2 الانتقالات الخمسة الرئيسية للتحول الصناعي (The 5 Core Shifts)</h3>
                 <div class="shift-grid">
                     <div class="shift-card">
                         <div class="shift-card-title">1. الوزن الدقيق</div>
@@ -1319,7 +1323,7 @@
                     </div>
                 </div>
 
-                <h3 class="subsection-title">جدول المحتويات التنفيذي وفهرس الأقسام (22 قسما و3 ملاحق)</h3>
+                <h3 class="subsection-title">1.3 جدول المحتويات وفهرس الأقسام القياسي (20 قسماً و3 ملاحق)</h3>
                 <div class="data-table-wrapper" style="margin-top:0.3rem;">
                     <table class="data-table" style="font-size:0.69rem;">
                         <thead>
@@ -1331,175 +1335,162 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="toc-row" onclick="scrollToPage('page-3')">
+                            <tr class="toc-row" onclick="scrollToPage('page-2')">
                                 <td><strong>01</strong></td>
-                                <td><a href="#page-3" class="toc-link">الغرض ومبادئ التصميم وحسم التعارضات</a></td>
-                                <td>مبادئ التصميم P1–P8، وافتراضات حسم التعارضات A-01 إلى A-09</td>
+                                <td><a href="#page-2" class="toc-link">1. بيانات الوثيقة والملخص التنفيذي ومنهجية
+                                        الوسم</a></td>
+                                <td>بطاقة الوثيقة، قواعد الوسم، الانتقالات الخمسة، وجدول المحتويات</td>
+                                <td style="text-align:center;"><span class="toc-page-pill">02</span></td>
+                            </tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-3')">
+                                <td><strong>02</strong></td>
+                                <td><a href="#page-3" class="toc-link">2. الغرض والنطاق ومبادئ التصميم المستهدف</a></td>
+                                <td>نطاق التطبيق وحدود النظام، ومبادئ التصميم المستهدف P1–P8</td>
+                                <td style="text-align:center;"><span class="toc-page-pill">03</span></td>
+                            </tr>
+                            <tr class="toc-row" onclick="scrollToPage('page-3')">
+                                <td><strong>03</strong></td>
+                                <td><a href="#page-3" class="toc-link">3. افتراضات التصميم لحسم التعارضات</a></td>
+                                <td>افتراضات حسم تعارضات الوضع الحالي A-01 إلى A-09 والقرارات المعتمدة</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">03</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-4')">
-                                <td><strong>02</strong></td>
-                                <td><a href="#page-4" class="toc-link">الهيكل التنظيمي ومصفوفة الصلاحيات RACI</a></td>
+                                <td><strong>04</strong></td>
+                                <td><a href="#page-4" class="toc-link">4. الهيكل التنظيمي ومصفوفة الصلاحيات RACI</a>
+                                </td>
                                 <td>الأدوار التشغيلية المضافة، مصفوفة الصلاحيات، وقواعد الفصل الإلزامية</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">04</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-5')">
-                                <td><strong>03</strong></td>
-                                <td><a href="#page-5" class="toc-link">خريطة التدفق ونقاط التحكم والتتبع</a></td>
+                                <td><strong>05</strong></td>
+                                <td><a href="#page-5" class="toc-link">5. خريطة التدفق العامة ونقاط التحكم والتتبع</a>
+                                </td>
                                 <td>مسار العمليات التسع، مراكز العمل، بوابات التحكم، وشجرة التتبع</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">05</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-6')">
-                                <td><strong>04</strong></td>
-                                <td><a href="#page-6" class="toc-link">المعمارية العامة لبوابات الجودة (1-9)</a></td>
+                                <td><strong>06</strong></td>
+                                <td><a href="#page-6" class="toc-link">6. المخططات الانسيابية لتدفق العمليات (1-9)</a>
+                                </td>
                                 <td>مخططات المراحل التسع مع بوابات القبول والرفض ومسارات الفرز</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">06</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-15')">
-                                <td><strong>05</strong></td>
-                                <td><a href="#page-15" class="toc-link">المرحلة 1: استلام وتخزين الخامات (RM QC)</a>
+                                <td><strong>07</strong></td>
+                                <td><a href="#page-15" class="toc-link">7. المرحلة 1: استلام وتخزين الخامات (RM QC)</a>
                                 </td>
                                 <td>SOP-RM-01، إغلاق فجوة الوزن ISS-001، فحص الكسر ومؤشرات S1</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">15</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-18')">
-                                <td><strong>06</strong></td>
-                                <td><a href="#page-18" class="toc-link">المرحلة 2: تكسير وفرز كسر الرخام (Sizing)</a>
+                                <td><strong>08</strong></td>
+                                <td><a href="#page-18" class="toc-link">8. المرحلة 2: تكسير وفرز كسر الرخام (Sizing)</a>
                                 </td>
-                                <td>SOP-CR-01، التصنيف الحجمي G1–G5، تشغيل الـ 2 كسارة، تنظيف الكسارات ومؤشرات S2</td>
+                                <td>SOP-CR-01، التصنيف الحجمي G1–G5، تشغيل الـ 2 كسارة ومؤشرات S2</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">18</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-21')">
-                                <td><strong>07</strong></td>
-                                <td><a href="#page-21" class="toc-link">المرحلة 3: الخلط الآلي ووصفات الخلطة (BOM)</a>
-                                </td>
+                                <td><strong>09</strong></td>
+                                <td><a href="#page-21" class="toc-link">9. المرحلة 3: الخلط الآلي ووصفات الخلطة
+                                        (BOM)</a></td>
                                 <td>SOP-MX-01، ميزان الميكسر الرقمي، تجانس اللون ومؤشرات S3</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">21</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-24')">
-                                <td><strong>08</strong></td>
-                                <td><a href="#page-24" class="toc-link">المرحلة 4: الصب في القالب وتوليد Block ID</a>
-                                </td>
+                                <td><strong>10</strong></td>
+                                <td><a href="#page-24" class="toc-link">10. المرحلة 4: الصب في القالب وتوليد Block
+                                        ID</a></td>
                                 <td>SOP-CS-01، دهان العازل، الدمك المتوازن، التتبع ومؤشرات S4</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">24</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-27')">
-                                <td><strong>09</strong></td>
-                                <td><a href="#page-27" class="toc-link">المرحلة 5: سحب الهواء والكبس تحت الفاكيوم</a>
-                                </td>
+                                <td><strong>11</strong></td>
+                                <td><a href="#page-27" class="toc-link">11. المرحلة 5: سحب الهواء والكبس تحت
+                                        الفاكيوم</a></td>
                                 <td>SOP-VC-01، تحقيق 100 mbar، تفريغ الجيوب الهوائية ومؤشرات S5</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">27</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-30')">
-                                <td><strong>10</strong></td>
-                                <td><a href="#page-30" class="toc-link">المرحلة 6: الفك والمعالجة (Demoulding &
+                                <td><strong>12</strong></td>
+                                <td><a href="#page-30" class="toc-link">12. المرحلة 6: الفك والمعالجة (Demoulding &
                                         Curing)</a></td>
                                 <td>SOP-CU-01، الرش المائي 14 يوما، اختبار الصلادة 35 MPa ومؤشرات S6</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">30</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-33')">
-                                <td><strong>11</strong></td>
-                                <td><a href="#page-33" class="toc-link">المرحلة 7: التقطيع بالمناشير (Gang Saws)</a>
+                                <td><strong>13</strong></td>
+                                <td><a href="#page-33" class="toc-link">13. المرحلة 7: التقطيع بالمناشير (Gang Saws)</a>
                                 </td>
                                 <td>SOP-GS-01، خطوط BM1–BM4، ضبط السمك، باركود Slab ID ومؤشرات S7</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">33</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-36')">
-                                <td><strong>12</strong></td>
-                                <td><a href="#page-36" class="toc-link">المرحلة 8: الجلي والتلميع والمعالجة السطحية</a>
-                                </td>
+                                <td><strong>14</strong></td>
+                                <td><a href="#page-36" class="toc-link">14. المرحلة 8: الجلي والتلميع والمعالجة
+                                        السطحية</a></td>
                                 <td>SOP-PL-01، المعالجة بالريزن، تحقيق اللمعان 85 GU ومؤشرات S8</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">36</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-39')">
-                                <td><strong>13</strong></td>
-                                <td><a href="#page-39" class="toc-link">المرحلة 9: القطع والتفصيل والتغليف النهائي</a>
-                                </td>
+                                <td><strong>15</strong></td>
+                                <td><a href="#page-39" class="toc-link">15. المرحلة 9: القطع والتفصيل والتغليف
+                                        النهائي</a></td>
                                 <td>SOP-PK-01، منشار الجسر CNC، فحص الأبعاد، التغليف ومؤشرات S9</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">39</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-42')">
-                                <td><strong>14</strong></td>
-                                <td><a href="#page-42" class="toc-link">العمليات المساندة: التخطيط وإدارة المخازن</a>
-                                </td>
-                                <td>SOP-PP-01، SOP-WH-01، خطة الإنتاج، التخزين المكود ومؤشرات SUP</td>
-                                <td style="text-align:center;"><span class="toc-page-pill">42</span></td>
-                            </tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-43')">
-                                <td><strong>15</strong></td>
-                                <td><a href="#page-43" class="toc-link">العمليات المساندة: الجودة، المختبر والصيانة</a>
-                                </td>
-                                <td>SOP-QC-01، SOP-MT-01، إدارة الـ NCR، صيانة القوالب والجاهزية</td>
-                                <td style="text-align:center;"><span class="toc-page-pill">43</span></td>
-                            </tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-44')">
                                 <td><strong>16</strong></td>
-                                <td><a href="#page-44" class="toc-link">العمليات المساندة: الهالك والتدوير ومعايرة
-                                        الموازين</a></td>
-                                <td>SOP-SC-01، SOP-CA-01، فرز وتدوير الكسر، دقة البسكول والموازين</td>
-                                <td style="text-align:center;"><span class="toc-page-pill">44</span></td>
+                                <td><a href="#page-42" class="toc-link">16. العمليات المساندة لمنظومة الإنتاج (6
+                                        مجالات)</a></td>
+                                <td>SOPs المساندة: التخطيط، المخازن، الجودة، الصيانة، الهالك، والمعايرة</td>
+                                <td style="text-align:center;"><span class="toc-page-pill">42</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-45')">
                                 <td><strong>17</strong></td>
-                                <td><a href="#page-45" class="toc-link">مؤشرات المصنع الموحدة ومصير السجلات الـ 25</a>
-                                </td>
-                                <td>منظومة F-01..15 الموحدة، ومصير السجلات والنماذج الحالية للوضع المستهدف</td>
+                                <td><a href="#page-45" class="toc-link">17. منظومة قياس الأداء وحوكمة السجلات</a></td>
+                                <td>منظومة F-01..15 الموحدة، ومصير السجلات والنماذج الحالية (25 نموذجاً)</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">45</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-46')">
                                 <td><strong>18</strong></td>
-                                <td><a href="#page-46" class="toc-link">إغلاق الفجوات الـ 16 ومصفوفة التتبع الشاملة</a>
+                                <td><a href="#page-46" class="toc-link">18. معالجة الفجوات ومصفوفة التتبع الشاملة</a>
                                 </td>
                                 <td>إغلاق ISS-001..16 و RSK-001..04 ومصفوفة التتبع T1 إلى T20</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">46</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-47')">
                                 <td><strong>19</strong></td>
-                                <td><a href="#page-47" class="toc-link">أولويات التحسين والمخاطر التشغيلية والضوابط</a>
+                                <td><a href="#page-47" class="toc-link">19. أولويات التحسين وإدارة المخاطر التشغيلية</a>
                                 </td>
                                 <td>مصفوفة الأولويات الصناعية (P1, P2, P3) وسجل المخاطر التشغيلية والضوابط</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">47</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-48')">
                                 <td><strong>20</strong></td>
-                                <td><a href="#page-48" class="toc-link">خارطة التطبيق، الأسئلة OQ، والاعتماد الرسمي</a>
-                                </td>
-                                <td>مراحل التنفيذ الخمس، الأسئلة المفتوحة (30 سؤالاً)، واستمارة التوقيع والاعتماد</td>
+                                <td><a href="#page-48" class="toc-link">20. خارطة التطبيق، الأسئلة المفتوحة،
+                                        والاعتماد</a></td>
+                                <td>مراحل التنفيذ الخمس، الأسئلة المفتوحة (30 سؤالاً)، واستمارة الاعتماد الرسمي</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">48</span></td>
                             </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-49')">
                                 <td><strong>21</strong></td>
-                                <td><a href="#page-49" class="toc-link">الملحق أ: معمارية الـ 51 إجراء والكتالوج
-                                        العام</a></td>
-                                <td>معمارية الإجراءات، إجراءات SOP-GEN العامة الـ 14 وقواعد التشغيل</td>
+                                <td><a href="#page-49" class="toc-link">21. الملحق أ: معمارية وإجراءات التشغيل
+                                        القياسية</a></td>
+                                <td>معمارية الإجراءات، SOP-GEN العامة الـ 14، ومصفوفة إجراءات المراحل (31 إجراء)</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">49</span></td>
                             </tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-50')">
-                                <td><strong>22</strong></td>
-                                <td><a href="#page-50" class="toc-link">الملحق أ: إجراءات التشغيل القياسية التفصيلية</a>
-                                </td>
-                                <td>مجموعات الإجراءات التفصيلية للمراحل التسع والعمليات المساندة (31 إجراء)</td>
-                                <td style="text-align:center;"><span class="toc-page-pill">50</span></td>
-                            </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-51')">
-                                <td><strong>23</strong></td>
-                                <td><a href="#page-51" class="toc-link">الملحق ب: قاموس مؤشرات الأداء (105 مؤشرات)</a>
+                                <td><strong>22</strong></td>
+                                <td><a href="#page-51" class="toc-link">22. الملحق ب: القاموس المعتمد لمؤشرات الأداء</a>
                                 </td>
-                                <td>المؤشرات الشاملة L1، ومؤشرات المراحل التفصيلية L3 وقواعد الاحتساب</td>
+                                <td>المؤشرات الشاملة L1، مؤشرات المراحل L3، مؤشرات الإدارات الداعمة L2 و OP</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">51</span></td>
                             </tr>
-                            <tr class="toc-row" onclick="scrollToPage('page-52')">
-                                <td><strong>24</strong></td>
-                                <td><a href="#page-52" class="toc-link">الملحق ب: مؤشرات الإدارات الداعمة وشجرة
-                                        القياس</a></td>
-                                <td>مؤشرات الإدارات الداعمة L2، تأهيل المشغلين OP، وشجرة المؤشرات المتوازنة</td>
-                                <td style="text-align:center;"><span class="toc-page-pill">52</span></td>
-                            </tr>
                             <tr class="toc-row" onclick="scrollToPage('page-53')">
-                                <td><strong>25</strong></td>
-                                <td><a href="#page-53" class="toc-link">الملحق ج: التقارير ولوحات المتابعة ونقاط
-                                        التسجيل</a></td>
-                                <td>نقاط التسجيل C01-C14، كتالوج 16 تقريرا، ولوحات التحكم الرقمية DB</td>
+                                <td><strong>23</strong></td>
+                                <td><a href="#page-53" class="toc-link">23. الملحق ج: كتالوج التقارير ولوحات
+                                        المتابعة</a></td>
+                                <td>نقاط التسجيل C01-C14، كتالوج 16 تقريراً، ولوحات التحكم الرقمية DB</td>
                                 <td style="text-align:center;"><span class="toc-page-pill">53</span></td>
                             </tr>
                         </tbody>
@@ -1520,21 +1511,23 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Design Principles & Assumptions</strong>
-                    <span>Sections 1 & 2</span>
+                    <span>Sections 2 & 3</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>1. الغرض والنطاق ومبادئ التصميم المستهدف</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Core Operating
+                    <span>2. الغرض والنطاق ومبادئ التصميم المستهدف</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Core Operations
+
                         Architecture</span>
                 </h2>
                 <p style="font-size:0.77rem; margin-bottom:0.4rem;">
@@ -1543,7 +1536,7 @@
                     [As-Is]. خارج النطاق حاليا: المبيعات والتحصيل، الحسابات الدائنة والإقفال السنوي، وشؤون الموظفين.
                 </p>
 
-                <h3 class="subsection-title">مبادئ التصميم المستهدف (Target Design Principles)</h3>
+                <h3 class="subsection-title">2.1 مبادئ التصميم المستهدف (Target Design Principles - P1 إلى P8)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.5rem;">
                     <table class="data-table">
                         <thead>
@@ -1607,10 +1600,11 @@
                 </div>
 
                 <h2 class="section-title">
-                    <span>2. افتراضات التصميم لحسم التعارضات (Design Assumptions)</span>
+                    <span>3. افتراضات التصميم لحسم التعارضات (Design Assumptions)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">حلول تعارضات As-Is صفحات
                         4-16</span>
                 </h2>
+                <h3 class="subsection-title">3.1 مصفوفة حسم تعارضات الوضع الحالي والقرارات المعتمدة (A-01 إلى A-09)</h3>
                 <div class="data-table-wrapper">
                     <table class="data-table">
                         <thead>
@@ -1639,11 +1633,13 @@
                                         محسوم</span></td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-as-is">A-03</span></td>
-                                <td>مدة المعالجة (14 مقابل 14–28 يوما)</td>
-                                <td>حد أدنى 14 يوما كزمن انتظار بالمسار، والإفراج للتقطيع بنتيجة اختبار ضغط مقبولة وليس
+                                <td><span class="badge badge-proposed">A-03</span></td>
+                                <td>مدة المعالجة (من 14 الي28 يوما)</td>
+                                <td>حد أدنى 14 يوما الي 28 يوما كزمن انتظار بالمسار، والإفراج للتقطيع بنتيجة اختبار ضغط
+                                    مقبولة وليس
                                     بالزمن فقط (حد أقصى 28 يوما).</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC] يحتاج معيارا</span>
+                                <td style="text-align:center;"><span class="badge badge-proposed">[Proposed]
+                                        محسوم</span>
                                 </td>
                             </tr>
                             <tr>
@@ -1670,12 +1666,13 @@
                                         محسوم</span></td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-as-is">A-07</span></td>
+                                <td><span class="badge badge-proposed">A-07</span></td>
                                 <td>فئات المقاس الحجمي للكسر</td>
-                                <td>خمس فئات ثابتة G1–G5 بأكواد أصناف مستقلة، ونطاق 0.1–0.6 مم يعامل كخليط من G1 وG2
-                                    داخل وصفة الخلطة.</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC] يحتاج تأكيد</span>
+                                <td>خمس فئات ثابتة G1–G5 بأكواد أصناف مستقلة، ونطاقات (5 فئات حجمية: 10:20 و 4:10 و 1:4
+                                    و 0.4:1 و أقل من 0.4) مم يعامل كخليط من G1 وG2 داخل وصفة الخلطة.
                                 </td>
+                                <td style="text-align:center;"><span class="badge badge-proposed">[Proposed]
+                                        محسوم</span> </td>
                             </tr>
                             <tr>
                                 <td><span class="badge badge-proposed">A-08</span></td>
@@ -1710,20 +1707,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Organization & RACI Matrix</strong>
-                    <span>Section 3</span>
+                    <span>Section 4</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>3. الهيكل التنظيمي المستهدف ومصفوفة الصلاحيات (RACI)</span>
+                    <span>4. الهيكل التنظيمي المستهدف ومصفوفة الصلاحيات (RACI)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Segregation of
                         Duties</span>
                 </h2>
@@ -1732,7 +1730,7 @@
                     المستهدف مع منع أي تعارض مصالح:
                 </p>
 
-                <h3 class="subsection-title">الأدوار التشغيلية الستة المضافة (Added Target Roles)</h3>
+                <h3 class="subsection-title">4.1 الأدوار التشغيلية الستة المضافة (Added Target Roles)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table">
                         <thead>
@@ -1746,38 +1744,38 @@
                             <tr>
                                 <td><strong>مشرف فترة تشغيل (Shift Supervisor)</strong></td>
                                 <td>تشغيل أوامر فترة التشغيل وتسجيل المخرجات والتوقفات والهدر لحظيا عند الماكينات.</td>
-                                <td>[TBC] مدير المصنع</td>
+                                <td>[TBD] مدير المصنع</td>
                             </tr>
                             <tr>
                                 <td><strong>مشغل الميزان البسكول (Weighbridge Operator)</strong></td>
                                 <td>وزن الشاحنات الداخلة والخارجة وإصدار تذكرة وزن مرتبطة بأمر الشراء PO.</td>
-                                <td>[TBC] إدارة المخازن</td>
+                                <td>[TBD] إدارة المخازن</td>
                             </tr>
                             <tr>
                                 <td><strong>مخطط صيانة (Maintenance Planner)</strong></td>
                                 <td>جدول الصيانة الوقائية وإصدار أوامر العمل ومتابعة عمر المستلزمات والقطع.</td>
-                                <td>[TBC] مدير المصنع</td>
+                                <td>[TBD] مدير المصنع</td>
                             </tr>
                             <tr>
                                 <td><strong>مشغل محطة المياه (WTP Operator)</strong></td>
                                 <td>تشغيل دورة المعالجة وتسجيل جرعات الكيماويات وكميات المياه المسترجعة والطين.</td>
-                                <td>[TBC] مدير المصنع</td>
+                                <td>[TBD] مدير المصنع</td>
                             </tr>
                             <tr>
                                 <td><strong>محاسب تكاليف (Cost Accountant)</strong></td>
                                 <td>معايير التكلفة وتحليل الانحرافات الشهرية وإغلاق أوامر الإنتاج محاسبيا.</td>
-                                <td>[TBC] الإدارة المالية</td>
+                                <td>[TBD] الإدارة المالية</td>
                             </tr>
                             <tr>
                                 <td><strong>مسؤول بيانات الأصناف والوصفات</strong></td>
                                 <td>البيانات الأساسية (أصناف، وصفات BOM، مسارات التشغيل) والدعم التشغيلي الأول.</td>
-                                <td>[TBC] إدارة SCM</td>
+                                <td>[TBD] إدارة SCM</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
 
-                <h3 class="subsection-title">مصفوفة الصلاحيات والحوكمة التشغيلية (RACI Matrix)</h3>
+                <h3 class="subsection-title">4.2 مصفوفة الصلاحيات والحوكمة التشغيلية (RACI Matrix)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.71rem;">
                         <thead>
@@ -1960,20 +1958,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Map & Control Gates</strong>
-                    <span>Section 4 (Table)</span>
+                    <span>Section 5 (Table)</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>4. خريطة التدفق المستهدفة ونقاط التحكم (Process Flow & Gates)</span>
+                    <span>5. خريطة التدفق العامة ونقاط التحكم والتتبع (Process Flow & Gates)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">9-Stage Target
                         Routing</span>
                 </h2>
@@ -2007,7 +2006,7 @@
                             <tr>
                                 <td><strong>2</strong></td>
                                 <td>التكسير والتجهيز</td>
-                                <td>WC-CR (العدد [TBC])</td>
+                                <td>WC-CR (العدد [TBD])</td>
                                 <td>كسر مصنف G1–G5</td>
                                 <td>تحليل منخلي مطابق لمواصفة التدرج</td>
                                 <td>أمر تكسير + استهلاك ومخرج</td>
@@ -2080,7 +2079,7 @@
                     </table>
                 </div>
 
-                <h3 class="subsection-title">نمط وسلسلة التتبع الشاملة (Traceability Pattern)</h3>
+                <h3 class="subsection-title">5.1 نمط وسلسلة التتبع الشاملة وشجرة الأنساب (Traceability Pattern)</h3>
                 <div class="callout-box success" style="margin-bottom:0.35rem;">
                     <div
                         style="font-size:0.74rem; font-weight:700; color:var(--primary); line-height:1.6; text-align:center; background:#ffffff; padding:0.4rem; border-radius:6px; border:1px solid #cbd5e1;">
@@ -2108,21 +2107,22 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
             <main class="page-content">
 
                 <h2 class="section-title">
-                    <span>المخططات الانسيابية لتدفق العمليات (Flowcharts: Stages 1 to 9)</span>
+                    <span>6. المخططات الانسيابية لتدفق العمليات (Flowcharts: Stages 1 to 9)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Visual Gates &
                         Decisions</span>
                 </h2>
@@ -2130,16 +2130,16 @@
                     تبين المخططات التالية الخطوات الأساسية، بوابات التحكم والتحقق، ومسارات القبول أو الرفض لكل مرحلة
                     إنتاجية [Proposed]:
                 </p>
-                <h3 class="subsection-title">1. المرحلة 1: استلام وفحص وتخزين الخامات (Raw Material Receiving &
+                <h3 class="subsection-title">6.1 المرحلة 1: استلام وفحص وتخزين الخامات (Raw Material Receiving &
                     Inspection)</h3>
 
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
-                    <img src="flowcharts_png/full_single_images/Stage01_Raw_Material_Receiving_and_Inspection_full.png"
-                        class="flowchart-img" style="max-height: 205mm; width: auto; max-width: 100%;"
+                    <img src="flowcharts_png/المرحله الأولي.png" class="flowchart-img"
+                        style="max-height: 205mm; width: auto; max-width: 100%;"
                         alt="المخطط الانسيابي الكامل للمرحلة 1 – استلام وفحص وتخزين الخامات">
                     <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 1 – استلام وفحص وتخزين الخامات (Full
                         Process Flow)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2156,14 +2156,15 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -2173,7 +2174,7 @@
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Crushing & Sizing</span>
                 </h2>
-                <h3 class="subsection-title">2. المرحلة 2: تكسير وفرز كسر الرخام (Crushing & Sizing)</h3>
+                <h3 class="subsection-title">6.2 المرحلة 2: تكسير وفرز كسر الرخام (Crushing & Sizing)</h3>
 
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage02_Crushing_and_Sizing_full.png"
@@ -2181,7 +2182,7 @@
                         alt="المخطط الانسيابي الكامل للمرحلة 2 – تكسير وفرز كسر الرخام">
                     <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 2 – تكسير وفرز كسر الرخام (Full
                         Process Flow)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2198,14 +2199,15 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -2215,7 +2217,7 @@
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Automatic Mixing</span>
                 </h2>
-                <h3 class="subsection-title">3. المرحلة 3: الخلط الآلي وتجهيز الخلطة (Automatic Mixing)</h3>
+                <h3 class="subsection-title">6.3 المرحلة 3: الخلط الآلي وتجهيز الخلطة (Automatic Mixing)</h3>
 
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage03_Automatic_Mixing_full.png" class="flowchart-img"
@@ -2223,7 +2225,7 @@
                         alt="المخطط الانسيابي الكامل للمرحلة 3 – الخلط الآلي وتجهيز الخلطة">
                     <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 3 – الخلط الآلي وتجهيز الخلطة (Full
                         Process Flow)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2240,14 +2242,15 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -2257,7 +2260,7 @@
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Block Casting</span>
                 </h2>
-                <h3 class="subsection-title">4. المرحلة 4: الصب في القالب وتكوين البلوك (Block Casting)</h3>
+                <h3 class="subsection-title">6.4 المرحلة 4: الصب في القالب وتكوين البلوك (Block Casting)</h3>
 
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage04_Block_Casting_full.png" class="flowchart-img"
@@ -2265,7 +2268,7 @@
                         alt="المخطط الانسيابي الكامل للمرحلة 4 – الصب في القالب وتكوين البلوك">
                     <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 4 – الصب في القالب وتكوين البلوك
                         (Full Process Flow)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2282,14 +2285,15 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -2299,7 +2303,7 @@
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Vacuum De-airing</span>
                 </h2>
-                <h3 class="subsection-title">5. المرحلة 5: سحب الهواء والكبس تحت الفاكيوم (Vacuum De-airing)</h3>
+                <h3 class="subsection-title">6.5 المرحلة 5: سحب الهواء والكبس في غرفة الفاكيوم (Vacuum De-airing)</h3>
 
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage05_Vacuum_De-airing_full.png" class="flowchart-img"
@@ -2307,7 +2311,7 @@
                         alt="المخطط الانسيابي الكامل للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم">
                     <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم
                         (Full Process Flow)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2324,14 +2328,15 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -2341,7 +2346,7 @@
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Demoulding & Curing</span>
                 </h2>
-                <h3 class="subsection-title">6. المرحلة 6: فك القوالب والمعالجة والإنضاج (Demoulding & Curing)</h3>
+                <h3 class="subsection-title">6.6 المرحلة 6: فك القوالب والمعالجة والإنضاج (Demoulding & Curing)</h3>
 
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage06_Demoulding_and_Curing_full.png"
@@ -2349,7 +2354,7 @@
                         alt="المخطط الانسيابي الكامل للمرحلة 6 – فك القوالب والمعالجة والإنضاج">
                     <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 6 – فك القوالب والمعالجة والإنضاج
                         (Full Process Flow)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2366,14 +2371,15 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -2383,7 +2389,7 @@
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Gang Saw Slabbing</span>
                 </h2>
-                <h3 class="subsection-title">7. المرحلة 7: تقطيع البلوك إلى ألواح باستخدام المناشير (Gang Saw Slabbing)
+                <h3 class="subsection-title">6.7 المرحلة 7: تقطيع البلوك إلى ألواح باستخدام المناشير (Gang Saw Slabbing)
                 </h3>
 
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
@@ -2392,7 +2398,7 @@
                         alt="المخطط الانسيابي الكامل للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام المناشير">
                     <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام
                         المناشير (Full Process Flow)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2409,14 +2415,15 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -2426,7 +2433,7 @@
                     <span>المخططات الانسيابية لتدفق العمليات (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Grinding & Polishing</span>
                 </h2>
-                <h3 class="subsection-title">8. المرحلة 8: الجلي والتلميع والمعالجة السطحية (Grinding & Polishing)</h3>
+                <h3 class="subsection-title">6.8 المرحلة 8: الجلي والتلميع والمعالجة السطحية (Grinding & Polishing)</h3>
 
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
                     <img src="flowcharts_png/full_single_images/Stage08_Grinding_and_Polishing_full.png"
@@ -2434,7 +2441,7 @@
                         alt="المخطط الانسيابي الكامل للمرحلة 8 – الجلي والتلميع والمعالجة السطحية">
                     <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 8 – الجلي والتلميع والمعالجة السطحية
                         (Full Process Flow)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2451,14 +2458,15 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Process Flowcharts</strong>
-                    <span>Section 4: Visual Flowcharts (1 to 9)</span>
+                    <span>Section 6: Visual Flowcharts (Stages 1 to 9)</span>
                 </div>
             </header>
 
@@ -2469,7 +2477,7 @@
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Custom Cutting &
                         Packaging</span>
                 </h2>
-                <h3 class="subsection-title">9. المرحلة 9: القطع والتفصيل والتغليف النهائي (Custom Cutting & Packaging)
+                <h3 class="subsection-title">6.9 المرحلة 9: القطع والتفصيل والتغليف النهائي (Custom Cutting & Packaging)
                 </h3>
 
                 <div class="flowchart-figure-box" style="margin-top:0.25rem;">
@@ -2478,7 +2486,7 @@
                         alt="المخطط الانسيابي الكامل للمرحلة 9 – القطع والتفصيل والتغليف النهائي">
                     <div class="flowchart-caption">المخطط الانسيابي الشامل للمرحلة 9 – القطع والتفصيل والتغليف النهائي
                         (Full Process Flow)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2498,20 +2506,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 1: Receiving & Sieve QC</strong>
-                    <span>Section 5 — Raw Materials Management</span>
+                    <span>Section 7 — Raw Materials Management</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>5. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage)</span>
+                    <span>7. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إغلاق فجوة الوزن ISS-001
                         والـ 3 سايلوهات</span>
                 </h2>
@@ -2551,20 +2560,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 1: Receiving & Sieve QC (تابع)</strong>
-                    <span>Section 5 — Raw Materials Management</span>
+                    <span>Section 7 — Raw Materials Management</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>5. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage) (تابع)</span>
+                    <span>7. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات
                         القبول والرفض</span>
                 </h2>
@@ -2576,7 +2586,7 @@
                         alt="المخطط الانسيابي للمرحلة 1 – استلام وفحص وتخزين الخامات (الجزء 2 من 2)">
                     <div class="flowchart-caption">الشكل 1: المخطط الانسيابي للمرحلة 1 – استلام وفحص وتخزين الخامات
                         (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2593,20 +2603,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 1: Receiving & Sieve QC (SOP & KPIs)</strong>
-                    <span>Section 5 — Raw Materials Management</span>
+                    <span>Section 7 — Raw Materials Management</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>5. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage)</span>
+                    <span>7. المرحلة 1: استلام وتخزين الخامات (Receiving & Storage)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي
                         ومؤشرات الأداء التشغيلية</span>
                 </h2>
@@ -2712,20 +2723,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 2: Crushing & Sizing (2 Crushers)</strong>
-                    <span>Section 6 — Aggregate Preparation</span>
+                    <span>Section 8 — Aggregate Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>6. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة</span>
+                    <span>8. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">التصنيف الحجمي G1–G5 | 2
                         كسارة بالمصنع</span>
                 </h2>
@@ -2765,20 +2777,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 2: Crushing & Sizing (2 Crushers) (تابع)</strong>
-                    <span>Section 6 — Aggregate Preparation</span>
+                    <span>Section 8 — Aggregate Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>6. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة (تابع)</span>
+                    <span>8. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات
                         القبول والرفض</span>
                 </h2>
@@ -2790,7 +2803,7 @@
                         alt="المخطط الانسيابي للمرحلة 2 – تكسير وفرز كسر الرخام (الجزء 2 من 2)">
                     <div class="flowchart-caption">الشكل 2: المخطط الانسيابي للمرحلة 2 – تكسير وفرز كسر الرخام (الجزء 2
                         من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -2807,20 +2820,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 2: Crushing & Sizing (2 Crushers) (SOP & KPIs)</strong>
-                    <span>Section 6 — Aggregate Preparation</span>
+                    <span>Section 8 — Aggregate Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>6. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة</span>
+                    <span>8. المرحلة 2: التكسير والتجهيز (Crushing & Sizing) عبر 2 كسارة معتمدة</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي
                         ومؤشرات الأداء التشغيلية</span>
                 </h2>
@@ -2927,20 +2941,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 3: Mixing & Formulation</strong>
-                    <span>Section 7 — Formulation & Preparation</span>
+                    <span>Section 9 — Formulation & Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>7. المرحلة 3: الخلط الآلي (Automatic Mixing)</span>
+                    <span>9. المرحلة 3: الخلط الآلي (Automatic Mixing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إغلاق فجوة ميزان الميكسر
                         ISS-002 وسحب الأسمنت من السايلوهات</span>
                 </h2>
@@ -2980,20 +2995,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 3: Mixing & Formulation (تابع)</strong>
-                    <span>Section 7 — Formulation & Preparation</span>
+                    <span>Section 9 — Formulation & Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>7. المرحلة 3: الخلط الآلي (Automatic Mixing) (تابع)</span>
+                    <span>9. المرحلة 3: الخلط الآلي (Automatic Mixing) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات
                         القبول والرفض</span>
                 </h2>
@@ -3005,7 +3021,7 @@
                         alt="المخطط الانسيابي للمرحلة 3 – الخلط الآلي وتجهيز الخلطة (الجزء 2 من 2)">
                     <div class="flowchart-caption">الشكل 3: المخطط الانسيابي للمرحلة 3 – الخلط الآلي وتجهيز الخلطة
                         (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -3022,20 +3038,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 3: Mixing & Formulation (SOP & KPIs)</strong>
-                    <span>Section 7 — Formulation & Preparation</span>
+                    <span>Section 9 — Formulation & Preparation</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>7. المرحلة 3: الخلط الآلي (Automatic Mixing)</span>
+                    <span>9. المرحلة 3: الخلط الآلي (Automatic Mixing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي
                         ومؤشرات الأداء التشغيلية</span>
                 </h2>
@@ -3141,20 +3158,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 4: Mould Preparation & Casting</strong>
-                    <span>Section 8 — Casting & Pre-Vibration</span>
+                    <span>Section 10 — Casting & Pre-Vibration</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>8. المرحلة 4: الصب في القالب (Casting into Mould)</span>
+                    <span>10. المرحلة 4: الصب في القالب (Casting into Mould)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">ميلاد رقم البلوك Block
                         ID</span>
                 </h2>
@@ -3194,20 +3212,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 4: Mould Preparation & Casting (تابع)</strong>
-                    <span>Section 8 — Casting & Pre-Vibration</span>
+                    <span>Section 10 — Casting & Pre-Vibration</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>8. المرحلة 4: الصب في القالب (Casting into Mould) (تابع)</span>
+                    <span>10. المرحلة 4: الصب في القالب (Casting into Mould) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات
                         القبول والرفض</span>
                 </h2>
@@ -3219,7 +3238,7 @@
                         alt="المخطط الانسيابي للمرحلة 4 – الصب في القالب وتكوين البلوك (الجزء 2 من 2)">
                     <div class="flowchart-caption">الشكل 4: المخطط الانسيابي للمرحلة 4 – الصب في القالب وتكوين البلوك
                         (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -3236,20 +3255,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 4: Mould Preparation & Casting (SOP & KPIs)</strong>
-                    <span>Section 8 — Casting & Pre-Vibration</span>
+                    <span>Section 10 — Casting & Pre-Vibration</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>8. المرحلة 4: الصب في القالب (Casting into Mould)</span>
+                    <span>10. المرحلة 4: الصب في القالب (Casting into Mould)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي
                         ومؤشرات الأداء التشغيلية</span>
                 </h2>
@@ -3355,20 +3375,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 5: Vacuum De-airing & Press</strong>
-                    <span>Section 9 — Compaction & De-airing</span>
+                    <span>Section 11 — Compaction & De-airing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>9. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing)</span>
+                    <span>11. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">تحقيق كثافة الصخور
                         الطبيعية</span>
                 </h2>
@@ -3408,20 +3429,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 5: Vacuum De-airing & Press (تابع)</strong>
-                    <span>Section 9 — Compaction & De-airing</span>
+                    <span>Section 11 — Compaction & De-airing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>9. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing) (تابع)</span>
+                    <span>11. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات
                         القبول والرفض</span>
                 </h2>
@@ -3433,7 +3455,7 @@
                         alt="المخطط الانسيابي للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم (الجزء 2 من 2)">
                     <div class="flowchart-caption">الشكل 5: المخطط الانسيابي للمرحلة 5 – سحب الهواء والكبس تحت الفاكيوم
                         (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -3450,20 +3472,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 5: Vacuum De-airing & Press (SOP & KPIs)</strong>
-                    <span>Section 9 — Compaction & De-airing</span>
+                    <span>Section 11 — Compaction & De-airing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>9. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing)</span>
+                    <span>11. المرحلة 5: سحب الهواء والكبس (Vacuum De-airing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي
                         ومؤشرات الأداء التشغيلية</span>
                 </h2>
@@ -3571,20 +3594,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 6: Curing & Maturation</strong>
-                    <span>Section 10 — Controlled Curing</span>
+                    <span>Section 12 — Controlled Curing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>10. المرحلة 6: الفك والمعالجة (Demoulding & Curing)</span>
+                    <span>12. المرحلة 6: الفك والمعالجة (Demoulding & Curing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إغلاق فجوة إفراج النشر
                         ISS-005</span>
                 </h2>
@@ -3624,20 +3648,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 6: Curing & Maturation (تابع)</strong>
-                    <span>Section 10 — Controlled Curing</span>
+                    <span>Section 12 — Controlled Curing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>10. المرحلة 6: الفك والمعالجة (Demoulding & Curing) (تابع)</span>
+                    <span>12. المرحلة 6: الفك والمعالجة (Demoulding & Curing) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات
                         القبول والرفض</span>
                 </h2>
@@ -3649,7 +3674,7 @@
                         alt="المخطط الانسيابي للمرحلة 6 – فك القوالب والمعالجة والإنضاج (الجزء 2 من 2)">
                     <div class="flowchart-caption">الشكل 6: المخطط الانسيابي للمرحلة 6 – فك القوالب والمعالجة والإنضاج
                         (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -3666,20 +3691,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 6: Curing & Maturation (SOP & KPIs)</strong>
-                    <span>Section 10 — Controlled Curing</span>
+                    <span>Section 12 — Controlled Curing</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>10. المرحلة 6: الفك والمعالجة (Demoulding & Curing)</span>
+                    <span>12. المرحلة 6: الفك والمعالجة (Demoulding & Curing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي
                         ومؤشرات الأداء التشغيلية</span>
                 </h2>
@@ -3785,20 +3811,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 7: Gang Saw Slabbing</strong>
-                    <span>Section 11 — BM1 to BM4 Lines</span>
+                    <span>Section 13 — BM1 to BM4 Lines</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>11. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4)</span>
+                    <span>13. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">ميلاد أكواد الألواح Slab
                         IDs</span>
                 </h2>
@@ -3838,20 +3865,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 7: Gang Saw Slabbing (تابع)</strong>
-                    <span>Section 11 — BM1 to BM4 Lines</span>
+                    <span>Section 13 — BM1 to BM4 Lines</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>11. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4) (تابع)</span>
+                    <span>13. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات
                         القبول والرفض</span>
                 </h2>
@@ -3863,7 +3891,7 @@
                         alt="المخطط الانسيابي للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام المناشير (الجزء 2 من 2)">
                     <div class="flowchart-caption">الشكل 7: المخطط الانسيابي للمرحلة 7 – تقطيع البلوك إلى ألواح باستخدام
                         المناشير (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -3880,20 +3908,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 7: Gang Saw Slabbing (SOP & KPIs)</strong>
-                    <span>Section 11 — BM1 to BM4 Lines</span>
+                    <span>Section 13 — BM1 to BM4 Lines</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>11. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4)</span>
+                    <span>13. المرحلة 7: التقطيع بالمناشير (Gang Saws BM1–BM4)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي
                         ومؤشرات الأداء التشغيلية</span>
                 </h2>
@@ -3999,20 +4028,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 8: Grinding & Polishing</strong>
-                    <span>Section 12 — Surface Treatment</span>
+                    <span>Section 14 — Surface Treatment</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>12. المرحلة 8: الجلي والتلميع (Grinding & Polishing)</span>
+                    <span>14. المرحلة 8: الجلي والتلميع (Grinding & Polishing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">المعالجة السطحية وإغلاق
                         المسام</span>
                 </h2>
@@ -4022,7 +4052,7 @@
                         <div><strong style="color:var(--primary); display:block;">المُطلق (Trigger):</strong> وصول
                             الألواح المنشورة من خط المناشير برقم Slab ID</div>
                         <div><strong style="color:var(--primary); display:block;">المدخلات (Inputs):</strong> لوح تيرازو
-                            منشور + راتنج إيبوكسي معالج + أحجار تلميع</div>
+                            منشور +الرايزن معالج + أحجار تلميع</div>
                         <div><strong style="color:var(--primary); display:block;">المخرجات (Outputs):</strong> لوح
                             تيرازو مصقول عالي اللمعان (GU &ge; 85) ومغلق المسام</div>
                         <div><strong style="color:var(--primary); display:block;">المالك (Owner):</strong> مشرف خط الجلي
@@ -4052,20 +4082,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 8: Grinding & Polishing (تابع)</strong>
-                    <span>Section 12 — Surface Treatment</span>
+                    <span>Section 14 — Surface Treatment</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>12. المرحلة 8: الجلي والتلميع (Grinding & Polishing) (تابع)</span>
+                    <span>14. المرحلة 8: الجلي والتلميع (Grinding & Polishing) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات
                         القبول والرفض</span>
                 </h2>
@@ -4077,7 +4108,7 @@
                         alt="المخطط الانسيابي للمرحلة 8 – الجلي والتلميع والمعالجة السطحية (الجزء 2 من 2)">
                     <div class="flowchart-caption">الشكل 8: المخطط الانسيابي للمرحلة 8 – الجلي والتلميع والمعالجة
                         السطحية (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -4094,20 +4125,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 8: Grinding & Polishing (SOP & KPIs)</strong>
-                    <span>Section 12 — Surface Treatment</span>
+                    <span>Section 14 — Surface Treatment</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>12. المرحلة 8: الجلي والتلميع (Grinding & Polishing)</span>
+                    <span>14. المرحلة 8: الجلي والتلميع (Grinding & Polishing)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي
                         ومؤشرات الأداء التشغيلية</span>
                 </h2>
@@ -4132,7 +4164,7 @@
                                 كل رأس.</li>
                             <li>إجراء الجلي التمهيدي لتسوية السطح، يليه تجفيف اللوح بالأشعة تحت الحمراء لضمان التصاق
                                 الريزن.</li>
-                            <li>خلط راتنج الإيبوكسي الشفاف مع المصلب بدقة وتوزيعه ميكانيكيا لسد كافة المسام
+                            <li>خلط الماده الشفاف مع المصلب بدقة وتوزيعه ميكانيكيا لسد كافة المسام
                                 الميكروسكوبية.</li>
                             <li>تمرير اللوح عبر رؤوس التلميع الدقيقة مع تدفق مياه نظيفة خالية من الرواسب لمنع خدش السطح.
                             </li>
@@ -4174,7 +4206,7 @@
                             </tr>
                             <tr>
                                 <td><strong>S8-03</strong></td>
-                                <td>معدل استهلاك راتنج الإيبوكسي السطحي (Resin Consumption g/m&sup2;)</td>
+                                <td>معدل استهلاك الرايزن السطحي (Resin Consumption g/m&sup2;)</td>
                                 <td><strong>&le; 120 جم/م&sup2;</strong></td>
                                 <td>شهرياً</td>
                                 <td>مهندس الإنتاج والتكاليف</td>
@@ -4214,20 +4246,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 9: Finishing & Dispatch</strong>
-                    <span>Section 13 — Finishing & Dispatch</span>
+                    <span>Section 15 — Finishing & Dispatch</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>13. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging)</span>
+                    <span>15. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">مطابقة مواصفات العميل
                         والمشروعات</span>
                 </h2>
@@ -4267,20 +4300,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 9: Finishing & Dispatch (تابع)</strong>
-                    <span>Section 13 — Finishing & Dispatch</span>
+                    <span>Section 15 — Finishing & Dispatch</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>13. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging) (تابع)</span>
+                    <span>15. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging) (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">بوابات التحقق ومسارات
                         القبول والرفض</span>
                 </h2>
@@ -4292,7 +4326,7 @@
                         alt="المخطط الانسيابي للمرحلة 9 – القطع والتفصيل والتغليف النهائي (الجزء 2 من 2)">
                     <div class="flowchart-caption">الشكل 9: المخطط الانسيابي للمرحلة 9 – القطع والتفصيل والتغليف النهائي
                         (الجزء 2 من 2)</div>
-                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBC] (قيد تأكيد المصنع)</div>
+                    <div class="flowchart-legend">[PFC] = Pending Factory Confirmation = [TBD] (قيد تأكيد المصنع)</div>
                 </div>
             </main>
 
@@ -4309,20 +4343,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Stage 9: Finishing & Dispatch (SOP & KPIs)</strong>
-                    <span>Section 13 — Finishing & Dispatch</span>
+                    <span>Section 15 — Finishing & Dispatch</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>13. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging)</span>
+                    <span>15. المرحلة 9: القطع والتفصيل والتغليف (Custom Cutting & Packaging)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إجراء التشغيل القياسي
                         ومؤشرات الأداء التشغيلية</span>
                 </h2>
@@ -4426,20 +4461,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Supporting Processes: Planning & Inventory</strong>
-                    <span>Section 14.1 & 14.2 — Operational Enablers</span>
+                    <span>Section 16 — Operational Support Functions</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>14.1 و 14.2: تخطيط الإنتاج وإدارة المخازن (Planning & Warehouse)</span>
+                    <span>16. العمليات المساندة: تخطيط الإنتاج وإدارة المخازن (16.1 و 16.2)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">تحقيق التدفق المتوازن ومنع
                         الاختناقات</span>
                 </h2>
@@ -4602,7 +4638,7 @@
 
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
-                <span class="status-tag">Supporting 14.1 & 14.2: Planning & Warehouse</span>
+                <span class="status-tag">Supporting 16.1 & 16.2: Planning & Warehouse</span>
                 <span>الصفحة 42 من 53</span>
             </footer>
         </section>
@@ -4613,20 +4649,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Supporting Processes: Quality & Maintenance</strong>
-                    <span>Section 14.3 & 14.4 — Reliability & Standards</span>
+                    <span>Section 16 — Quality & Maintenance Standards</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>14.3 و 14.4: رقابة الجودة والمختبر والصيانة الوقائية (QC & Maintenance)</span>
+                    <span>16. العمليات المساندة: رقابة الجودة والمختبر والصيانة الوقائية (16.3 و 16.4)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">إدارة حالات عدم المطابقة
                         والجاهزية الفنية</span>
                 </h2>
@@ -4789,7 +4826,7 @@
 
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
-                <span class="status-tag">Supporting 14.3 & 14.4: QC & Maintenance</span>
+                <span class="status-tag">Supporting 16.3 & 16.4: QC & Maintenance</span>
                 <span>الصفحة 43 من 53</span>
             </footer>
         </section>
@@ -4800,20 +4837,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Supporting Processes: Scrap & Calibration</strong>
-                    <span>Section 14.5 & 14.6 — Sustainability & Accuracy</span>
+                    <span>Section 16 — Scrap & Calibration Standards</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>14.5 و 14.6: إدارة الهالك والتدوير ومعايرة الموازين (Scrap & Calibration)</span>
+                    <span>16. العمليات المساندة: إدارة الهالك والتدوير ومعايرة الموازين (16.5 و 16.6)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">الاقتصاد الدائري وضمان
                         الدقة القياسية</span>
                 </h2>
@@ -4976,7 +5014,7 @@
 
             <footer class="page-footer">
                 <span>وثيقة الوضع المستهدف (To-Be) — مصنع Terrazzo</span>
-                <span class="status-tag">Supporting 14.5 & 14.6: Scrap & Calibration</span>
+                <span class="status-tag">Supporting 16.5 & 16.6: Scrap & Calibration</span>
                 <span>الصفحة 44 من 53</span>
             </footer>
         </section>
@@ -4996,16 +5034,18 @@
                 </div>
                 <div class="doc-meta-header">
                     <strong>Plant KPIs & Records Destiny</strong>
-                    <span>Sections 15 & 16</span>
+                    <span>Section 17</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>15. مؤشرات المصنع الرئيسية (F-Series) وتوحيد المقاييس</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Unified Metrics
-                        Strategy</span>
+                    <span>17. منظومة قياس الأداء وحوكمة السجلات والنماذج</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Unified Metrics Strategy &
+                        Form Fate</span>
                 </h2>
+                <h3 class="subsection-title" style="margin-bottom:0.25rem;">17.1 مؤشرات المصنع الرئيسية (F-Series)
+                    وتوحيد المقاييس</h3>
                 <div class="callout-box info" style="margin-bottom:0.4rem; padding:0.4rem 0.65rem;">
                     <p style="font-size:0.72rem; margin:0; line-height:1.4;">
                         المجموعة الرئيسية الوحيدة لمؤشرات المصنع هي <strong>F-01 إلى F-15</strong> (الملحق ب). المجموعة
@@ -5089,10 +5129,10 @@
                     </table>
                 </div>
 
-                <h2 class="section-title">
-                    <span>16. السجلات والنماذج الحالية: مصيرها في الوضع المستهدف</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">25 Form Fate Matrix</span>
-                </h2>
+                <h3 class="subsection-title"
+                    style="margin-top:0.35rem; margin-bottom:0.25rem; font-size:0.8rem; color:var(--primary); font-weight:700;">
+                    17.2 السجلات والنماذج الحالية: مصيرها في الوضع المستهدف (25 Form Fate Matrix)
+                </h3>
                 <div class="data-table-wrapper">
                     <table class="data-table" style="font-size:0.66rem;">
                         <thead>
@@ -5123,8 +5163,8 @@
                                 <td>3</td>
                                 <td>أمر شراء للمورد PO</td>
                                 <td>محفوظ</td>
-                                <td>اعتماد 4 مستويات حسب القيمة وحدودها [TBC]</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC]</span></td>
+                                <td>اعتماد 4 مستويات حسب القيمة وحدودها [TBD]</td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[TBD]</span></td>
                             </tr>
                             <tr>
                                 <td>4</td>
@@ -5172,15 +5212,15 @@
                                 <td>10</td>
                                 <td>Sieve Analysis Marble</td>
                                 <td>محفوظ</td>
-                                <td>بنفس الحقول؛ شبكة المناخل [TBC] (السؤال OQ-14)</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC]</span></td>
+                                <td>بنفس الحقول؛ شبكة المناخل [TBD] (السؤال OQ-14)</td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[TBD]</span></td>
                             </tr>
                             <tr>
                                 <td>11</td>
                                 <td>Sieve Analysis Raw Materials</td>
                                 <td>محفوظ</td>
                                 <td>بنفس الحقول مع مراجعة تكرار التسمية مع سجل 10</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC]</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[TBD]</span></td>
                             </tr>
                             <tr>
                                 <td>12</td>
@@ -5255,9 +5295,9 @@
                             <tr>
                                 <td>22</td>
                                 <td>Quality Department File Share</td>
-                                <td>[TBC]</td>
+                                <td>[TBD]</td>
                                 <td>يحدد موقع الأرشيف الرقمي الموحد (OQ-20)</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC]</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[TBD]</span></td>
                             </tr>
                             <tr>
                                 <td>23</td>
@@ -5306,16 +5346,18 @@
                 </div>
                 <div class="doc-meta-header">
                     <strong>Gaps & Traceability Matrix</strong>
-                    <span>Sections 17 & 18</span>
+                    <span>Section 18</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>17. معالجة المشكلات والمخاطر المرصودة في As-Is</span>
+                    <span>18. معالجة الفجوات ومصفوفة التتبع الشاملة</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Closing Gaps &
-                        Issues</span>
+                        Traceability</span>
                 </h2>
+                <h3 class="subsection-title" style="margin-bottom:0.25rem;">18.1 معالجة المشكلات والمخاطر المرصودة في
+                    As-Is (Closing Gaps & Issues)</h3>
 
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.68rem;">
@@ -5331,7 +5373,7 @@
                         <tbody>
                             <tr>
                                 <td><span class="badge badge-risk">ISS-001</span></td>
-                                <td>وزن الجونيات تقديري [TBC]</td>
+                                <td>وزن الجونيات تقديري [TBD]</td>
                                 <td>ميزان أرضي + وزن كل جونية وملصق تعريف بالصافي</td>
                                 <td>SOP-RM-01</td>
                                 <td style="text-align:center; font-weight:700; color:#059669;">دقة مخزون ≥ 98%</td>
@@ -5383,11 +5425,10 @@
                     </table>
                 </div>
 
-                <h2 class="section-title">
-                    <span>18. مصفوفة التتبع: من الوضع الحالي إلى المستهدف (T1 إلى T20)</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">As-Is to To-Be
-                        Traceability</span>
-                </h2>
+                <h3 class="subsection-title"
+                    style="margin-top:0.35rem; margin-bottom:0.25rem; font-size:0.8rem; color:var(--primary); font-weight:700;">
+                    18.2 مصفوفة التتبع: من الوضع الحالي إلى المستهدف (T1 إلى T20)
+                </h3>
                 <div class="data-table-wrapper">
                     <table class="data-table" style="font-size:0.65rem;">
                         <thead>
@@ -5407,7 +5448,7 @@
                                 <td>الجونيات توزن بالتقدير ومعضلة الموازين (ص2)</td>
                                 <td>وزن كل جونية بميزان أرضي وتسجيل الوزن على ملصق</td>
                                 <td>دقة الأرصدة والتكاليف</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[As-Is] [TBC]</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[As-Is] [TBD]</span></td>
                             </tr>
                             <tr>
                                 <td>T2</td>
@@ -5440,7 +5481,7 @@
                                 <td>الوزن الآلي للميكسر 5 طن (ص9) بلا تسامح</td>
                                 <td>تحديد حدود تسامح والدفعة خارجها توقف فورا</td>
                                 <td>دقة الخلطة ومنع الهدر</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[As-Is] [TBC]</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[As-Is] [TBD]</span></td>
                             </tr>
                             <tr>
                                 <td>T6</td>
@@ -5448,7 +5489,7 @@
                                 <td>الدفعتان 5+5 طن ولا مخزون وسيط (ص9)</td>
                                 <td>مهلة قصوى بين الدفعتين وقائمة جاهزية وطوارئ</td>
                                 <td>منع تصلب وهدر الخلطة</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[As-Is] [TBC]</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[As-Is] [TBD]</span></td>
                             </tr>
                             <tr>
                                 <td>T7</td>
@@ -5528,7 +5569,7 @@
                                 <td>معايير التوزيع غير محسومة (ص15)</td>
                                 <td>أساس تحميل بالمتر المربع على مركز العمل (A-08)</td>
                                 <td>تكلفة قابلة للمقارنة</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[As-Is] [TBC]</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[As-Is] [TBD]</span></td>
                             </tr>
                             <tr>
                                 <td>T17</td>
@@ -5542,9 +5583,9 @@
                                 <td>T18</td>
                                 <td>السجلات</td>
                                 <td>12 مستندا مذكورا من أصل 17 (ص16 و19)</td>
-                                <td>جدول المصير (القسم 16) لـ 25 سجلا ونموذجا</td>
+                                <td>جدول المصير (القسم 17 - البند 17.2) لـ 25 سجلاً ونموذجاً</td>
                                 <td>سجل واحد لكل معاملة</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[As-Is] [TBC]</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[As-Is] [TBD]</span></td>
                             </tr>
                             <tr>
                                 <td>T19</td>
@@ -5560,7 +5601,7 @@
                                 <td>لا يوجد وصف لإجراءات تسليم فترات التشغيل</td>
                                 <td>إجراء التسليم والاستلام بين الفترات (GEN-02)</td>
                                 <td>استمرارية المعلومات</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[Proposed] [TBC]</span>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[Proposed] [TBD]</span>
                                 </td>
                             </tr>
                         </tbody>
@@ -5589,15 +5630,18 @@
                 </div>
                 <div class="doc-meta-header">
                     <strong>Priorities & Operational Risks</strong>
-                    <span>Sections 19 & 20</span>
+                    <span>Section 19</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>19. مصفوفة أولويات التحسين الصناعي (Improvement Priorities)</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Priority Matrix</span>
+                    <span>19. أولويات التحسين وإدارة المخاطر التشغيلية</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Priority Matrix & Risk
+                        Register</span>
                 </h2>
+                <h3 class="subsection-title" style="margin-bottom:0.25rem;">19.1 مصفوفة أولويات التحسين الصناعي
+                    (Improvement Priorities)</h3>
 
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.67rem;">
@@ -5692,11 +5736,10 @@
                     </table>
                 </div>
 
-                <h2 class="section-title">
-                    <span>20. المخاطر التشغيلية والضوابط الوقائية (Operational Risk Register)</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Risk & Control
-                        Matrix</span>
-                </h2>
+                <h3 class="subsection-title"
+                    style="margin-top:0.35rem; margin-bottom:0.25rem; font-size:0.8rem; color:var(--primary); font-weight:700;">
+                    19.2 المخاطر التشغيلية والضوابط الوقائية (Operational Risk Register)
+                </h3>
                 <div class="data-table-wrapper">
                     <table class="data-table" style="font-size:0.66rem;">
                         <thead>
@@ -5825,22 +5868,26 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Roadmap, Open Questions & Sign-off</strong>
-                    <span>Sections 21 & 22</span>
+                    <span>Section 20</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>21. خارطة التطبيق المرحلية (Implementation Roadmap)</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Phased Execution</span>
+                    <span>20. خارطة التطبيق والقرارات المفتوحة والاعتماد الرسمي</span>
+                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Phased Execution &
+                        Sign-off</span>
                 </h2>
+                <h3 class="subsection-title" style="margin-bottom:0.25rem;">20.1 خارطة التطبيق المرحلية (Implementation
+                    Roadmap)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.67rem;">
                         <thead>
@@ -5854,14 +5901,15 @@
                         <tbody>
                             <tr>
                                 <td><strong>1. حسم القرارات</strong></td>
-                                <td>حسم الأسئلة المفتوحة (القسم 22)، تثبيت الأدوار (تم حسم الـ 2 كسارة والـ 3 سايلوهات
-                                    بقرار الإدارة)</td>
+                                <td>حسم الأسئلة المفتوحة (القسم 20 - البند 20.2)، تثبيت الأدوار (تم حسم الـ 2 كسارة والـ
+                                    3 سايلوهات بقرار الإدارة)</td>
                                 <td>اعتماد الإدارة على الوثيقة v1.0</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC]</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[TBD]</span></td>
                             </tr>
                             <tr>
                                 <td><strong>2. تثبيت السجلات</strong></td>
-                                <td>اعتماد نماذج السجلات الـ 25، مصير السجلات من القسم 16، وتحديد أماكن الحفظ</td>
+                                <td>اعتماد نماذج السجلات الـ 25، مصير السجلات من القسم 17 (البند 17.2)، وتحديد أماكن
+                                    الحفظ</td>
                                 <td>اعتماد النماذج الرسمية</td>
                                 <td style="text-align:center;"><span class="badge badge-proposed">[Proposed]</span></td>
                             </tr>
@@ -5887,11 +5935,10 @@
                     </table>
                 </div>
 
-                <h2 class="section-title">
-                    <span>22. نقاط مفتوحة وقرارات مطلوبة لحسم التصميم (30 سؤالاً)</span>
-                    <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Open Questions
-                        Register</span>
-                </h2>
+                <h3 class="subsection-title"
+                    style="margin-top:0.35rem; margin-bottom:0.25rem; font-size:0.8rem; color:var(--primary); font-weight:700;">
+                    20.2 نقاط مفتوحة وقرارات مطلوبة لحسم التصميم (30 سؤالاً)
+                </h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.64rem;">
                         <thead>
@@ -5904,157 +5951,157 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-02</span></td>
+                                <td><span class="badge badge-TBD">OQ-02</span></td>
                                 <td>عدد الأدوار المعتمدة (10 في As-Is مقابل 6 مقترحة)</td>
                                 <td>مصفوفة الصلاحيات والحوكمة</td>
                                 <td>إدارة Terrazzo</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-03</span></td>
+                                <td><span class="badge badge-TBD">OQ-03</span></td>
                                 <td>التسلسل الإداري والتبعية للأدوار المقترحة</td>
                                 <td>الهيكل التنظيمي المعتمد</td>
                                 <td>إدارة Terrazzo</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-04</span></td>
+                                <td><span class="badge badge-TBD">OQ-04</span></td>
                                 <td>متوسط وزن الجونية والمعايرة الميدانية لسعة الـ 3 سايلوهات المعتمدة</td>
                                 <td>مواقع التخزين والأرصدة للـ 3 سايلوهات</td>
                                 <td>إدارة Terrazzo (قياس ميداني)</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-05</span></td>
+                                <td><span class="badge badge-TBD">OQ-05</span></td>
                                 <td>حدود التسامح المقبولة لكل مكون خلطة</td>
                                 <td>معايير إيقاف الدفعات آليا</td>
                                 <td>مدير الجودة</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-06</span></td>
+                                <td><span class="badge badge-TBD">OQ-06</span></td>
                                 <td>المهلة القصوى الفاصلة بين دفعتي صب البلوك</td>
                                 <td>خطة طوارئ تصلب الخلطة</td>
                                 <td>مدير الإنتاج والجودة</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-07</span></td>
+                                <td><span class="badge badge-TBD">OQ-07</span></td>
                                 <td>خطة الطوارئ عند توقف الميكسر (قالب احتياطي/تخلص)</td>
                                 <td>إجراء طوارئ الخلط MX-03</td>
                                 <td>إدارة Terrazzo</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-08</span></td>
+                                <td><span class="badge badge-TBD">OQ-08</span></td>
                                 <td>أسس التوزيع المحاسبي للأسلحة والأحجار والمرافق</td>
                                 <td>محاسبة التكاليف الصناعية</td>
                                 <td>الإدارة المالية</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-09</span></td>
+                                <td><span class="badge badge-TBD">OQ-09</span></td>
                                 <td>تكلفة كيماويات معالجة المياه وطريقة تحميلها</td>
                                 <td>مركز تكلفة محطة المياه</td>
                                 <td>الإدارة المالية</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-10</span></td>
+                                <td><span class="badge badge-TBD">OQ-10</span></td>
                                 <td>معدل تكلفة الساعة للمعدات والعمالة المباشرة</td>
                                 <td>شجرة التكلفة المعيارية</td>
                                 <td>الإدارة المالية</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-11</span></td>
+                                <td><span class="badge badge-TBD">OQ-11</span></td>
                                 <td>الحدود المالية لاعتماد طلبات وأوامر الشراء</td>
                                 <td>مصفوفة اعتمادات الشراء PO</td>
                                 <td>الإدارة المالية</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-12</span></td>
+                                <td><span class="badge badge-TBD">OQ-12</span></td>
                                 <td>مدة المعالجة المعتمدة حسب نوع الأسمنت والموسم</td>
                                 <td>إجراء المعالجة والساحة CU-01</td>
                                 <td>مهندس الجودة</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-13</span></td>
+                                <td><span class="badge badge-TBD">OQ-13</span></td>
                                 <td>معيار الإفراج بالضغط المعتمد لكل موديل (MPa)</td>
                                 <td>إجراء إفراج البلوك للتقطيع</td>
                                 <td>مهندس الجودة</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-14</span></td>
+                                <td><span class="badge badge-TBD">OQ-14</span></td>
                                 <td>شبكة المناخل المعتمدة لفحص الكسارات والخامات</td>
                                 <td>سجلات التدرج المنخلي</td>
                                 <td>مدير الجودة</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-15</span></td>
+                                <td><span class="badge badge-TBD">OQ-15</span></td>
                                 <td>تكرار سحب عينات الاستلام (شحنة أم دفعة مورد)</td>
                                 <td>إجراء الفحص الوارد RM-01</td>
                                 <td>مدير الجودة</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-16</span></td>
+                                <td><span class="badge badge-TBD">OQ-16</span></td>
                                 <td>مستندات الاختبار والمواصفات المعيارية المعتمدة</td>
                                 <td>دليل إجراءات الفحص والمعمل</td>
                                 <td>مدير الجودة</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-17</span></td>
+                                <td><span class="badge badge-TBD">OQ-17</span></td>
                                 <td>صلاحيات اعتماد القبول بانحراف أو إعادة التشغيل</td>
                                 <td>إجراء معالجة عدم المطابقة</td>
                                 <td>مدير الجودة</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-18</span></td>
+                                <td><span class="badge badge-TBD">OQ-18</span></td>
                                 <td>عدد فترات التشغيل اليومية وتوقيت كل منها</td>
                                 <td>إجراء تسليم الفترات GEN-02</td>
                                 <td>مدير المصنع</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-19</span></td>
+                                <td><span class="badge badge-TBD">OQ-19</span></td>
                                 <td>الممارسات الحالية للسلامة وعزل الطاقة</td>
                                 <td>إجراء LOTO وتصاريح العمل</td>
                                 <td>مسؤول السلامة</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-20</span></td>
+                                <td><span class="badge badge-TBD">OQ-20</span></td>
                                 <td>الخمسة مستندات غير المحددة في قسم السجلات As-Is</td>
-                                <td>جدول مصير السجلات (القسم 16)</td>
+                                <td>جدول مصير السجلات (القسم 17 - البند 17.2)</td>
                                 <td>إدارة Terrazzo</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-21</span></td>
+                                <td><span class="badge badge-TBD">OQ-21</span></td>
                                 <td>العمر الافتراضي لأسلحة المناشير وأحجار الجلي</td>
                                 <td>المعدل القياسي للمتر المربع</td>
                                 <td>مدير الإنتاج والصيانة</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-22</span></td>
+                                <td><span class="badge badge-TBD">OQ-22</span></td>
                                 <td>عدد شفرات المنشار وسرعة النشر القياسية</td>
                                 <td>مستهدفات OEE وإنتاجية المناشير</td>
                                 <td>مدير الإنتاج</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-23</span></td>
+                                <td><span class="badge badge-TBD">OQ-23</span></td>
                                 <td>نسب توزيع فواتير الكهرباء وإمكانية عدادات فرعية</td>
                                 <td>توزيع تكلفة المرافق والطاقة</td>
                                 <td>الإدارة المالية والمصنع</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-24</span></td>
+                                <td><span class="badge badge-TBD">OQ-24</span></td>
                                 <td>توصيات المصنعين الموردين لخطط الصيانة الوقائية</td>
                                 <td>جداول الصيانة الوقائية بالعداد</td>
                                 <td>مخطط الصيانة</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-25</span></td>
+                                <td><span class="badge badge-TBD">OQ-25</span></td>
                                 <td>آلية اعتماد مستهدفات المؤشرات بعد خط الأساس</td>
                                 <td>حوكمة مؤشرات الأداء</td>
                                 <td>مدير المصنع</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-26</span></td>
+                                <td><span class="badge badge-TBD">OQ-26</span></td>
                                 <td>اعتماد نقطة المنتج التام وتفريع المرحلة 9أ و9ب</td>
                                 <td>تعريف المنتج التام بالمستودع</td>
                                 <td>إدارة Terrazzo</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-27</span></td>
+                                <td><span class="badge badge-TBD">OQ-27</span></td>
                                 <td>تعريف درجات الفرز وفئات مقاس الكسر G1–G5</td>
                                 <td>تصنيف الكسر والمنتج التام</td>
                                 <td>مدير الإنتاج والجودة</td>
@@ -6066,7 +6113,7 @@
                                 <td>إدارة Terrazzo</td>
                             </tr>
                             <tr>
-                                <td><span class="badge badge-tbc">OQ-29</span></td>
+                                <td><span class="badge badge-TBD">OQ-29</span></td>
                                 <td>تحديد أسئلة 3 و 5 و 11 المشار إليها في مسودة v0.2</td>
                                 <td>ضبط مراجع الوثيقة بدقة</td>
                                 <td>ABC Counsel مع Terrazzo</td>
@@ -6115,20 +6162,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Appendix A: SOP Architecture</strong>
-                    <span>General SOPs (SOP-GEN)</span>
+                    <span>Section 21 — General SOPs (SOP-GEN)</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>ملحق أ: معمارية وإجراءات التشغيل القياسية (SOP Architecture)</span>
+                    <span>21. الملحق أ: معمارية وإجراءات التشغيل القياسية (SOP Architecture)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">منظومة الـ 51 إجراء</span>
                 </h2>
                 <p style="font-size:0.76rem; margin-bottom:0.35rem;">
@@ -6137,7 +6185,7 @@
                         إجراءات للعمليات الداعمة</strong>.
                 </p>
 
-                <h3 class="subsection-title">كتالوج الإجراءات العامة (SOP-GEN Catalog — 14 إجراء)</h3>
+                <h3 class="subsection-title">21.1 كتالوج الإجراءات العامة (SOP-GEN Catalog — 14 إجراء)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.68rem;">
                         <thead>
@@ -6204,7 +6252,7 @@
                                 <td>إدارة البيانات الأساسية</td>
                                 <td>منع كود مكرر أو وصفة خاطئة تفسد التكاليف والمخزون في التقارير</td>
                                 <td>مسؤول الأصناف</td>
-                                <td>[TBC] عند التغيير</td>
+                                <td>[TBD] عند التغيير</td>
                             </tr>
                             <tr>
                                 <td><span class="badge badge-sop">GEN-09</span></td>
@@ -6252,7 +6300,7 @@
                     </table>
                 </div>
 
-                <h3 class="subsection-title">تفاصيل الإجراءات العامة الحرجة (Critical SOP-GEN Details)</h3>
+                <h3 class="subsection-title">21.2 تفاصيل الإجراءات العامة الحرجة (Critical SOP-GEN Details)</h3>
                 <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.45rem;">
                     <div class="callout-box info" style="margin:0; font-size:0.71rem; line-height:1.4;">
                         <strong style="color:var(--primary); display:block; margin-bottom:0.15rem;">GEN-02: التسليم بين
@@ -6298,22 +6346,25 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Appendix A: Stage SOPs</strong>
-                    <span>31 Procedures & Critical Controls</span>
+                    <span>Section 21 — 31 Procedures & Critical Controls</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>مجموعات الإجراءات لكل مرحلة إنتاج (31 إجراء تفصيليا)</span>
+                    <span>21. الملحق أ: إجراءات التشغيل للمراحل الإنتاجية (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Stage SOP Matrix</span>
                 </h2>
+                <h3 class="subsection-title">21.3 مصفوفة إجراءات المراحل الإنتاجية التفصيلية (Stage SOP Matrix — 31
+                    إجراء)</h3>
 
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.68rem;">
@@ -6394,7 +6445,7 @@
                     </table>
                 </div>
 
-                <h3 class="subsection-title">الإجراءات التخصصية الحرجة ونقاط التحكم (Critical Stage Controls)</h3>
+                <h3 class="subsection-title">21.4 الإجراءات التخصصية الحرجة ونقاط التحكم (Critical Stage Controls)</h3>
                 <div class="data-table-wrapper">
                     <table class="data-table" style="font-size:0.68rem;">
                         <thead>
@@ -6493,25 +6544,26 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Appendix B: KPI Dictionary</strong>
-                    <span>Plant (L1) & Stage (L3) Metrics</span>
+                    <span>Section 22 — Plant (L1) & Stage (L3) Metrics</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>ملحق ب: القاموس المعتمد لمؤشرات الأداء (KPI Dictionary)</span>
+                    <span>22. الملحق ب: القاموس المعتمد لمؤشرات الأداء (KPI Dictionary)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">منظومة الـ 105
                         مؤشرات</span>
                 </h2>
 
-                <h3 class="subsection-title">المؤشرات العامة للمصنع (Plant-Level L1: F-01 إلى F-15)</h3>
+                <h3 class="subsection-title">22.1 المؤشرات العامة للمصنع (Plant-Level L1: F-01 إلى F-15)</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.67rem;">
                         <thead>
@@ -6531,7 +6583,7 @@
                                 <td>السلامة الخطر الأول في بيئة بلوكات 10 طن ومناشير</td>
                                 <td>عدد الإصابات المضيعة للوقت × 10⁶ ÷ ساعات العمل</td>
                                 <td style="text-align:center; font-weight:800; color:#0284c7;">↓</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">صفر [TBC]</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">صفر [TBD]</span></td>
                             </tr>
                             <tr>
                                 <td><span class="badge badge-kpi">F-02</span></td>
@@ -6575,7 +6627,7 @@
                                 <td>المعالجة 14 يوما تقيد الوعد المباشر، وضبطه يسمح بالتسعير الصح</td>
                                 <td>متوسط الأيام من تأكيد أمر البيع حتى الشحن الفعلي</td>
                                 <td style="text-align:center; font-weight:800; color:#0284c7;">↓</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC] خط الأساس</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[TBD] خط الأساس</span></td>
                             </tr>
                             <tr>
                                 <td><span class="badge badge-kpi">F-07</span></td>
@@ -6618,7 +6670,7 @@
                                 <td>يحدد أي الموديلات والعملاء يستحق الأولوية في طاقة المناشير</td>
                                 <td>(سعر البيع الصافي − التكلفة المتغيرة) ÷ م² للموديل</td>
                                 <td style="text-align:center; font-weight:800; color:#0284c7;">↑</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC] مع المالية</span>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[TBD] مع المالية</span>
                                 </td>
                             </tr>
                             <tr>
@@ -6627,7 +6679,7 @@
                                 <td>المعالجة 14-28 يوما تحبس سيولة ضخمة، والمؤشر يوازن الجاهزية</td>
                                 <td>قيمة المخزون بنهاية الشهر ÷ متوسط تكلفة الإنتاج اليومية</td>
                                 <td style="text-align:center; font-weight:800; color:#0284c7;">↓</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC] خط الأساس</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[TBD] خط الأساس</span></td>
                             </tr>
                             <tr>
                                 <td><span class="badge badge-kpi">F-13</span></td>
@@ -6635,7 +6687,7 @@
                                 <td>المناشير والتلميع والفاكيوم كثيفة الاستهلاك، والكهرباء بند رئيسي</td>
                                 <td>كيلووات ساعة المصنع الكلية ÷ م² FG منتج</td>
                                 <td style="text-align:center; font-weight:800; color:#0284c7;">↓</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC] خط الأساس</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[TBD] خط الأساس</span></td>
                             </tr>
                             <tr>
                                 <td><span class="badge badge-kpi">F-14</span></td>
@@ -6643,7 +6695,7 @@
                                 <td>يقيس أثر التدريب وتحسين العمليات ويدعم قرارات التشغيل</td>
                                 <td>م² FG منتج ÷ ساعات العمل المباشرة المسجلة</td>
                                 <td style="text-align:center; font-weight:800; color:#0284c7;">↑</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">[TBC] خط الأساس</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">[TBD] خط الأساس</span></td>
                             </tr>
                             <tr>
                                 <td><span class="badge badge-kpi">F-15</span></td>
@@ -6658,7 +6710,7 @@
                     </table>
                 </div>
 
-                <h3 class="subsection-title">ملخص عينة مؤشرات المراحل التشغيلية L3 (54 مؤشرا لـ S1 حتى S9)</h3>
+                <h3 class="subsection-title">22.2 ملخص مؤشرات المراحل التشغيلية L3 (54 مؤشراً لـ S1 حتى S9)</h3>
                 <div class="data-table-wrapper">
                     <table class="data-table" style="font-size:0.66rem;">
                         <thead>
@@ -6772,20 +6824,21 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Appendix B: Dept KPIs & Tree</strong>
-                    <span>L2 Metrics, Operator Qualification & Energy</span>
+                    <span>Section 22 — L2 Metrics, Operator Qualification & Energy</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>مؤشرات الإدارات الداعمة (L2) وتأهيل المشغلين (OP)</span>
+                    <span>22. الملحق ب: مؤشرات الإدارات الداعمة وتأهيل المشغلين (تابع)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Departmental Enablers &
                         Operators</span>
                 </h2>
@@ -6855,7 +6908,8 @@
                     </table>
                 </div>
 
-                <h3 class="subsection-title">مؤشرات تأهيل المشغلين التشغيلية (Operator Qualification [Proposed])</h3>
+                <h3 class="subsection-title">22.3 مؤشرات تأهيل المشغلين التشغيلية (Operator Qualification [Proposed])
+                </h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.67rem;">
                         <thead>
@@ -6873,20 +6927,20 @@
                                 <td>تغطية تأهيل المشغلين</td>
                                 <td>ماكينة بلا مشغل مؤهل خطر تشغيلي وفقدان جودة</td>
                                 <td>ماكينات لها مشغل مؤهل ÷ الإجمالي × 100</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">100% [TBC]</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">100% [TBD]</span></td>
                             </tr>
                             <tr>
                                 <td><span class="badge badge-proposed">OP-02</span></td>
                                 <td>إنجاز التدريب على إجراء SOP</td>
                                 <td>يمنع تشغيل أي ماكينة أو عملية بدون تدريب مسبق</td>
                                 <td>مشغلون وقعوا على التدريب ÷ الإجمالي × 100</td>
-                                <td style="text-align:center;"><span class="badge badge-tbc">100% [TBC]</span></td>
+                                <td style="text-align:center;"><span class="badge badge-TBD">100% [TBD]</span></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
 
-                <h3 class="subsection-title">شجرة المؤشرات وروابط التفصيل (KPI Drill-down Tree)</h3>
+                <h3 class="subsection-title">22.4 شجرة المؤشرات وروابط التفصيل (KPI Drill-down Tree)</h3>
                 <div class="callout-box info" style="margin-bottom:0.45rem; font-size:0.71rem; line-height:1.42;">
                     <strong>F-02 العائد الكلي ⬅</strong> S7-01 العائد المساحي للبلوك · S7-02 كسر المناشير · S7-04 دقة
                     السماكة · S8-01 FPY التلميع · S8-02 الدرجة الثانية · S9-01 استغلال اللوح CNC · S5-02 عيوب المسامية ·
@@ -6923,25 +6977,26 @@
                 <div class="page-header-logos">
                     <img src="abc_logo.png" alt="ABC Counsel" class="header-logo-abc">
                     <div style="border-right: 2px solid #cbd5e1; padding-right: 0.65rem;">
-                        <strong style="color:var(--primary); font-size:0.82rem; display:block;"> Terrazzo -
-                            تيرازو</strong>
-                        <span style="font-size:0.7rem; color:var(--text-muted);">To Be Document</span>
+                        <strong style="color:var(--primary); font-size:0.82rem; display:block;">مصنع Terrazzo (تيرازو)
+                            لتصنيع الألواح والبلوكات</strong>
+                        <span style="font-size:0.7rem; color:var(--text-muted);">وثيقة الوضع المستهدف (To-Be Document) —
+                            إصدار v0.3</span>
                     </div>
                 </div>
                 <div class="doc-meta-header">
                     <strong>Appendix C: Dashboards & Reports</strong>
-                    <span>Capture Points, 16 Reports & DB-00 to DB-S9</span>
+                    <span>Section 23 — Capture Points, 16 Reports & DB-00 to DB-S9</span>
                 </div>
             </header>
 
             <main class="page-content">
                 <h2 class="section-title">
-                    <span>ملحق ج: كتالوج التقارير ولوحات المتابعة (Dashboards & Reports)</span>
+                    <span>23. الملحق ج: كتالوج التقارير ولوحات المتابعة (Dashboards & Reports)</span>
                     <span style="font-size:0.72rem;font-weight:600;color:var(--text-muted);">Execution
                         Intelligence</span>
                 </h2>
 
-                <h3 class="subsection-title">نقاط الالتقاط الإلزامية (C01 إلى C14) وكتالوج التقارير الـ 16</h3>
+                <h3 class="subsection-title">23.1 نقاط الالتقاط الإلزامية (C01 إلى C14) وكتالوج التقارير الـ 16</h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.66rem;">
                         <thead>
@@ -7028,7 +7083,8 @@
                     </table>
                 </div>
 
-                <h3 class="subsection-title">لوحات الإدارات (DB-01 إلى DB-09) وشاشات أرضية المصنع (DB-S1 إلى DB-S9)</h3>
+                <h3 class="subsection-title">23.2 لوحات الإدارات (DB-01 إلى DB-09) وشاشات أرضية المصنع (DB-S1 إلى DB-S9)
+                </h3>
                 <div class="data-table-wrapper" style="margin-bottom:0.45rem;">
                     <table class="data-table" style="font-size:0.66rem;">
                         <thead>
@@ -7136,7 +7192,8 @@
                         </span>
                     </div>
                     <div style="text-align:left; direction:ltr;">
-                        <span style="font-size:0.68rem; color:#94a3b8; display:block;">Target Operating Model Designed
+                        <span style="font-size:0.68rem; color:#94a3b8; display:block;">Target Operations
+                            Model Designed
                             for</span>
                         <strong style="font-size:0.8rem; color:var(--terrazzo-accent);">Terrazzo Factory</strong>
                         <span style="font-size:0.66rem; color:#64748b; display:block;">Version v0.3 — Management Review
@@ -7177,7 +7234,7 @@
                     show = true;
                 } else if (type === 'proposed' && (text.indexOf('[Proposed]') > -1 || text.indexOf('Proposed') > -1)) {
                     show = true;
-                } else if (type === 'tbc' && (text.indexOf('[TBC]') > -1 || text.indexOf('TBC') > -1)) {
+                } else if (type === 'TBD' && (text.indexOf('[TBD]') > -1 || text.indexOf('TBD') > -1)) {
                     show = true;
                 } else if (type === 'sop' && (text.indexOf('SOP-') > -1 || text.indexOf('إجراء') > -1)) {
                     show = true;
