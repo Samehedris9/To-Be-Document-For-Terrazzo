@@ -1,4 +1,1 @@
-node_modules/
-dist/
-.DS_Store
-*.log
+node_modules/\r\ndist/\r\n.DS_Store\r\n*.log\r\n.chrome*\r\n*.backup\r\n
